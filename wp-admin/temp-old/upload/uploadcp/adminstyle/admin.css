@@ -1,0 +1,44 @@
+﻿body,table{
+	font-family: tahoma,copperplate gothic light, arial, helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	color: #000000;
+	text-align: center;
+}
+
+A:link		{text-decoration: none; COLOR: #000000;}
+
+A:visited	{text-decoration: none;COLOR: #000000;}
+
+A:hover	{text-decoration: underline;COLOR: #000000;}
+
+
+INPUT {
+	BORDER-RIGHT: #7f7f7f 1px solid; BORDER-TOP: #7f7f7f 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #7f7f7f 1px solid; BORDER-BOTTOM: #7f7f7f 1px solid; FONT-FAMILY: Tahoma
+}
+
+		#log_res.ajax-loading
+			{background: url('images/spinner.gif') no-repeat center;
+		}
+
+		.error {
+			color:red;
+			margin:0;
+			padding:0;
+		}
+
+		.right {
+			color:green;
+			margin:0;
+			padding:0;
+		}
+		
+	.main{	
+	background-color:#D9E1E6;
+	font-family:Tahoma
+	}	
+	
+	.submain{	
+	background-color:#E1E9EC;
+	font-family:Tahoma
+	}

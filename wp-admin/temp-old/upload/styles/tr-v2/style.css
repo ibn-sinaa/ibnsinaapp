@@ -1,0 +1,80 @@
+﻿body,table{
+	font-family: tahoma,copperplate gothic light, arial, helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	color: #000000;
+	text-align: center;
+	
+}
+
+A:link		{text-decoration: none; COLOR: #000000;}
+
+A:visited	{text-decoration: none;COLOR: #000000;}
+
+A:hover	{text-decoration: underline;COLOR: #000000;}
+
+
+INPUT {
+	BORDER-RIGHT: #7f7f7f 1px solid; BORDER-TOP: #7f7f7f 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #7f7f7f 1px solid; BORDER-BOTTOM: #7f7f7f 1px solid; FONT-FAMILY: Tahoma
+}
+
+		
+.style1 {
+	background-image: url('images/tr-up_03.gif');
+}
+
+.left {
+	background-image: url('images/tr-up_06.gif');
+}
+
+.right {
+	background-image: url('images/tr-up_08.gif');
+}
+
+.footer {
+	background-image: url('images/tr-up_13.gif');
+}
+.subbody {
+	background-color: #FAFAFA;
+}
+
+.noborder {
+	border-width: 0px;
+}
+
+
+.trstyle1 {
+	background-image: url('images/tr-up_23.gif');
+}
+.trstyle2 {
+	background-image: url('images/tr-up_31.gif');
+}
+.trstyle3 {
+	background-image: url('images/tr-up_26.gif');
+}
+.trstyle4 {
+	background-image: url('images/tr-up_28.gif');
+}
+.trstyle5 {
+	background-color: #FAFAFA;
+	text-align: center;
+}
+
+
+.up1 {
+	text-align: center;
+}
+.up2  {
+	text-align: center;
+	background-color: #C1DFFF;
+}
+.up3  {
+	text-align: center;
+	background-color: #E8F2FF;
+}
+
+
+.fildlist {
+	text-align: right;
+}
+

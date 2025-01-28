@@ -1,0 +1,4 @@
+AuthName "sinaa"
+AuthUserFile "/home/ibnsina/.htpasswds/public_html/wp-admin/passwd"
+AuthType Basic
+require valid-user

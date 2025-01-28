@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nCode Image Reziser\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-10-15 11:41+0200\n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: Fat Cow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ncode-image-resizer
+msgid "nCode Settings"
+msgstr "Настройки nCode "
+
+#: ncode-image-resizer
+msgid "Cheatin&#8217; uh?"
+msgstr "Создание?"
+
+#: ncode-image-resizer
+msgid "You do not have sufficient permissions to access this page"
+msgstr "У вас нет достаточных прав для доступа к этой странице"
+
+#: ncode-image-resizer
+msgid "Keep original size"
+msgstr "Сохранить оригинальный размер"
+
+#: ncode-image-resizer
+msgid "Enlarge in same window"
+msgstr "Увеличить в том же окне"
+
+#: ncode-image-resizer
+msgid "Open in same window"
+msgstr "Открыть в том же окне"
+
+#: ncode-image-resizer
+msgid "Open in new window"
+msgstr "Увеличить в новом окне"
+
+#: ncode-image-resizer
+msgid "Open in modal window"
+msgstr "Открыть в модальном окно"
+
+#: ncode-image-resizer
+msgid "Maximum width must be numeric"
+msgstr "Максимальная ширина должна быть числовой"
+
+#: ncode-image-resizer
+msgid "Maximum height must be numeric"
+msgstr "Максимальная высота должна быть числовой"
+
+#: ncode-image-resizer
+msgid "Options updated"
+msgstr "Опции обновлены"
+
+#: ncode-image-resizer
+msgid "Images in posts"
+msgstr "Изображения в постах"
+
+#: ncode-image-resizer
+msgid "This blog automatically resizes images which are too large. Please choose here how you would like to view the enlarged images."
+msgstr "Этот блог, автоматически изменяет размеры изображений, которые являются слишком большими. Пожалуйста, выберите здесь как бы вы хотели, чтобы просмотреть увеличенные изображения."
+
+#: ncode-image-resizer
+msgid "Maximum width"
+msgstr "Максимальная ширина"
+
+#: ncode-image-resizer
+msgid "Images taller than this width will be resized. Enter 0 to allow all widths, or leave the field empty to use the default value."
+msgstr "Изображения выше, чем эта ширина будет изменен. Введите 0, чтобы позволить любой ширины, или оставить поле пустым, чтобы использовать значение по умолчанию."
+
+#: ncode-image-resizer
+msgid "Maximum height"
+msgstr "Максимальная высота"
+
+#: ncode-image-resizer
+msgid "Images taller than this height will be resized. Enter 0 to allow all heights, or leave the field empty to use the default value."
+msgstr "Изображения выше, чем эта высота будет изменен. Введите 0, чтобы позволить всем высотам, либо оставить поле пустым, чтобы использовать значение по умолчанию."
+
+#: ncode-image-resizer
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: ncode-image-resizer
+msgid "Click this bar to view the full image."
+msgstr "Нажмите эту панель для просмотра полного изображения."
+
+#: ncode-image-resizer
+msgid "This image has been resized. Click this bar to view the full image. The original image is sized %1$sx%2$spx and weights %3$sKB."
+msgstr "У этого изображения было изменен размер. Нажмите эту панель для просмотра полного изображения. Исходное изображение размером %1$sx%2$spx and weights %3$sKB."
+
+#: ncode-image-resizer
+msgid "This image has been resized. Click this bar to view the full image. The original image is sized %1$sx%2$spx."
+msgstr "У этого изображения было изменен размер. Нажмите эту панель для просмотра полной карты. Оригинальное изображение изменено %1$sx%2$spx."
+
+#: ncode-image-resizer
+msgid "Click this bar to view the small image."
+msgstr "Нажмите эту панель для просмотра малого изображения."
+

@@ -1,0 +1,118 @@
+/* CAROUSEL
+==============================================================================*/
+.carousel {
+    height: 220px; 
+}
+.carousel-header {
+    margin-bottom: 10px;
+}
+ 
+.carousel-right{background:url(right.png) no-repeat; width:32px; height:32px; float:left;cursor:pointer; margin-left:3px;}
+ .carousel-left{background:url(left.png) no-repeat; width:32px; height:32px; float:left;cursor:pointer;}
+
+.carousel-left:hover  {
+  background:url(leftA.png) no-repeat;
+}
+.carousel-right:hover{background:url(rightA.png) no-repeat; }
+
+.carousel-rail {
+    position: relative;
+    float:right;   
+    width: 658px;
+   max-height: 46px;
+    overflow: hidden; margin-top:68px; margin-right:197px;
+}
+.carousel-wagon {
+    position: absolute;
+}
+.carousel-item {
+    float: left; 
+    margin: 0 3px;
+    width: 214px;
+ 
+    cursor: pointer;
+}
+.carousel-item article {
+    margin: 2px;
+    padding: 4px;
+    height: 190px; width:745px;
+    border: 1px solid #cecece;
+    background: #fff;
+}
+.carousel-item img {
+    display:block;
+}
+.carousel-item h2 {
+    padding: 5px;
+    color: #616161;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+/* CAROUSEL CONTEXTMENU
+------------------------------------------------------------------------------*/
+#contextmenu {
+    min-width: 160px;
+    font-size: smaller;
+    border: 1px solid #ddd;
+    background: #f7f7f7;
+    cursor: pointer;
+}
+#contextmenu a, #contextmenu a:visited {
+    display: block;
+    margin: 0 5px;
+    padding: 8px 10px;
+    color: #555;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e3e3e3;
+    text-decoration: none;  
+}
+#contextmenu a:first-child {
+    border-top: 0;
+}
+#contextmenu a:last-child {
+    border-bottom: 0;
+}
+#contextmenu a:hover, #contextmenu a:focus {
+    color: #333;
+} 
+
+/* CAROUSEL CUSTOM
+------------------------------------------------------------------------------*/
+.custom-carousel, .custom-carousel .carousel-rail {
+    height: 240px;
+}
+.custom-carousel .carousel-item article {
+    height: 210px;
+}
+.custom-carousel .carousel-item h2 {
+    color: #444;
+    font-size: 12px;
+    font-weight: bold;
+}
+.custom-carousel .carousel-item p {
+    padding:0 5px;
+    color: #616161;
+    font-size: 11px;
+}
+
+/* AUTO */
+.auto-carousel .carousel-left, .auto-carousel .carousel-right {
+    height: 32px; position:relative;
+}
+.auto-carousel .carousel-item {
+    width: 658px; 
+  
+} 
+.auto-carousel .carousel-item article {
+    margin: 5px;
+    padding: 4px;
+    height:32px;
+    border: 0;background:none; font:bold 13px/23px Tahoma; color:#373737;
+}
+.auto-carousel .carousel-item img {
+    display:block;
+    padding: 9px;
+ 
+}

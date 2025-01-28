@@ -1,0 +1,45 @@
+<?
+
+ if (!defined('traidnt')) {
+    die("Error: 404 Not Found");
+ }
+
+
+
+  // MainPage Language
+ 	$lang[welcomemsg] = charset("ãÑÍÈÇ Èßã Ýí ãÑßÒ ÊÍãíá");
+ 	$lang[allowext] = charset("ÇáÇãÊÏÇÏÇÊ ÇáãÓãæÍÉ :");
+ 	$lang[copyright] = charset("ÌãíÚ ÇáÍÞæÞ ãÍÝæÙÉ áÜ");
+
+ 	$lang[issetpan] = charset("ÚÝæÇ ÇäÊ ãÍÙæÑ ãä ÏÎæá ÇáãæÞÚ");
+ 	$lang[maxsize] = charset("äÚÊÐÑ áßã ÞÏ ÊÌÇæÒ ÇáãÑßÒ ÇáãÓÇÍÉ ÇáãÍÏÏÉ áå ÓäÚæÏ áßã ÞÑíÈÇ");
+ 	$lang[chmood] = charset("ÚÝæÇ åäÇß ÎØÃ ÈÊÕÇÑíÍ ÇáãÌáÏÇÊ");
+ 	$lang[closeupload] = charset("ÚÝæÇ Êã ÇíÞÇÝ ÑÝÚ ÇáãáÝÇÊ ãÄÞÊÇ");
+ 	$lang[allowext] = charset("ÇáÇãÊÏÇÏÇÊ ÇáãÓãæÍÉ ");
+
+ 	$lang[falsecode] = charset("ÚÝæÇ ßæÏ ÇáÊÍÞÞ ÎØÃ íÑÌí ÇáÚæÏÉ æßÊÇÈÉ ÇáßæÏ ÇáÕÍíÍ");
+ 	$lang[nofile] = charset("ÚÝæÇ íÌÈ ÇáÇ íßæä ÍÞá ÇáÊÍãíá ÇáÃæá ÝÇÑÛ");
+
+ 	$lang[deletedfile] = charset("ÚÝæÇ åÐÇ ÇáãáÝ ÛíÑ ãÊæÝÑ ÑÈãÇ Êã ÍÐÝå ãä ÞÈá ÇáÇÏÇÑÉ");
+ 	$lang[sucfriend] = charset("Êã ÇÑÓÇá ÇáÑÓÇáÉ áÕÏíÞß ÈäÌÇÍ ÇäÊÙÑ ÓæÝ íÊã ÊÍæíáß ááãáÝ");
+ 	$lang[errorfrind] = charset("ÚÝæÇ åäÇß ãÔßáÉ ÈÇÑÓÇá ÇáÑÓÇáÉ");
+ 	$lang[report] = charset("Êã ÇáÊÈáíÛ Úä ÇáãáÝ ÈäÌÇÍ ÇäÊÙÑ ÓæÝ íÊã ÊÍæíáß");
+ 	$lang[reporterror] = charset("ÚÝæÇ åÐÇ ÇáãáÝ ãÈáÛ Úäå ãä ÞÈá");
+
+
+ 	$lang[plswait] = charset("ãä ÝÖáß ÇäÊÙÑ");
+ 	$lang[clickhear] = charset("ÇÖÛØ åäÇ ááÊÍãíá");
+ 	$lang[listext] = charset("ÞÇÆãÉ ÇáÇãÊÏÇÏÊ ÇáãÓãæÍÉ ");
+ 	$lang[exname] = charset("ÇáÇãÊÏÇÏ");
+ 	$lang[exmax] = charset("ÇáÍÌã ÇáÃÞÕí ááÑÝÚ");
+ 	$lang[kb] = charset("ßíáæ ÈÇíÊ");
+
+ 	$lang[stylenotfound] = charset("ÚÝæÇ åÐÇ ÇáÇÓÊÇíá ÛíÑ ãÊæÝÑ ÇäÊÙÑ ÓæÝ íÊã ÊÍæíáß");
+
+    $lang[stylesuc] = charset("Êã ÊÛííÑ ÇáÇÓÊÇíá ÈäÌÇÍ ÇäÊÙÑ ÓæÝ íÊã ÊÍæíáß");
+	$lang[copyright] = charset("ÌãíÚ ÇáÍÞæÞ ãÍÝæÙÉ á");
+
+    $traidnt->assign(lang,$lang);
+
+
+?>

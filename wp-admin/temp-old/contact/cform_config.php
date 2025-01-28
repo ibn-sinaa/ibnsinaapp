@@ -1,0 +1,9 @@
+<?php
+
+  // configuration
+  $page_title = "Contact Us Form";
+  $email_it_to = "php-ahmed.s@tl4s.com";
+  $error_message = "áã íÊã ÅÑÓÜÇá ÇáÑÓÇáÉ ÈÚÏ";
+  $confirmation = "ÔßÑÇð áß , Êã ÅíÕÜÇá ÑÓÇáÊß ÈäÌÇÍ ...";
+
+  ?>

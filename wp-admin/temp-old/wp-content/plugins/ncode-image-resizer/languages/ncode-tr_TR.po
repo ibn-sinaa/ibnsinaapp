@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nCode Image Reziser\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-09-28 11:29+0200\n"
+"Last-Translator: Hakan Demiray <hakan@dmry.net>\n"
+"Language-Team: Hakan Demiray <hakan@dmry.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ncode-image-resizer
+msgid "nCode Settings"
+msgstr "nCode Ayarları"
+
+#: ncode-image-resizer
+msgid "Cheatin&#8217; uh?"
+msgstr "Hile mi yapıyorsun&#8217; hı?"
+
+#: ncode-image-resizer
+msgid "You do not have sufficient permissions to access this page"
+msgstr "Bu sayfaya erişim yetkiniz bulunmuyor"
+
+#: ncode-image-resizer
+msgid "Keep original size"
+msgstr "Orijinal boyutu koru"
+
+#: ncode-image-resizer
+msgid "Enlarge in same window"
+msgstr "Aynı pencerede büyüt"
+
+#: ncode-image-resizer
+msgid "Open in same window"
+msgstr "Aynı pencerede aç"
+
+#: ncode-image-resizer
+msgid "Open in new window"
+msgstr "Yeni pencerede aç"
+
+#: ncode-image-resizer
+msgid "Open in modal window"
+msgstr "Diyalog penceresinde aç"
+
+#: ncode-image-resizer
+msgid "Maximum width must be numeric"
+msgstr "Maksimum genişlik sayısal bir değer olmalıdır"
+
+#: ncode-image-resizer
+msgid "Maximum height must be numeric"
+msgstr "Maksimum yükseklik sayısal bir değer olmalıdır"
+
+#: ncode-image-resizer
+msgid "Options updated"
+msgstr "Seçenekler güncellendi"
+
+#: ncode-image-resizer
+msgid "Images in posts"
+msgstr "Yazılardaki resimler"
+
+#: ncode-image-resizer
+msgid "This blog automatically resizes images which are too large. Please choose here how you would like to view the enlarged images."
+msgstr "Bu blog çok geniş olan resimleri otomatik boyutlandıracaktır. Lütfen büyütülecek resimlerin nasıl görüntüleneceğini seçiniz."
+
+#: ncode-image-resizer
+msgid "Maximum width"
+msgstr "Maksimum genişlik"
+
+#: ncode-image-resizer
+msgid "Images taller than this width will be resized. Enter 0 to allow all widths, or leave the field empty to use the default value."
+msgstr "Buradaki değerden daha geniş resimler tekrar boyutlandırılacaktır. Tüm genişliklere izin vermek için 0 giriniz, ya da varsayılan değeri kullanmak için alanı boş bırakınız."
+
+#: ncode-image-resizer
+msgid "Maximum height"
+msgstr "Maksimum yükseklik"
+
+#: ncode-image-resizer
+msgid "Images taller than this height will be resized. Enter 0 to allow all heights, or leave the field empty to use the default value."
+msgstr "Buradaki değerden daha yüksek resimler tekrar boyutlandırılacaktır. Tüm yüksekliklere izin vermek için 0 giriniz, ya da varsayılan değeri kullanmak için alanı boş bırakınız."
+
+#: ncode-image-resizer
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: ncode-image-resizer
+msgid "Click this bar to view the full image."
+msgstr "Resmi büyük boyutta görmek için tıklayınız."
+
+#: ncode-image-resizer
+msgid "This image has been resized. Click this bar to view the full image. The original image is sized %1$sx%2$spx and weights %3$sKB."
+msgstr "Bu resim yeniden boyutlandırılmıştır. Orijinal boyut için bu çubuğa tıklayınız. (%1$sx%2$spx - %3$sKb.)"
+
+#: ncode-image-resizer
+msgid "This image has been resized. Click this bar to view the full image. The original image is sized %1$sx%2$spx."
+msgstr "Bu resim yeniden boyutlandırılmıştır. Orijinal boyut için bu çubuğa tıklayınız. (%1$sx%2$spx)"
+
+#: ncode-image-resizer
+msgid "Click this bar to view the small image."
+msgstr "Resmi küçük halde görmek için tıklayınız."
+

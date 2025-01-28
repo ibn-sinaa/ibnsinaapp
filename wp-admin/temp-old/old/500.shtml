@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
+<title>Error</title>
+<style>
+
+body
+	{
+		margin:0;
+		padding:0;
+		background-color:#cecfd1;
+	}
+
+div#erorr
+	{
+		width:400px;
+		margin:0 auto;
+		text-align:center;
+		font-family:Arial;
+		font-size:16px;
+		color:#333333;
+		margin-top:30px;
+		font-weight:bold;
+		line-height:30px;
+	}
+
+div#erorr img
+	{
+		margin:10px 0;
+		padding:1px;
+		border:1px solid #9f9f9f;
+	}
+
+</style>
+</head>
+
+<body>
+
+<div id="erorr">
+	<img src="erorr.png" width="383" height="304" alt="" border="0" />
+	<br />
+	
+<p>
+عزيزي الزائر"نتعذر استكمال طلبك لأن الموقع استنفذ ما هو محدد له من موارد اما لضغط زيارات او لمشكلة فنية تستهلك موارد الموقع ,  فضلا جرب تحديث الصفحة او تصفح الموقع لاحقا"
+</p>
+<p>
+شكرا لكم , ونعتذر لازعاجكم
+</p>
+</div>
+
+</body>
+</html>

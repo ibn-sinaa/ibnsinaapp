@@ -1,0 +1,521 @@
+<?
+ 	ob_start("ob_gzhandler");
+	define('traidnt','allow');
+	include("../includes/class.DB.php");
+	include("../includes/config.php");
+    ?>
+       <html dir="rtl">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
+<meta http-equiv="Content-Language" content="ar-sa">
+<meta name="GENERATOR" content="Traidnt.com">
+<link rel="stylesheet" href="stylesheet.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript">
+
+function goToURL(url) {
+     var url;	 window.location = url;
+
+	 }
+</script>
+<title>مرحبا بك في صفحة التنصيب</title>
+</head>
+<body leftmargin="0" rightmargin="0" bottommargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#FCFAF7" text="#000000" >
+
+<div align="left">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" height="41">
+    <tr>
+      <td width="150%" bgcolor="#000000" height="1"></td>
+    </tr>
+    <tr >
+      <td width="100%" align="left" valign="bottom" bgcolor="#FFFFFF" class="topheader"  >
+        <p align="center">تنصيب&nbsp;
+		TRAIDNT UP v2.0</td>
+    </tr>
+  </table>
+</div>
+
+<div align="left">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td width="80%" valign="top" align="center">
+ <br>
+    <?
+	 switch($_GET[go]){        default:
+
+        $path['main'] = "../uploads";
+  		$path[images] = "../uploads/images";
+  		$path[files] = "../uploads/files";
+  		$path[imgthumbs] = "../uploads/thumbs";
+  		$path[cash] =  "../trcash";
+
+        if(is_writeable($path['main'])){          $error = 0;
+          $st[uploads] = "true";
+        }else{          $error = 1;
+          $st[uploads] = "false";
+        }
+
+
+        if(is_writeable($path['images'])){
+          $error = 0;
+          $st[images] = "true";
+        }else{
+          $error = 1;
+          $st[images] = "false";
+        }
+
+        if(is_writeable($path['files'])){
+          $error = 0;
+          $st[files] = "true";
+        }else{
+          $error = 1;
+          $st[files] = "false";
+        }
+
+
+        if(is_writeable($path['imgthumbs'])){
+          $error = 0;
+          $st[imgthumbs] = "true";
+        }else{
+          $error = 1;
+          $st[imgthumbs] = "false";
+        }
+
+
+        if(is_writeable($path['cash'])){
+          $error = 0;
+          $st[cash] = "true";
+        }else{
+          $error = 1;
+          $st[cash] = "false";
+        }
+
+        if(phpversion() > 5){
+          $error = 0;
+          $st[php] = "true";
+        }else{    	  $error = 1;
+          $st[php] = "false";
+        }
+
+		$gdarray =  gd_info();
+
+
+		if (ereg("2.0",$gdarray["GD Version"])){          $error = 0;
+          $st[gd] = "true";
+		}else{		  $error = 1;
+          $st[gd] = "false";
+		}
+
+        if(function_exists("iconv")){          $error = 0;
+          $st['iconv'] = "true";
+        }else{          $error = 1;
+          $st['iconv'] = "false";
+        }
+
+
+        ?>
+		<div align="center">
+		<table border="0" width="59%" cellpadding="0">
+	<tr>
+		<td colspan="2" bgcolor="#A8D7E9" align="center"><b>
+		التحقق من امكانية التشغيل علي السيرفر </b></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">تصريح مجلد
+		uploads</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[uploads].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">تصريح
+		مجلد uploads/images</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[images].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">تصريح
+		مجلد uploads/thumbs</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[imgthumbs].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">تصريح
+		مجلد uploads/files</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[files].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">تصريح
+		مجلد trcash</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[cash].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">اصدارة
+		php</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[php].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">اصدارة
+		GD</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[gd].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">مديول
+		iconv</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[iconv].gif'   border=\"0\">";?></td>
+	</tr>
+	</table>
+	<p>
+
+<br>
+        <br>
+      </td>
+    </tr>
+
+  </table>
+
+		</div>
+		<div align="center">
+		<?
+		if($error == 0 ){         ?><input type="button" value="الخطوة التالية" onClick="goToURL('install.php?go=create')"><?
+		}
+		?>
+		</div>
+        <?
+        break;
+        case"create":
+
+        $admin = $db->query("
+        CREATE TABLE `admin` (
+		  `admin_id` int(50) NOT NULL auto_increment,
+  		  `admin_user` varchar(50) NOT NULL default '',
+ 		   `admin_password` varchar(50) NOT NULL default '',
+          `admin_lastviste` varchar(250) NOT NULL default '',
+		  `admin_lastviste_file` varchar(250) NOT NULL default '',
+		   PRIMARY KEY  (`admin_password`),
+		  UNIQUE KEY `admin_password` (`admin_password`),
+		  UNIQUE KEY `admin_id` (`admin_id`)
+		) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+        ");
+
+
+        if($admin){
+         	echo"تم انشاء الجدول بنجاح"."'admin'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+
+        $banned = $db->query("
+        CREATE TABLE `banned` (
+  		`banned_id` int(250) NOT NULL auto_increment,
+	   `banned_ip` varchar(250) NOT NULL default '',
+		  PRIMARY KEY  (`banned_id`),
+		  UNIQUE KEY `banned_ip` (`banned_ip`)
+		) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+        ");
+
+        if($banned){
+         	echo"تم انشاء الجدول بنجاح"."'banned'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+		$extension = $db->query("CREATE TABLE `extension` (
+	    `ex_id` int(250) NOT NULL auto_increment,
+  	    `ex_name` varchar(250) NOT NULL default '',
+  		`ex_maxsize` varchar(250) NOT NULL default '',
+        PRIMARY KEY  (`ex_id`),
+  		UNIQUE KEY `ex_name` (`ex_name`)
+		) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+		");
+
+  		if($extension){
+         	echo"تم انشاء الجدول بنجاح"."'extension'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+
+        $files = $db->query("
+
+         CREATE TABLE `files` (
+	    `file_id` int(250) NOT NULL auto_increment,
+  		`file_name` varchar(250) NOT NULL default '',
+ 		 `ipaddress` varchar(250) NOT NULL default '',
+  		`file_date` varchar(250) NOT NULL default '',
+  		`file_url` varchar(250) NOT NULL default '',
+  		`file_tybe` varchar(250) NOT NULL default '',
+  		`file_size` varchar(250) NOT NULL default '',
+  		`file_count` int(250) NOT NULL default '0',
+  		`file_key` varchar(250) NOT NULL default '',
+  		`group` varchar(250) NOT NULL default '',
+  		PRIMARY KEY  (`file_id`),
+ 		 UNIQUE KEY `file_key` (`file_key`),
+  		KEY `file_id` (`file_id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+        ");
+
+  		if($files){
+         	echo"تم انشاء الجدول بنجاح"."'files'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+        $gd = $db->query("
+
+		CREATE TABLE `gd` (
+  		`gd_id` int(250) NOT NULL auto_increment,
+  		`gd_upload` varchar(250) NOT NULL default '',
+	    `gd_admin` varchar(250) NOT NULL default '',
+		`gd_friend` varchar(250) NOT NULL default '',
+		`gd_report` varchar(250) NOT NULL default '',
+		 PRIMARY KEY  (`gd_id`)
+		) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+        ");
+
+  		if($gd){
+         	echo"تم انشاء الجدول بنجاح"."'gd'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+		$note = $db->query("
+
+		CREATE TABLE `note` (
+	    `note_id` int(11) NOT NULL auto_increment,
+  		`note_value` text NOT NULL,
+ 		 PRIMARY KEY  (`note_id`)
+		) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+		");
+
+  		if($note){
+         	echo"تم انشاء الجدول بنجاح"."'note'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+
+        $pages = $db->query("CREATE TABLE `pages` (
+		  `page_id` int(250) NOT NULL auto_increment,
+  		  `page_rules` text NOT NULL,
+          `page_adv` text NOT NULL,
+		  PRIMARY KEY  (`page_id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+		");
+
+		if($pages){
+         	echo"تم انشاء الجدول بنجاح"."'note'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+        $report = $db->query("
+        CREATE TABLE `report` (
+	   `report_id` int(250) NOT NULL auto_increment,
+  		`report_key` varchar(250) NOT NULL,
+ 		 `report_why` text NOT NULL,
+  		`report_ip` varchar(250) NOT NULL,
+ 		 PRIMARY KEY  (`report_id`),
+  			UNIQUE KEY `report_key` (`report_key`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+        ");
+
+		if($report){
+         	echo"تم انشاء الجدول بنجاح"."'report'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+		$setting = $db->query("
+		CREATE TABLE `setting` (
+		  `site_id` int(250) NOT NULL auto_increment,
+  			`site_name` varchar(250) NOT NULL default '',
+		  `site_meta` text NOT NULL,
+		  `site_link` varchar(250) NOT NULL default '',
+		  `site_host` varchar(250) NOT NULL default '',
+		  `site_mail` varchar(250) NOT NULL default '',
+		  `site_logo` varchar(250) NOT NULL default '',
+		  `site_second` varchar(250) NOT NULL default '',
+		  `img_high` int(250) NOT NULL default '200',
+		  `img_width` int(250) NOT NULL default '200',
+		  `site_inactive` varchar(250) NOT NULL default '',
+		  `site_previous` varchar(250) NOT NULL default '',
+		  `site_delimg` varchar(250) NOT NULL default '',
+		  `site_totalsize` varchar(250) NOT NULL default '',
+		  `site_close` varchar(250) NOT NULL default '',
+		  `site_closemessage` text NOT NULL,
+		  PRIMARY KEY  (`site_id`)
+		) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+		");
+
+		if($setting){
+         	echo"تم انشاء الجدول بنجاح"."'setting'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+        $style = $db->query("CREATE TABLE `style` (
+		`style_id` int(11) NOT NULL auto_increment,
+  		`style_style` varchar(250) NOT NULL,
+		`style_lang` varchar(250) NOT NULL,
+		PRIMARY KEY  (`style_id`)
+		) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+		");
+
+		if($style){
+         	echo"تم انشاء الجدول بنجاح"."'style'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+        if($errors == ''){         ?>
+         <input type="button" value="الخطوة التالية" onClick="goToURL('install.php?go=insert')">
+         <?
+        }else{        echo "<div align=\"center\">برجاء مراجعه الاخطاء التالية</div>";
+        echo "<textarea dir='ltr' rows=\"9\" cols=\"58\">$errors</textarea>";
+        }
+
+
+        break;
+        case"insert":
+
+         $addext = $db->query("INSERT INTO `extension` VALUES (1, 'jpg', '1000');");
+
+        	if($addext){
+         		echo"تم استرجاع القيمة بنجاح"."'extension'<br>";
+        	}else{
+        		$errors = $errors.mysql_error()."\r\n";
+	        }
+
+         $gd = $db->query("INSERT INTO `gd` VALUES (1, '0', '0', '1', '1');");
+
+        	if($gd){
+         		echo"تم استرجاع القيمة بنجاح"."'gd'<br>";
+        	}else{
+        		$errors = $errors.mysql_error()."\r\n";
+	        }
+
+
+	        $note = $db->query("INSERT INTO `note` VALUES (1, '');");
+
+        	if($note){
+         		echo"تم استرجاع القيمة بنجاح"."'note'<br>";
+        	}else{
+        		$errors = $errors.mysql_error()."\r\n";
+	        }
+
+            $value = "مثال محتويات الصفحات";
+	        $pages = $db->query("INSERT INTO `pages` VALUES (1, '$value', '$value');");
+
+        	if($pages){
+         		echo"تم استرجاع القيمة بنجاح"."'pages'<br>";
+        	}else{
+        		$errors = $errors.mysql_error()."\r\n";
+	        }
+
+			$style = $db->query("INSERT INTO `style` VALUES (1, 'tr-v2', 'arabic');");
+
+        	if($style){
+         		echo"تم استرجاع القيمة بنجاح"."'style'<br>";
+        	}else{
+        		$errors = $errors.mysql_error()."\r\n";
+	        }
+
+			    $domain = $_SERVER['HTTP_HOST'];
+				$f = $_SERVER['PHP_SELF'];
+				$folder = explode("install/install.php",$f);
+				$site = "http://".$domain.$folder[0];
+				$sitename = trim($site);
+                $ex = "مركز تحميل";
+
+	        $setting = $db->query("INSERT INTO `setting` VALUES (1, '$ex', '$ex',
+	         '$sitename', '$sitename', 'admin@site.com', '1', '10', 150, 150, '0', 'domain-',
+	          '3', '1000', '0', '$ex');
+			");
+
+        	if($setting){
+         		echo"تم استرجاع القيمة بنجاح"."'setting'<br>";
+        	}else{
+        		$errors = $errors.mysql_error()."\r\n";
+	        }
+
+
+        if($errors == ''){
+         ?>
+         <input type="button" value="الخطوة التالية" onClick="goToURL('install.php?go=addadmin')">
+         <?
+        }else{
+        echo "<div align=\"center\">برجاء مراجعه الاخطاء التالية</div>";
+        echo "<textarea dir='ltr' rows=\"9\" cols=\"58\">$errors</textarea>";
+        }
+
+
+        break;
+        case"addadmin":
+        ?>
+ <div align="center">
+
+  <form name="" action="install.php?go=addvalue" method="post">
+&nbsp;<table border="0" width="43%" cellpadding="0">
+	<tr>
+		<td colspan="2" bgcolor="#A8D7E9" align="center"><span lang="ar-eg"><b>
+		اضافه مدير</b></span></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="42%">اسم المدير :</td>
+		<td class="subsub" align="center" width="57%">&nbsp;<input name="username" type="text" value="" size="38">
+</td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="42%">كلمة المرور :</td>
+		<td class="subsub" align="center" width="57%">
+		<input name="password" type="text" value="" size="38"></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="42%">&nbsp;</td>
+		<td class="subsub" align="center" width="57%"><input type="submit" value="اضافه المدير"></td>
+	</tr>
+	</table>
+	</form>
+
+ </div>
+        <?
+        break;
+        case"addvalue":
+
+		$username = trim($_POST[username]);
+		$password = md5(trim($_POST[password]));
+        $time = time();
+
+		$addadmin = $db->query("INSERT INTO `admin` VALUES (1, '$username', '$password', '$time', '$time');");
+
+		   if($addadmin){
+         		echo"تم اضافه المدير بنجاح"."<br><a href='../uploadcp'>اضغط هنا للدخول للوحة الادارة</a>";
+         		@rename("./install.php", "./install.loc");
+         		@rename("./upgrade.php", "./upgrade.loc");
+        	}else{
+        		$errors = $errors.mysql_error()."\r\n";
+
+        		echo "<div align=\"center\">برجاء مراجعه الاخطاء التالية</div>";
+       			echo "<textarea dir='ltr' rows=\"9\" cols=\"58\">$errors</textarea>";
+	        }
+
+        break;
+ 	 }
+?>
+<br>
+        <br>
+      </td>
+    </tr>
+
+  </table>
+</div>
+</body>
+
+</html>
+<?
+ $db->disconnect();
+ ob_end_flush();
+?>

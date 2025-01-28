@@ -1,0 +1,324 @@
+<?
+ 	ob_start("ob_gzhandler");
+	define('traidnt','allow');
+	include("../includes/class.DB.php");
+	include("../includes/config.php");
+    ?>
+       <html dir="rtl">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
+<meta http-equiv="Content-Language" content="ar-sa">
+<meta name="GENERATOR" content="Traidnt.com">
+<link rel="stylesheet" href="stylesheet.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript">
+
+function goToURL(url) {
+     var url;	 window.location = url;
+
+	 }
+</script>
+<title>مرحبا بك في صفحة الترقية</title>
+</head>
+<body leftmargin="0" rightmargin="0" bottommargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#FCFAF7" text="#000000" >
+
+<div align="left">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" height="41">
+    <tr>
+      <td width="150%" bgcolor="#000000" height="1"></td>
+    </tr>
+    <tr >
+      <td width="100%" align="left" valign="bottom" bgcolor="#FFFFFF" class="topheader"  >
+        <p align="center">الترقية&nbsp;
+		TRAIDNT UP v2.0</td>
+    </tr>
+  </table>
+</div>
+
+<div align="left">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td width="80%" valign="top" align="center">
+ <br>
+ <?
+	 switch($_GET[go]){
+        default:
+
+        $path['main'] = "../uploads";
+  		$path[images] = "../uploads/images";
+  		$path[files] = "../uploads/files";
+  		$path[imgthumbs] = "../uploads/thumbs";
+  		$path[cash] =  "../trcash";
+
+        if(is_writeable($path['main'])){
+          $error = 0;
+          $st[uploads] = "true";
+        }else{
+          $error = 1;
+          $st[uploads] = "false";
+        }
+
+
+        if(is_writeable($path['images'])){
+          $error = 0;
+          $st[images] = "true";
+        }else{
+          $error = 1;
+          $st[images] = "false";
+        }
+
+        if(is_writeable($path['files'])){
+          $error = 0;
+          $st[files] = "true";
+        }else{
+          $error = 1;
+          $st[files] = "false";
+        }
+
+
+        if(is_writeable($path['imgthumbs'])){
+          $error = 0;
+          $st[imgthumbs] = "true";
+        }else{
+          $error = 1;
+          $st[imgthumbs] = "false";
+        }
+
+
+        if(is_writeable($path['cash'])){
+          $error = 0;
+          $st[cash] = "true";
+        }else{
+          $error = 1;
+          $st[cash] = "false";
+        }
+
+        if(phpversion() > 5){
+
+          $error = 0;
+          $st[php] = "true";
+        }else{
+    	  $error = 1;
+          $st[php] = "false";
+        }
+
+		$gdarray =  gd_info();
+
+
+		if (ereg("2.0",$gdarray["GD Version"])){
+          $error = 0;
+          $st[gd] = "true";
+		}else{
+		  $error = 1;
+          $st[gd] = "false";
+
+		}
+
+        if(function_exists("iconv")){
+          $error = 0;
+          $st['iconv'] = "true";
+        }else{
+          $error = 1;
+          $st['iconv'] = "false";
+        }
+
+
+        ?>
+		<div align="center">
+		<table border="0" width="59%" cellpadding="0">
+	<tr>
+		<td colspan="2" bgcolor="#A8D7E9" align="center"><b>
+		التحقق من امكانية التشغيل علي السيرفر </b></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">تصريح مجلد
+		uploads</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[uploads].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">تصريح
+		مجلد uploads/images</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[images].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">تصريح
+		مجلد uploads/thumbs</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[imgthumbs].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">تصريح
+		مجلد uploads/files</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[files].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">تصريح
+		مجلد trcash</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[cash].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">اصدارة
+		php</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[php].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">اصدارة
+		GD</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[gd].gif'   border=\"0\">";?></td>
+	</tr>
+	<tr>
+		<td class="submun" align="center" width="51%">مديول
+		iconv</td>
+		<td class="subsub" align="center" width="49%"><?echo "<img src='$st[iconv].gif'   border=\"0\">";?></td>
+	</tr>
+	</table>
+	<p>
+
+<br>
+        <br>
+      </td>
+    </tr>
+
+  </table>
+
+		</div>
+		<div align="center">
+		<?
+		if($error == 0 ){
+         ?><input type="button" value="الخطوة التالية" onClick="goToURL('upgrade.php?go=up')"><?
+		}
+		?>
+		</div>
+        <?
+        break;
+        case"up":
+
+  		$note = $db->query("
+
+		CREATE TABLE `note` (
+	    `note_id` int(11) NOT NULL auto_increment,
+  		`note_value` text NOT NULL,
+ 		 PRIMARY KEY  (`note_id`)
+		) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+		");
+
+  		if($note){
+         	echo"تم انشاء الجدول بنجاح"."'note'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+
+    	 $style = $db->query("CREATE TABLE `style` (
+		`style_id` int(11) NOT NULL auto_increment,
+  		`style_style` varchar(250) NOT NULL,
+		`style_lang` varchar(250) NOT NULL,
+		PRIMARY KEY  (`style_id`)
+		) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+		");
+
+		if($style){
+         	echo"تم انشاء الجدول بنجاح"."'style'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+
+		$drreport = $db->query("DROP TABLE `report`;");
+
+		if($drreport){
+         	echo"تم حذف الجدول بنجاح"."'report'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+
+        $report = $db->query("
+        CREATE TABLE `report` (
+	   `report_id` int(250) NOT NULL auto_increment,
+  		`report_key` varchar(250) NOT NULL,
+ 		 `report_why` text NOT NULL,
+  		`report_ip` varchar(250) NOT NULL,
+ 		 PRIMARY KEY  (`report_id`),
+  			UNIQUE KEY `report_key` (`report_key`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+        ");
+
+		if($report){
+         	echo"تم انشاء الجدول بنجاح"."'report'<br>";
+        }else{
+        	$errors = $errors.mysql_error()."\r\n";
+        }
+
+
+		if($errors == ''){
+         ?>
+         <input type="button" value="الخطوة التالية" onClick="goToURL('upgrade.php?go=insert')">
+         <?
+        }else{
+        echo "<div align=\"center\">برجاء مراجعه الاخطاء التالية</div>";
+        echo "<textarea dir='ltr' rows=\"9\" cols=\"58\">$errors</textarea>";
+        }
+        break;
+
+  		case"insert":
+
+	        $note = $db->query("INSERT INTO `note` VALUES (1, '');");
+
+        	if($note){
+         		echo"تم استرجاع القيمة بنجاح"."'note'<br>";
+        	}else{
+        		$errors = $errors.mysql_error()."\r\n";
+	        }
+
+			$style = $db->query("INSERT INTO `style` VALUES (1, 'tr-v2', 'arabic');");
+
+        	if($style){
+         		echo"تم استرجاع القيمة بنجاح"."'style'<br>";
+        	}else{
+        		$errors = $errors.mysql_error()."\r\n";
+	        }
+
+			$updatesetting = $db->query("UPDATE `setting` SET `site_inactive` = '0',
+			`site_delimg` = '3' WHERE `setting`.`site_id` =1 LIMIT 1 ;");
+
+        	if($updatesetting){
+         		echo"تم استرجاع القيمة بنجاح"."'setting'<br>";
+        	}else{
+        		$errors = $errors.mysql_error()."\r\n";
+	        }
+
+
+		if($errors == ''){
+         ?>
+         <div align="center">تمت الترقية بنجاح يرجي الذهاب للاعدادت العامة بالموقع وضبطها </div>
+         <div align="center"><a href='../uploadcp'>اضغط هنا للذهاب للوحة التحكم</a></div>
+         <?
+         @rename("./install.php", "./install.loc");
+         @rename("./upgrade.php", "./upgrade.loc");
+        }else{
+        echo "<div align=\"center\">برجاء مراجعه الاخطاء التالية</div>";
+        echo "<textarea dir='ltr' rows=\"9\" cols=\"58\">$errors</textarea>";
+        }
+
+
+        break;
+
+
+        }
+
+        ?>
+<br>
+        <br>
+      </td>
+    </tr>
+
+  </table>
+</div>
+</body>
+
+</html>
+<?
+ $db->disconnect();
+ ob_end_flush();
+?>

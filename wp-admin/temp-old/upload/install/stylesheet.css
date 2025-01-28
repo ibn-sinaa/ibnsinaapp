@@ -1,0 +1,58 @@
+A:link		{text-decoration: none; COLOR: #000000;}
+
+A:visited	{text-decoration: none;COLOR: #000000;}
+
+A:hover	{text-decoration: underline;COLOR: #000000;}
+
+.font10 {font-family: tahoma, Arial, Helvetica, sans-serif; font-size: 10px;  line-height: 11px;}
+
+.font12 {font-family: copperplate gothic light, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 14px;}
+
+.font14 {font-family: copperplate gothic light, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 16px;}
+
+.font16 {font-family: copperplate gothic light, Arial, Helvetica, sans-serif; font-size: 16px; line-height: 18px;}
+
+.textform {font-family: Arial, Helvetica; font-size: 11px; border: 1px #6F4917 solid}
+
+.button {font-family: copperplate gothic light, Arial, Helvetica; font-size: 11px; background-color: #A27726; width: 70px; color: #FFFFFF}
+
+.menulines{border:2.5px solid #A27726;}
+
+.menulines a{text-decoration:none; color:#A27726;}
+
+FONT,BODY,P,TABLE,TH,TD,DIV,SPAN,DT,DD,DL,LI {font-family:tahoma,copperplate gothic light, arial, helvetica, sans-serif; font-size: 11px;	 line-height: 20px;}
+
+
+.header {
+	BACKGROUND: #A8D7E9 ;FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: tahoma, Arial, Helvetica, sans-serif;
+}
+.topheader {
+
+	BACKGROUND: #A8D7E9 ;FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; FONT-FAMILY: tahoma, Arial, Helvetica, sans-serif;
+	background-image:url('images/2.jpg')
+}
+
+.mytable { 
+border: 1px solid #A8D7E9; 
+}
+
+body { scrollbar-arrow-color: #A8D7E9; scrollbar-base-color: #A8D7E9}
+
+.backtablemun{
+background-image: url('images/1.jpg');
+}
+
+.submun{
+background-color: #F1F9FD;
+}
+.subsub{
+background-color: #FDFEFF;
+}
+
+INPUT {
+	BORDER-RIGHT: #7f7f7f 1px solid; BORDER-TOP: #7f7f7f 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #7f7f7f 1px solid; BORDER-BOTTOM: #7f7f7f 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #FDFEFF
+}
+
+.traid {
+	BORDER-RIGHT: #7f7f7f 1px solid; BORDER-TOP: #7f7f7f 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #7f7f7f 1px solid; BORDER-BOTTOM: #7f7f7f 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #FDFEFF
+}

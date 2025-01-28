@@ -1,0 +1,3 @@
+<div id="rightBoxMid"></div><a class="twitter-timeline" width="247" height="320" href="https://twitter.com/sinaa_ibn"  data-widget-id="384358781586386944">تغريدات بواسطة @sinaa_ibn</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<div id="shadow-tw"></div>
