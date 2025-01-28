@@ -1,0 +1,68 @@
+2025-01-03T09:32:37+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => ac444f4331be43aea40aee4579c5e069
+            [Date] => 3 يناير، 2025 @ 9:32
+            [URL] => https://biz-api.tiktok.com/tbp/v2.0/woocommerce/webhook/product/?external_business_id=tt4b_woocommerce_670666209cf1f
+            [Duration] => 1.40495
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://www.ibn-sinaa.com/
+                            [X-WC-Webhook-Topic] => product.updated
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => 5my/PQBZ3ZRF3EgoOXtlKkPjel4u8FOdxgvfyjnx2G4=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => ac444f4331be43aea40aee4579c5e069
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 85
+                                    [x-api-deprecation-info] => API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+                                    [x-domain-change-info] => We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+                                    [x-tt-logid] => 20250103093236D966B2F83E8D3FEC9246
+                                    [x_tt_logid] => 20250103093236D966B2F83E8D3FEC9246
+                                    [server-timing] => Array
+                                        (
+                                            [0] => inner; dur=56
+                                            [1] => cdn-cache; desc=MISS, edge; dur=2, origin; dur=688
+                                        )
+
+                                    [x-tt-trace-host] => 018e5a586174a888928d793bdac74b79b5d3968f6ce7abbdaf029129b52dae953b3a162cc4ade95dbc8686eaea9ec0f021a55581971761669dca8e7de94b5b081ca37f8c1ed036c2d2b9f453c689b73451912345d9420cc4d9b54e6c9e53819dda
+                                    [x-tt-trace-id] => 00-250103093236D966B2F83E8D3FEC9246-3755AF9B70176059-00
+                                    [server] => TLB
+                                    [expires] => Fri, 03 Jan 2025 09:32:37 GMT
+                                    [cache-control] => max-age=0, no-cache, no-store
+                                    [pragma] => no-cache
+                                    [date] => Fri, 03 Jan 2025 09:32:37 GMT
+                                    [x-cache] => TCP_MISS from a92-123-238-15.deploy.akamaitechnologies.com (AkamaiGHost/11.7.2.1-35a4fcef889a1f053c9fa641f2ccd99a) (-)
+                                    [x-tt-trace-tag] => id=16;cdn-cache=miss;type=dyn
+                                    [x-origin-response-time] => 689,92.123.238.15
+                                    [x-akamai-request-id] => 3841068
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)

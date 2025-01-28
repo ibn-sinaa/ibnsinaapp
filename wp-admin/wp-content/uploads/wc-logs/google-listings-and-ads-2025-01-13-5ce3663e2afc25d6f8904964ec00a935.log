@@ -1,0 +1,5 @@
+2025-01-13T03:00:08+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 1194): ["\u0637\u0628\u0627\u0639\u0629 \u062f\u064a\u062c\u064a\u062a\u0627\u0644 > \u0643\u0631\u0648\u062a \u0634\u062e\u0635\u064a\u0629"].
+2025-01-13T03:00:08+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 1196): ["\u0637\u0628\u0627\u0639\u0629 \u062f\u064a\u062c\u064a\u062a\u0627\u0644 > \u0643\u0631\u0648\u062a \u0634\u062e\u0635\u064a\u0629"].
+2025-01-13T03:00:08+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 4346): ["\u062f\u0639\u0627\u064a\u0629 \u0648\u0627\u0639\u0644\u0627\u0646 > \u0628\u0648\u0628 \u0627\u0628"].
+2025-01-13T03:00:18+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\ProductSyncer::update_by_batch_requests Submitted 3 products:
+[{"woocommerce_id":1194,"google_id":"online:ar:SA:gla_1194"},{"woocommerce_id":1196,"google_id":"online:ar:SA:gla_1196"},{"woocommerce_id":4346,"google_id":"online:ar:SA:gla_4346"}]

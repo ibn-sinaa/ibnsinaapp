@@ -1,0 +1,17 @@
+{
+    "name": "gpltimes/gpltimes",
+    "description": "GPlTimes",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "GPL Times",
+            "email": "info@gpltimes.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}

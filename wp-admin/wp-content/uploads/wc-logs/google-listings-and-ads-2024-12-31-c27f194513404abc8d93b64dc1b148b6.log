@@ -1,0 +1,3 @@
+2024-12-31T03:00:07+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 4445): ["\u062f\u0631\u0648\u0639 \u0648\u0647\u062f\u0627\u064a\u0627 > \u062a\u0642\u0648\u064a\u0645\u0627\u062a"].
+2024-12-31T03:00:16+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\ProductSyncer::update_by_batch_requests Submitted 1 products:
+[{"woocommerce_id":4445,"google_id":"online:ar:SA:gla_4445"}]

@@ -1,0 +1,103 @@
+2025-01-08T15:33:11+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 4708): ["\u062f\u0639\u0627\u064a\u0629 \u0648\u0627\u0639\u0644\u0627\u0646"].
+2025-01-08T15:33:11+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 4445): ["\u062f\u0631\u0648\u0639 \u0648\u0647\u062f\u0627\u064a\u0627 > \u062a\u0642\u0648\u064a\u0645\u0627\u062a"].
+2025-01-08T15:33:11+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 4443): ["\u062f\u0631\u0648\u0639 \u0648\u0647\u062f\u0627\u064a\u0627 > \u062a\u0642\u0648\u064a\u0645\u0627\u062a"].
+2025-01-08T15:33:11+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 4442): ["\u062f\u0631\u0648\u0639 \u0648\u0647\u062f\u0627\u064a\u0627 > \u062a\u0642\u0648\u064a\u0645\u0627\u062a"].
+2025-01-08T15:33:11+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 4440): ["\u062f\u0631\u0648\u0639 \u0648\u0647\u062f\u0627\u064a\u0627 > \u062a\u0642\u0648\u064a\u0645\u0627\u062a"].
+2025-01-08T15:33:11+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 4438): ["\u062f\u0631\u0648\u0639 \u0648\u0647\u062f\u0627\u064a\u0627 > \u062a\u0642\u0648\u064a\u0645\u0627\u062a"].
+2025-01-08T15:33:11+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 4436): ["\u062f\u0631\u0648\u0639 \u0648\u0647\u062f\u0627\u064a\u0627 > \u062a\u0642\u0648\u064a\u0645\u0627\u062a"].
+2025-01-08T15:33:11+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 4434): ["\u062f\u0631\u0648\u0639 \u0648\u0647\u062f\u0627\u064a\u0627 > \u062a\u0642\u0648\u064a\u0645\u0627\u062a"].
+2025-01-08T15:33:11+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 4432): ["\u062f\u0631\u0648\u0639 \u0648\u0647\u062f\u0627\u064a\u0627 > \u062a\u0642\u0648\u064a\u0645\u0627\u062a"].
+2025-01-08T15:33:11+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 4430): ["\u062f\u0631\u0648\u0639 \u0648\u0647\u062f\u0627\u064a\u0627 > \u062a\u0642\u0648\u064a\u0645\u0627\u062a"].
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 22 - طباعة برشور فلاير A3. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 40 - طباعة برشور مطوية A5. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 197 - طباعة برشور فلاير A5. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 198 - طباعة برشور فلاير A4. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 199 - طباعة برشور مطوية A4. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 200 - طباعة برشور مطوية A3. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 201 - طباعة كروت شخصية داي كت. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 203 - طباعة كروت بصمة. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 1192 - طباعة كروت بريستول. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 1194 - طباعة كروت شخصية ايس جولد. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 1196 - طباعة كروت شخصية قص كيرفي . No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 1198 - طباعة كروت شخصية عادية. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 2499 - طباعه بنر. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 2948 - طباعة كروت بلاستيك. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 3545 - طباعة فولدرات جيب عادي. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 3560 - طباعة فولدرات جيب شنطه. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 3593 - طباعة فواتير. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 3626 - طباعة سندات ( صرف - قبض ). No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 3653 - طباعة تاقات. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 3659 - سجلات مادة الاجتماعيات. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 3667 - طباعة رول اب. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 3983 - طباعة ورق خطابات عادي. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 3986 - طباعة ورق خطابات فاخرة. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 3989 - طباعة ورق خطابات مقمش. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 3993 - طباعة كوبونات. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 3999 - طباعة نوتة غلاف سميك A5. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4003 - طباعة نوتة غلاف سميك A6. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4009 - طباعة نوتة غلاف سلك A5. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4015 - طباعة نوتة غلاف سلك A6. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4018 - طباعة ظروف A4\C4. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4021 - طباعة ظروف A5\C5. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4026 - ظرف DL. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4049 - سجلات الانجاز المدرسية. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4069 - سجلات مادة التربية الاسرية. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4079 - سجلات مادة التربية الاسلامية. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4097 - سجلات مادة التربية البدنية. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4111 - سجلات مادة التربية الفنية. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4125 - سجلات مادة الفيزياء. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4139 - سجلات مادة اللغة العربية. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4157 - سجلات مادة اللغة الانجليزية. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4173 - سجلات مادة الاحياء. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4179 - سجلات مادة الحاسب الالي. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4187 - سجلات مادة الرياضيات. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4205 - سجلات مادة الكيمياء. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4220 - مجموعة المعلم. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4224 - استاند منحني. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4228 - استاند شاشه خارجي مع اضاءة. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4232 - استاند استقبال مع اضاءة. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4237 - استاند استقبال. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4241 - استاند شاشة V. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4244 - استاند اكس بنر. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4251 - استاند كتب قابل للطي. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4255 - استاند ضوء برج الاعلان. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4259 - استاند T. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4263 - رول اب ميني. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4269 - رول اكس بنر مع حامل خازن ماء. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4273 - رول اب قاعدة حديدة. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4277 - رول اب ديلوكس. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4283 - رول اب اكس. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4289 - ستاير رول. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4293 - رول اب قاعدة بلاستيكة. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4297 - طباعه على فلين. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4301 - طباعه على فوركس. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4317 - طاولة عرض مموجة كورجتيد. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4321 - طاولة مع مضلة. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4325 - طاولة قابلة للطي. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4330 - طاولة دعائية مقوسة. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4333 - طاولة دعائية. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4337 - راية قوس قزح. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4346 - بوب اب مستقيم. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4354 - بوب اب حامل خلفية. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4358 - بوب اب حامل 3 اجزاء. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4362 - اعلام مكتبية صغيرة. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4366 - علم مع شنطة دعائية. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4373 - علم قطرة المطر. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4381 - علم تسلكوب. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4393 - كاسات سيراميك بقاعدة خشبية. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4396 - كاسات سيارة نحاس مع الطباعة uv. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4399 - كاس سيراميك مع الطباعة. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4407 - لوحات مكتبية خشب مع طباعة حرارية نحاس. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4424 - تقويم اكريليك مع زوايا. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4426 - تقويم اكريليك مع جيب خشب. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4428 - تقويم اكريليك اسود مع خشب. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4430 - تقويم اكريليك مع حامل موبايل. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4432 - تقويم خشب صغير. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4434 - تقويم خشب صغير مع جلد. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4436 - تقويم خشب وسط مع جلد. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4438 - تقويم صندوق خشب. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4440 - تقويم ميلادي فاخر. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4442 - تقويم ميلادي مدرج. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4443 - تقويم ميلادي مكتبي. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4445 - تقويم ميلادي مكتبي مخملي. No GTIN was found
+2025-01-08T15:58:27+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Jobs\MigrateGTIN::debug GTIN has been skipped for Product ID: 4708 - طباعه بوستر. No GTIN was found

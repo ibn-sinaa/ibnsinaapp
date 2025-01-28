@@ -1,0 +1,1170 @@
+0000.000 (0) Opened log file at time: Wed, 01 Jan 2025 08:24:44 +0000 on https://ibn-sinaa.com
+0000.038 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.24.12.26 WP: 6.7.1 PHP: 8.1.31 (fpm-fcgi, Linux server.ibnsinaapp.com 4.18.0-553.8.1.el8_10.x86_64 #1 SMP Tue Jul 2 17:10:26 UTC 2024 x86_64) MySQL: 8.0.40 (max packet size=268435456) WPLANG: ar Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 800M (used: 210.7M | 214M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.212 (0) Free space on disk containing Updraft's temporary directory: 564.7 MB
+0000.255 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.347 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.548 (0) Set semaphore last lock (fd) time to 2025-01-01 08:24:44
+0000.589 (0) Semaphore lock (fd) complete
+0000.699 (0) Backup run: resumption=0, nonce=14909c0ebde0, file_nonce=14909c0ebde0 begun at=1735719884 (0s ago), job type=backup, label=Automatic backup before update
+0000.795 (0) Scheduling a resumption (1) after 300 seconds (1735720184) in case this run gets aborted
+0000.979 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2819, wp-includes/formatting.php)
+0001.037 (0) Checking if we have a zip executable available
+0001.103 (0) Testing: /usr/bin/zip
+0001.229 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.269 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0001.324 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0001.367 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0001.412 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0001.508 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0001.544 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0001.653 (0) Working binary zip found: /usr/bin/zip
+0001.732 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.755 (0) Creation of backups of directories: beginning
+0001.840 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0005.635 (0) Total entities for the zip file: 5437 directories, 30549 files (0 skipped as non-modified), 408.5 MB
+0005.647 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (6.7 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.817 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: size is now: 8.00 MB
+0005.839 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 100 files added (on-disk size: 8171.6 KB)
+0005.846 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 200 files added (on-disk size: 8171.6 KB)
+0005.857 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 300 files added (on-disk size: 8171.6 KB)
+0005.866 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 400 files added (on-disk size: 8171.6 KB)
+0005.875 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 500 files added (on-disk size: 8171.6 KB)
+0005.885 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 600 files added (on-disk size: 8171.6 KB)
+0005.891 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 700 files added (on-disk size: 8171.6 KB)
+0005.896 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 800 files added (on-disk size: 8171.6 KB)
+0005.905 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 900 files added (on-disk size: 8171.6 KB)
+0005.911 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 1000 files added (on-disk size: 8171.6 KB)
+0005.924 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.4 MB, 30549 files batched, 1001 (1002) added so far); re-opening (prior size: 8171.6 KB)
+0006.535 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: size is now: 11.40 MB
+0006.546 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 1100 files added (on-disk size: 11635 KB)
+0006.552 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 1200 files added (on-disk size: 11635 KB)
+0006.557 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 1300 files added (on-disk size: 11635 KB)
+0006.563 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 1400 files added (on-disk size: 11635 KB)
+0006.568 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 1500 files added (on-disk size: 11635 KB)
+0006.576 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 1600 files added (on-disk size: 11635 KB)
+0006.584 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 1700 files added (on-disk size: 11635 KB)
+0006.590 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 1800 files added (on-disk size: 11635 KB)
+0006.595 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 1900 files added (on-disk size: 11635 KB)
+0006.602 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 2000 files added (on-disk size: 11635 KB)
+0006.611 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.9 MB, 30549 files batched, 1001 (2003) added so far); re-opening (prior size: 11635 KB)
+0007.740 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: size is now: 14.60 MB
+0007.831 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 2100 files added (on-disk size: 14988.8 KB)
+0007.858 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 2200 files added (on-disk size: 14988.8 KB)
+0007.866 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 2300 files added (on-disk size: 14988.8 KB)
+0007.872 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 2400 files added (on-disk size: 14988.8 KB)
+0007.879 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 2500 files added (on-disk size: 14988.8 KB)
+0007.884 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 2600 files added (on-disk size: 14988.8 KB)
+0007.890 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 2700 files added (on-disk size: 14988.8 KB)
+0007.897 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 2800 files added (on-disk size: 14988.8 KB)
+0007.905 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 2900 files added (on-disk size: 14988.8 KB)
+0007.918 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 3000 files added (on-disk size: 14988.8 KB)
+0007.923 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.6 MB, 30549 files batched, 1001 (3004) added so far); re-opening (prior size: 14988.8 KB)
+0008.466 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 3100 files added (on-disk size: 16739.1 KB)
+0008.472 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 3200 files added (on-disk size: 16739.1 KB)
+0008.480 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 3300 files added (on-disk size: 16739.1 KB)
+0008.487 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 3400 files added (on-disk size: 16739.1 KB)
+0008.493 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 3500 files added (on-disk size: 16739.1 KB)
+0008.498 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 3600 files added (on-disk size: 16739.1 KB)
+0008.504 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 3700 files added (on-disk size: 16739.1 KB)
+0008.509 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 3800 files added (on-disk size: 16739.1 KB)
+0008.524 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 3900 files added (on-disk size: 16739.1 KB)
+0008.530 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 4000 files added (on-disk size: 16739.1 KB)
+0008.535 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.7 MB, 30549 files batched, 1001 (4005) added so far); re-opening (prior size: 16739.1 KB)
+0009.597 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: size is now: 21.30 MB
+0009.617 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 4100 files added (on-disk size: 21825.1 KB)
+0009.625 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 4200 files added (on-disk size: 21825.1 KB)
+0009.633 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 4300 files added (on-disk size: 21825.1 KB)
+0009.639 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 4400 files added (on-disk size: 21825.1 KB)
+0009.644 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 4500 files added (on-disk size: 21825.1 KB)
+0009.649 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 4600 files added (on-disk size: 21825.1 KB)
+0009.654 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 4700 files added (on-disk size: 21825.1 KB)
+0009.659 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 4800 files added (on-disk size: 21825.1 KB)
+0009.665 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 4900 files added (on-disk size: 21825.1 KB)
+0009.671 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 5000 files added (on-disk size: 21825.1 KB)
+0009.675 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.4 MB, 30549 files batched, 1001 (5006) added so far); re-opening (prior size: 21825.1 KB)
+0010.256 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 5100 files added (on-disk size: 23965.8 KB)
+0010.262 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 5200 files added (on-disk size: 23965.8 KB)
+0010.267 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 5300 files added (on-disk size: 23965.8 KB)
+0010.273 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 5400 files added (on-disk size: 23965.8 KB)
+0010.278 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 5500 files added (on-disk size: 23965.8 KB)
+0010.283 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 5600 files added (on-disk size: 23965.8 KB)
+0010.288 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 5700 files added (on-disk size: 23965.8 KB)
+0010.293 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 5800 files added (on-disk size: 23965.8 KB)
+0010.299 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 5900 files added (on-disk size: 23965.8 KB)
+0010.304 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 6000 files added (on-disk size: 23965.8 KB)
+0010.308 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.5 MB, 30549 files batched, 1001 (6007) added so far); re-opening (prior size: 23965.8 KB)
+0010.950 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 6100 files added (on-disk size: 26098.6 KB)
+0010.959 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 6200 files added (on-disk size: 26098.6 KB)
+0010.965 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 6300 files added (on-disk size: 26098.6 KB)
+0010.973 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 6400 files added (on-disk size: 26098.6 KB)
+0010.984 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 6500 files added (on-disk size: 26098.6 KB)
+0010.991 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 6600 files added (on-disk size: 26098.6 KB)
+0010.999 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 6700 files added (on-disk size: 26098.6 KB)
+0011.007 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 6800 files added (on-disk size: 26098.6 KB)
+0011.012 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 6900 files added (on-disk size: 26098.6 KB)
+0011.020 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 7000 files added (on-disk size: 26098.6 KB)
+0011.024 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.5 MB, 30549 files batched, 1001 (7008) added so far); re-opening (prior size: 26098.6 KB)
+0011.594 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 7100 files added (on-disk size: 27452.6 KB)
+0011.601 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 7200 files added (on-disk size: 27452.6 KB)
+0011.607 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 7300 files added (on-disk size: 27452.6 KB)
+0011.612 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 7400 files added (on-disk size: 27452.6 KB)
+0011.618 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 7500 files added (on-disk size: 27452.6 KB)
+0011.631 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 7600 files added (on-disk size: 27452.6 KB)
+0011.637 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 7700 files added (on-disk size: 27452.6 KB)
+0011.643 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 7800 files added (on-disk size: 27452.6 KB)
+0011.658 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 7900 files added (on-disk size: 27452.6 KB)
+0011.668 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 8000 files added (on-disk size: 27452.6 KB)
+0011.673 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.9 MB, 30549 files batched, 1001 (8009) added so far); re-opening (prior size: 27452.6 KB)
+0012.374 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 8100 files added (on-disk size: 29214.4 KB)
+0012.380 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 8200 files added (on-disk size: 29214.4 KB)
+0012.385 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 8300 files added (on-disk size: 29214.4 KB)
+0012.391 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 8400 files added (on-disk size: 29214.4 KB)
+0012.396 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 8500 files added (on-disk size: 29214.4 KB)
+0012.403 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 8600 files added (on-disk size: 29214.4 KB)
+0012.412 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 8700 files added (on-disk size: 29214.4 KB)
+0012.417 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 8800 files added (on-disk size: 29214.4 KB)
+0012.423 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 8900 files added (on-disk size: 29214.4 KB)
+0012.428 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 9000 files added (on-disk size: 29214.4 KB)
+0012.433 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.6 MB, 30549 files batched, 1001 (9010) added so far); re-opening (prior size: 29214.4 KB)
+0013.507 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 9100 files added (on-disk size: 30948.5 KB)
+0013.534 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 9200 files added (on-disk size: 30948.5 KB)
+0013.542 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 9300 files added (on-disk size: 30948.5 KB)
+0013.552 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 9400 files added (on-disk size: 30948.5 KB)
+0013.559 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 9500 files added (on-disk size: 30948.5 KB)
+0013.564 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 9600 files added (on-disk size: 30948.5 KB)
+0013.570 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 9700 files added (on-disk size: 30948.5 KB)
+0013.575 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 9800 files added (on-disk size: 30948.5 KB)
+0013.581 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 9900 files added (on-disk size: 30948.5 KB)
+0013.586 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 10000 files added (on-disk size: 30948.5 KB)
+0013.591 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.7 MB, 30549 files batched, 1001 (10011) added so far); re-opening (prior size: 30948.5 KB)
+0014.650 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 10100 files added (on-disk size: 32898.6 KB)
+0014.659 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 10200 files added (on-disk size: 32898.6 KB)
+0014.672 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 10300 files added (on-disk size: 32898.6 KB)
+0014.680 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 10400 files added (on-disk size: 32898.6 KB)
+0014.685 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 10500 files added (on-disk size: 32898.6 KB)
+0014.691 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 10600 files added (on-disk size: 32898.6 KB)
+0014.700 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 10700 files added (on-disk size: 32898.6 KB)
+0014.706 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 10800 files added (on-disk size: 32898.6 KB)
+0014.712 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 10900 files added (on-disk size: 32898.6 KB)
+0014.720 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 11000 files added (on-disk size: 32898.6 KB)
+0014.726 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.8 MB, 30549 files batched, 1001 (11012) added so far); re-opening (prior size: 32898.6 KB)
+0016.096 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 11100 files added (on-disk size: 36673 KB)
+0016.107 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 11200 files added (on-disk size: 36673 KB)
+0016.116 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 11300 files added (on-disk size: 36673 KB)
+0016.121 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 11400 files added (on-disk size: 36673 KB)
+0016.127 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 11500 files added (on-disk size: 36673 KB)
+0016.132 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 11600 files added (on-disk size: 36673 KB)
+0016.137 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 11700 files added (on-disk size: 36673 KB)
+0016.142 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 11800 files added (on-disk size: 36673 KB)
+0016.148 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 11900 files added (on-disk size: 36673 KB)
+0016.153 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 12000 files added (on-disk size: 36673 KB)
+0016.158 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.9 MB, 30549 files batched, 1001 (12013) added so far); re-opening (prior size: 36673 KB)
+0017.319 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: size is now: 43.50 MB
+0017.330 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 12100 files added (on-disk size: 44567 KB)
+0017.336 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 12200 files added (on-disk size: 44567 KB)
+0017.341 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 12300 files added (on-disk size: 44567 KB)
+0017.347 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 12400 files added (on-disk size: 44567 KB)
+0017.352 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 12500 files added (on-disk size: 44567 KB)
+0017.358 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 12600 files added (on-disk size: 44567 KB)
+0017.364 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 12700 files added (on-disk size: 44567 KB)
+0017.370 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 12800 files added (on-disk size: 44567 KB)
+0017.377 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 12900 files added (on-disk size: 44567 KB)
+0017.383 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 13000 files added (on-disk size: 44567 KB)
+0017.387 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.1 MB, 30549 files batched, 1001 (13014) added so far); re-opening (prior size: 44567 KB)
+0018.409 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 13100 files added (on-disk size: 50979.1 KB)
+0018.416 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 13200 files added (on-disk size: 50979.1 KB)
+0018.422 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 13300 files added (on-disk size: 50979.1 KB)
+0018.429 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 13400 files added (on-disk size: 50979.1 KB)
+0018.435 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 13500 files added (on-disk size: 50979.1 KB)
+0018.441 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 13600 files added (on-disk size: 50979.1 KB)
+0018.453 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 13700 files added (on-disk size: 50979.1 KB)
+0018.466 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 13800 files added (on-disk size: 50979.1 KB)
+0018.471 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 13900 files added (on-disk size: 50979.1 KB)
+0018.477 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 14000 files added (on-disk size: 50979.1 KB)
+0018.486 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.9 MB, 30549 files batched, 1001 (14015) added so far); re-opening (prior size: 50979.1 KB)
+0021.476 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: size is now: 64.10 MB
+0021.493 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 14100 files added (on-disk size: 65680.6 KB)
+0021.499 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 14200 files added (on-disk size: 65680.6 KB)
+0021.505 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 14300 files added (on-disk size: 65680.6 KB)
+0021.511 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 14400 files added (on-disk size: 65680.6 KB)
+0021.517 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 14500 files added (on-disk size: 65680.6 KB)
+0021.524 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 14600 files added (on-disk size: 65680.6 KB)
+0021.533 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 14700 files added (on-disk size: 65680.6 KB)
+0021.544 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 14800 files added (on-disk size: 65680.6 KB)
+0021.550 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 14900 files added (on-disk size: 65680.6 KB)
+0021.555 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 15000 files added (on-disk size: 65680.6 KB)
+0021.560 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.2 MB, 30549 files batched, 1001 (15016) added so far); re-opening (prior size: 65680.6 KB)
+0022.327 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 15100 files added (on-disk size: 67318.3 KB)
+0022.335 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 15200 files added (on-disk size: 67318.3 KB)
+0022.341 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 15300 files added (on-disk size: 67318.3 KB)
+0022.347 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 15400 files added (on-disk size: 67318.3 KB)
+0022.353 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 15500 files added (on-disk size: 67318.3 KB)
+0022.358 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 15600 files added (on-disk size: 67318.3 KB)
+0022.364 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 15700 files added (on-disk size: 67318.3 KB)
+0022.370 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 15800 files added (on-disk size: 67318.3 KB)
+0022.378 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 15900 files added (on-disk size: 67318.3 KB)
+0022.384 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 16000 files added (on-disk size: 67318.3 KB)
+0022.389 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.8 MB, 30549 files batched, 1001 (16017) added so far); re-opening (prior size: 67318.3 KB)
+0022.962 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 16100 files added (on-disk size: 68390.1 KB)
+0022.972 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 16200 files added (on-disk size: 68390.1 KB)
+0022.977 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 16300 files added (on-disk size: 68390.1 KB)
+0022.983 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 16400 files added (on-disk size: 68390.1 KB)
+0022.990 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 16500 files added (on-disk size: 68390.1 KB)
+0022.995 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 16600 files added (on-disk size: 68390.1 KB)
+0023.001 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 16700 files added (on-disk size: 68390.1 KB)
+0023.007 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 16800 files added (on-disk size: 68390.1 KB)
+0023.019 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 16900 files added (on-disk size: 68390.1 KB)
+0023.024 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 17000 files added (on-disk size: 68390.1 KB)
+0023.029 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.8 MB, 30549 files batched, 1001 (17018) added so far); re-opening (prior size: 68390.1 KB)
+0023.910 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 17100 files added (on-disk size: 69671 KB)
+0023.916 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 17200 files added (on-disk size: 69671 KB)
+0023.922 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 17300 files added (on-disk size: 69671 KB)
+0023.927 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 17400 files added (on-disk size: 69671 KB)
+0023.933 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 17500 files added (on-disk size: 69671 KB)
+0023.939 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 17600 files added (on-disk size: 69671 KB)
+0023.949 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 17700 files added (on-disk size: 69671 KB)
+0023.957 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 17800 files added (on-disk size: 69671 KB)
+0023.966 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 17900 files added (on-disk size: 69671 KB)
+0023.974 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 18000 files added (on-disk size: 69671 KB)
+0023.985 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.5 MB, 30549 files batched, 1001 (18019) added so far); re-opening (prior size: 69671 KB)
+0024.656 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 18100 files added (on-disk size: 71046.5 KB)
+0024.663 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 18200 files added (on-disk size: 71046.5 KB)
+0024.669 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 18300 files added (on-disk size: 71046.5 KB)
+0024.675 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 18400 files added (on-disk size: 71046.5 KB)
+0024.681 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 18500 files added (on-disk size: 71046.5 KB)
+0024.687 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 18600 files added (on-disk size: 71046.5 KB)
+0024.692 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 18700 files added (on-disk size: 71046.5 KB)
+0024.698 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 18800 files added (on-disk size: 71046.5 KB)
+0024.707 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 18900 files added (on-disk size: 71046.5 KB)
+0024.712 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 19000 files added (on-disk size: 71046.5 KB)
+0024.717 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.6 MB, 30549 files batched, 1001 (19020) added so far); re-opening (prior size: 71046.5 KB)
+0026.105 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 19100 files added (on-disk size: 76657.9 KB)
+0026.116 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 19200 files added (on-disk size: 76657.9 KB)
+0026.121 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 19300 files added (on-disk size: 76657.9 KB)
+0026.127 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 19400 files added (on-disk size: 76657.9 KB)
+0026.134 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 19500 files added (on-disk size: 76657.9 KB)
+0026.139 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 19600 files added (on-disk size: 76657.9 KB)
+0026.145 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 19700 files added (on-disk size: 76657.9 KB)
+0026.151 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 19800 files added (on-disk size: 76657.9 KB)
+0026.156 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 19900 files added (on-disk size: 76657.9 KB)
+0026.162 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 20000 files added (on-disk size: 76657.9 KB)
+0026.166 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.6 MB, 30549 files batched, 1001 (20021) added so far); re-opening (prior size: 76657.9 KB)
+0026.998 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 20100 files added (on-disk size: 78179.7 KB)
+0027.031 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 20200 files added (on-disk size: 78179.7 KB)
+0027.054 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 20300 files added (on-disk size: 78179.7 KB)
+0027.072 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 20400 files added (on-disk size: 78179.7 KB)
+0027.098 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 20500 files added (on-disk size: 78179.7 KB)
+0027.133 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 20600 files added (on-disk size: 78179.7 KB)
+0027.158 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (27 MB, 30549 files batched, 605 (20626) added so far); re-opening (prior size: 78179.7 KB)
+0028.951 (0) A useful amount of data was added after this amount of zip processing: 2 s (normalised: 1.8 s, rate: 13950.4 KB/s)
+0028.960 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.9801149368286, normalised_time=1.8350751587667, max_time=28.955281019211, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0028.969 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 20700 files added (on-disk size: 88087.3 KB)
+0028.977 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 20800 files added (on-disk size: 88087.3 KB)
+0028.983 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 20900 files added (on-disk size: 88087.3 KB)
+0028.989 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 21000 files added (on-disk size: 88087.3 KB)
+0028.994 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 21100 files added (on-disk size: 88087.3 KB)
+0029.000 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 21200 files added (on-disk size: 88087.3 KB)
+0029.007 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 21300 files added (on-disk size: 88087.3 KB)
+0029.014 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 21400 files added (on-disk size: 88087.3 KB)
+0029.020 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 21500 files added (on-disk size: 88087.3 KB)
+0029.025 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 21600 files added (on-disk size: 88087.3 KB)
+0029.030 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.7 MB, 30549 files batched, 1001 (21627) added so far); re-opening (prior size: 88087.3 KB)
+0030.439 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 21700 files added (on-disk size: 94964 KB)
+0030.446 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 21800 files added (on-disk size: 94964 KB)
+0030.452 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 21900 files added (on-disk size: 94964 KB)
+0030.458 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 22000 files added (on-disk size: 94964 KB)
+0030.464 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 22100 files added (on-disk size: 94964 KB)
+0030.470 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 22200 files added (on-disk size: 94964 KB)
+0030.476 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 22300 files added (on-disk size: 94964 KB)
+0030.482 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 22400 files added (on-disk size: 94964 KB)
+0030.488 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 22500 files added (on-disk size: 94964 KB)
+0030.498 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 22600 files added (on-disk size: 94964 KB)
+0030.503 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.8 MB, 30549 files batched, 1001 (22628) added so far); re-opening (prior size: 94964 KB)
+0031.879 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 22700 files added (on-disk size: 98367 KB)
+0031.886 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 22800 files added (on-disk size: 98367 KB)
+0031.892 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 22900 files added (on-disk size: 98367 KB)
+0031.898 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 23000 files added (on-disk size: 98367 KB)
+0031.904 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 23100 files added (on-disk size: 98367 KB)
+0031.909 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 23200 files added (on-disk size: 98367 KB)
+0031.915 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 23300 files added (on-disk size: 98367 KB)
+0031.920 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 23400 files added (on-disk size: 98367 KB)
+0031.926 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 23500 files added (on-disk size: 98367 KB)
+0031.931 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 23600 files added (on-disk size: 98367 KB)
+0031.936 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.5 MB, 30549 files batched, 1001 (23629) added so far); re-opening (prior size: 98367 KB)
+0033.471 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 23700 files added (on-disk size: 108186.6 KB)
+0033.477 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 23800 files added (on-disk size: 108186.6 KB)
+0033.485 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 23900 files added (on-disk size: 108186.6 KB)
+0033.490 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 24000 files added (on-disk size: 108186.6 KB)
+0033.495 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 24100 files added (on-disk size: 108186.6 KB)
+0033.501 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 24200 files added (on-disk size: 108186.6 KB)
+0033.506 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 24300 files added (on-disk size: 108186.6 KB)
+0033.512 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 24400 files added (on-disk size: 108186.6 KB)
+0033.519 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 24500 files added (on-disk size: 108186.6 KB)
+0033.524 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 24600 files added (on-disk size: 108186.6 KB)
+0033.529 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.2 MB, 30549 files batched, 1001 (24630) added so far); re-opening (prior size: 108186.6 KB)
+0035.033 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 24700 files added (on-disk size: 116064.3 KB)
+0035.040 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 24800 files added (on-disk size: 116064.3 KB)
+0035.046 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 24900 files added (on-disk size: 116064.3 KB)
+0035.055 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 25000 files added (on-disk size: 116064.3 KB)
+0035.061 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 25100 files added (on-disk size: 116064.3 KB)
+0035.067 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 25200 files added (on-disk size: 116064.3 KB)
+0035.073 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 25300 files added (on-disk size: 116064.3 KB)
+0035.078 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 25400 files added (on-disk size: 116064.3 KB)
+0035.084 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 25500 files added (on-disk size: 116064.3 KB)
+0035.091 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 25600 files added (on-disk size: 116064.3 KB)
+0035.095 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (61.4 MB, 30549 files batched, 1001 (25631) added so far); re-opening (prior size: 116064.3 KB)
+0037.778 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: size is now: 144.20 MB
+0037.797 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 25700 files added (on-disk size: 147626.3 KB)
+0037.802 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 25800 files added (on-disk size: 147626.3 KB)
+0037.808 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 25900 files added (on-disk size: 147626.3 KB)
+0037.820 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 26000 files added (on-disk size: 147626.3 KB)
+0037.831 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 26100 files added (on-disk size: 147626.3 KB)
+0037.842 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 26200 files added (on-disk size: 147626.3 KB)
+0037.850 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 26300 files added (on-disk size: 147626.3 KB)
+0037.858 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 26400 files added (on-disk size: 147626.3 KB)
+0037.863 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 26500 files added (on-disk size: 147626.3 KB)
+0037.868 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 26600 files added (on-disk size: 147626.3 KB)
+0037.873 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.4 MB, 30549 files batched, 1001 (26632) added so far); re-opening (prior size: 147626.3 KB)
+0038.885 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 26700 files added (on-disk size: 149728.7 KB)
+0038.895 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 26800 files added (on-disk size: 149728.7 KB)
+0038.906 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 26900 files added (on-disk size: 149728.7 KB)
+0038.914 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 27000 files added (on-disk size: 149728.7 KB)
+0038.921 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 27100 files added (on-disk size: 149728.7 KB)
+0038.931 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 27200 files added (on-disk size: 149728.7 KB)
+0038.942 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 27300 files added (on-disk size: 149728.7 KB)
+0038.949 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 27400 files added (on-disk size: 149728.7 KB)
+0038.958 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 27500 files added (on-disk size: 149728.7 KB)
+0038.967 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 27600 files added (on-disk size: 149728.7 KB)
+0038.975 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.2 MB, 30549 files batched, 1001 (27633) added so far); re-opening (prior size: 149728.7 KB)
+0041.362 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 27700 files added (on-disk size: 152114.2 KB)
+0041.424 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 27800 files added (on-disk size: 152114.2 KB)
+0041.469 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 27900 files added (on-disk size: 152114.2 KB)
+0041.516 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 28000 files added (on-disk size: 152114.2 KB)
+0041.554 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 28100 files added (on-disk size: 152114.2 KB)
+0041.617 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 28200 files added (on-disk size: 152114.2 KB)
+0041.654 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 28300 files added (on-disk size: 152114.2 KB)
+0041.689 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 28400 files added (on-disk size: 152114.2 KB)
+0041.722 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 28500 files added (on-disk size: 152114.2 KB)
+0041.758 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 28600 files added (on-disk size: 152114.2 KB)
+0041.832 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.8 MB, 30549 files batched, 1001 (28634) added so far); re-opening (prior size: 152114.2 KB)
+0044.165 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 28700 files added (on-disk size: 160625.9 KB)
+0044.172 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 28800 files added (on-disk size: 160625.9 KB)
+0044.178 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 28900 files added (on-disk size: 160625.9 KB)
+0044.184 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 29000 files added (on-disk size: 160625.9 KB)
+0044.190 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 29100 files added (on-disk size: 160625.9 KB)
+0044.198 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 29200 files added (on-disk size: 160625.9 KB)
+0044.206 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 29300 files added (on-disk size: 160625.9 KB)
+0044.215 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 29400 files added (on-disk size: 160625.9 KB)
+0044.225 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 29500 files added (on-disk size: 160625.9 KB)
+0044.231 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 29600 files added (on-disk size: 160625.9 KB)
+0044.236 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.9 MB, 30549 files batched, 1001 (29635) added so far); re-opening (prior size: 160625.9 KB)
+0045.187 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 29700 files added (on-disk size: 162734.6 KB)
+0045.193 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 29800 files added (on-disk size: 162734.6 KB)
+0045.199 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 29900 files added (on-disk size: 162734.6 KB)
+0045.204 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 30000 files added (on-disk size: 162734.6 KB)
+0045.210 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 30100 files added (on-disk size: 162734.6 KB)
+0045.218 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 30200 files added (on-disk size: 162734.6 KB)
+0045.228 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 30300 files added (on-disk size: 162734.6 KB)
+0045.236 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 30400 files added (on-disk size: 162734.6 KB)
+0045.242 (0) Zip: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.tmp: 30500 files added (on-disk size: 162734.6 KB)
+0048.568 (0) Creating zip file manifest (backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.list-temp.tmp)
+0048.676 (0) Successfully created zip file manifest (size: 2851439)
+0050.597 (0) Created plugins zip (0) - 167620.3 KB in 48.5 s (3454 KB/s) (sha1: bf36b9f8cb815802c1d7a3cc692231d9706aa355, sha256: 2a125b51e40411b1529832fef91550f80b848207ab72a9841032221e363720a5)
+0050.641 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0050.646 (0) Beginning dispatch of backup to remote (email)
+0050.656 (0) [Warning] Email: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip: This backup archive is 163.7 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0050.661 (0) Email: You have chosen to not send the backup via the email remote storage option for admin@ibn-sinaa.com. plugins will not be sent.
+0050.666 (0) Email: No email addresses were configured to send email to plugins
+0050.684 (0) No backup of themes: excluded by user's options
+0050.691 (0) No backup of uploads: excluded by user's options
+0050.700 (0) No backup of mu-plugins: excluded by user's options
+0050.707 (0) No backup of wpcore: excluded by user's options
+0050.714 (0) No backup of others: excluded by user's options
+0050.718 (0) No backup of more: excluded by user's options
+0050.739 (0) Saving backup status to database (elements: 2)
+0050.752 (0) Beginning creation of database dump (WordPress DB)
+0050.757 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0050.798 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0050.950 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1608 bytes total)
+0050.988 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0051.175 (0) Table wp_options: Total expected rows (approximate): 1565
+0051.438 (0) Table wp_options: Rows added in this batch (next record: 433474): 2137 (uncompressed bytes in this segment=5668640) in 0.33 seconds
+0051.484 (0) Table wp_options: finishing file(s) (2, 818.5 KB)
+0051.512 (0) Table wp_users: Total expected rows (via COUNT): 1
+0051.520 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0051.544 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1529) in 0.04 seconds
+0051.563 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0051.587 (0) Table wp_usermeta: Total expected rows (via COUNT): 111
+0051.592 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0051.606 (0) Table wp_usermeta: Rows added in this batch (next record: 307): 111 (uncompressed bytes in this segment=88868) in 0.03 seconds
+0051.650 (0) Table wp_usermeta: finishing file(s) (2, 10.3 KB)
+0051.661 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 54502
+0052.700 (0) Table wp_actionscheduler_actions: binary mysqldump finished (writes: 68, bytes 22423385, return code 0) in 1.03 seconds
+0052.721 (0) Table wp_actionscheduler_actions: finishing file(s) (1, 1436.2 KB)
+0052.740 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 3
+0052.745 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.755 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: 242703): 3 (uncompressed bytes in this segment=773) in 0.02 seconds
+0052.768 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0052.782 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 17
+0052.786 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.792 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=1180) in 0.01 seconds
+0052.810 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.6 KB)
+0052.820 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 167642
+0052.829 (0) [Warning] Table wp_actionscheduler_logs has very many rows (167642) - we hope your web hosting company gives you enough resources to dump out that table in the backup. If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0053.773 (0) Table wp_actionscheduler_logs: binary mysqldump finished (writes: 49, bytes 17193323, return code 0) in 0.94 seconds
+0053.794 (0) Table wp_actionscheduler_logs: finishing file(s) (1, 1314.9 KB)
+0053.824 (0) Table wp_commentmeta: Total expected rows (via COUNT): 1
+0053.831 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0053.841 (0) Table wp_commentmeta: Rows added in this batch (next record: 408): 1 (uncompressed bytes in this segment=806) in 0.03 seconds
+0053.862 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0053.879 (0) Table wp_comments: Total expected rows (via COUNT): 28
+0053.885 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0053.895 (0) Table wp_comments: Rows added in this batch (next record: 142): 28 (uncompressed bytes in this segment=11616) in 0.02 seconds
+0053.908 (0) Table wp_comments: finishing file(s) (2, 2.5 KB)
+0053.929 (0) Table wp_e_notes: Total expected rows (via COUNT): 0
+0053.938 (0) Table wp_e_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2049) in 0.02 seconds
+0053.960 (0) Table wp_e_notes: finishing file(s) (2, 0.8 KB)
+0053.975 (0) Table wp_e_notes_users_relations: Total expected rows (via COUNT): 0
+0053.979 (0) Table wp_e_notes_users_relations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=871) in 0.01 seconds
+0053.994 (0) Table wp_e_notes_users_relations: finishing file(s) (2, 0.4 KB)
+0054.008 (0) Table wp_links: Total expected rows (via COUNT): 0
+0054.014 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.01 seconds
+0054.029 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0054.039 (0) Table wp_postmeta: Total expected rows (approximate): 8985
+0054.284 (0) Table wp_postmeta: binary mysqldump finished (writes: 37, bytes 6159450, return code 0) in 0.24 seconds
+0054.295 (0) Table wp_postmeta: finishing file(s) (1, 502.5 KB)
+0054.319 (0) Table wp_posts: Total expected rows (approximate): 1046
+0054.405 (0) Table wp_posts: Rows added in this batch (next record: 4682): 1096 (uncompressed bytes in this segment=1897571) in 0.10 seconds
+0054.425 (0) Table wp_posts: finishing file(s) (2, 176.5 KB)
+0054.439 (0) Table wp_term_relationships: Total expected rows (approximate): 761
+0054.451 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 761 (uncompressed bytes in this segment=13085) in 0.01 seconds
+0054.464 (0) Table wp_term_relationships: finishing file(s) (2, 2.4 KB)
+0054.486 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 162
+0054.493 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.513 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 213): 162 (uncompressed bytes in this segment=12103) in 0.04 seconds
+0054.541 (0) Table wp_term_taxonomy: finishing file(s) (2, 2.9 KB)
+0054.563 (0) Table wp_termmeta: Total expected rows (via COUNT): 501
+0054.567 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.579 (0) Table wp_termmeta: Rows added in this batch (next record: 605): 501 (uncompressed bytes in this segment=37193) in 0.03 seconds
+0054.597 (0) Table wp_termmeta: finishing file(s) (2, 5.4 KB)
+0054.610 (0) Table wp_terms: Total expected rows (via COUNT): 162
+0054.615 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.625 (0) Table wp_terms: Rows added in this batch (next record: 213): 162 (uncompressed bytes in this segment=13529) in 0.02 seconds
+0054.641 (0) Table wp_terms: finishing file(s) (2, 3.2 KB)
+0054.655 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 65
+0054.672 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 65 (uncompressed bytes in this segment=1366) in 0.02 seconds
+0054.694 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.6 KB)
+0054.709 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 92
+0054.713 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.727 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 4445): 92 (uncompressed bytes in this segment=10362) in 0.02 seconds
+0054.739 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 1.3 KB)
+0054.752 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0054.764 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=657) in 0.01 seconds
+0054.781 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0054.794 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0054.798 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.807 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=942) in 0.02 seconds
+0054.822 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.5 KB)
+0054.842 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 287
+0054.846 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.859 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 287): 287 (uncompressed bytes in this segment=24078) in 0.02 seconds
+0054.884 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 4.4 KB)
+0054.907 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0054.916 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=834) in 0.02 seconds
+0054.936 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0054.954 (0) Table wp_wpr_above_the_fold: Total expected rows (via COUNT): 39
+0054.958 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.970 (0) Table wp_wpr_above_the_fold: Rows added in this batch (next record: 40): 39 (uncompressed bytes in this segment=52539) in 0.02 seconds
+0054.995 (0) Table wp_wpr_above_the_fold: finishing file(s) (2, 3.8 KB)
+0055.029 (0) Table wp_wpr_lazy_render_content: Total expected rows (via COUNT): 39
+0055.033 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.039 (0) Table wp_wpr_lazy_render_content: Rows added in this batch (next record: 40): 39 (uncompressed bytes in this segment=8399) in 0.02 seconds
+0055.060 (0) Table wp_wpr_lazy_render_content: finishing file(s) (2, 1.5 KB)
+0055.073 (0) Table wp_wpr_rocket_cache: Total expected rows (via COUNT): 447
+0055.078 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.091 (0) Table wp_wpr_rocket_cache: Rows added in this batch (next record: 583): 447 (uncompressed bytes in this segment=64044) in 0.02 seconds
+0055.106 (0) Table wp_wpr_rocket_cache: finishing file(s) (2, 8.4 KB)
+0055.129 (0) Table wp_wpr_rucss_used_css: Total expected rows (via COUNT): 565
+0055.159 (0) Table wp_wpr_rucss_used_css: Rows added in this batch (next record: 840): 565 (uncompressed bytes in this segment=988952) in 0.04 seconds
+0055.178 (0) Table wp_wpr_rucss_used_css: finishing file(s) (2, 31.6 KB)
+0055.192 (0) Table wp_cc_condition: Total expected rows (via COUNT): 0
+0055.197 (0) Table wp_cc_condition: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1046) in 0.01 seconds
+0055.213 (0) Table wp_cc_condition: finishing file(s) (2, 0.5 KB)
+0055.229 (0) Table wp_cc_discounts: Total expected rows (via COUNT): 0
+0055.234 (0) Table wp_cc_discounts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1209) in 0.01 seconds
+0055.247 (0) Table wp_cc_discounts: finishing file(s) (2, 0.5 KB)
+0055.265 (0) Table wp_cc_form_fields: Total expected rows (via COUNT): 4
+0055.269 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.282 (0) Table wp_cc_form_fields: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1286) in 0.02 seconds
+0055.295 (0) Table wp_cc_form_fields: finishing file(s) (2, 0.6 KB)
+0055.316 (0) Table wp_cc_form_fields_attributes: Total expected rows (via COUNT): 18
+0055.320 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.325 (0) Table wp_cc_form_fields_attributes: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=2376) in 0.02 seconds
+0055.344 (0) Table wp_cc_form_fields_attributes: finishing file(s) (2, 0.7 KB)
+0055.361 (0) Table wp_cc_forms: Total expected rows (via COUNT): 1
+0055.368 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.374 (0) Table wp_cc_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=734) in 0.02 seconds
+0055.392 (0) Table wp_cc_forms: finishing file(s) (2, 0.4 KB)
+0055.418 (0) Table wp_cc_orders: Total expected rows (via COUNT): 49
+0055.422 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.433 (0) Table wp_cc_orders: Rows added in this batch (next record: 69): 49 (uncompressed bytes in this segment=59756) in 0.03 seconds
+0055.450 (0) Table wp_cc_orders: finishing file(s) (2, 4.1 KB)
+0055.473 (0) Table wp_cc_payments: Total expected rows (via COUNT): 64
+0055.477 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.492 (0) Table wp_cc_payments: Rows added in this batch (next record: 69): 64 (uncompressed bytes in this segment=9339) in 0.03 seconds
+0055.531 (0) Table wp_cc_payments: finishing file(s) (2, 1.8 KB)
+0055.559 (0) Table wp_cc_promocodes: Total expected rows (via COUNT): 0
+0055.570 (0) Table wp_cc_promocodes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=801) in 0.02 seconds
+0055.584 (0) Table wp_cc_promocodes: finishing file(s) (2, 0.4 KB)
+0055.599 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0055.606 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=547) in 0.01 seconds
+0055.621 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0055.638 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0055.646 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2474) in 0.01 seconds
+0055.662 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0055.679 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0055.685 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1331) in 0.01 seconds
+0055.702 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0055.737 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0055.742 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=760) in 0.02 seconds
+0055.762 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0055.779 (0) Table wp_gla_attribute_mapping_rules: Total expected rows (via COUNT): 0
+0055.785 (0) Table wp_gla_attribute_mapping_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=857) in 0.01 seconds
+0055.803 (0) Table wp_gla_attribute_mapping_rules: finishing file(s) (2, 0.4 KB)
+0055.816 (0) Table wp_gla_budget_recommendations: Total expected rows (approximate): 4230
+0055.849 (0) Table wp_gla_budget_recommendations: Rows added in this batch (next record: 4230): 4230 (uncompressed bytes in this segment=113931) in 0.04 seconds
+0055.864 (0) Table wp_gla_budget_recommendations: finishing file(s) (2, 23.9 KB)
+0055.880 (0) Table wp_gla_merchant_issues: Total expected rows (via COUNT): 12
+0055.884 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.895 (0) Table wp_gla_merchant_issues: Rows added in this batch (next record: 767): 12 (uncompressed bytes in this segment=5364) in 0.02 seconds
+0055.908 (0) Table wp_gla_merchant_issues: finishing file(s) (2, 1.2 KB)
+0055.923 (0) Table wp_gla_shipping_rates: Total expected rows (via COUNT): 1
+0055.929 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.934 (0) Table wp_gla_shipping_rates: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=882) in 0.01 seconds
+0055.946 (0) Table wp_gla_shipping_rates: finishing file(s) (2, 0.4 KB)
+0055.964 (0) Table wp_gla_shipping_times: Total expected rows (via COUNT): 1
+0055.968 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.972 (0) Table wp_gla_shipping_times: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=722) in 0.01 seconds
+0055.985 (0) Table wp_gla_shipping_times: finishing file(s) (2, 0.4 KB)
+0056.043 (0) Table wp_icl_background_task: Total expected rows (via COUNT): 2
+0056.047 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.062 (0) Table wp_icl_background_task: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1876) in 0.06 seconds
+0056.077 (0) Table wp_icl_background_task: finishing file(s) (2, 0.8 KB)
+0056.095 (0) Table wp_jetpack_sync_queue: Total expected rows (via COUNT): 0
+0056.162 (0) Table wp_jetpack_sync_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=943) in 0.07 seconds
+0056.212 (0) Table wp_jetpack_sync_queue: finishing file(s) (2, 0.4 KB)
+0056.256 (0) Table wp_litespeed_avatar: Total expected rows (via COUNT): 25
+0056.260 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.269 (0) Table wp_litespeed_avatar: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=4296) in 0.02 seconds
+0056.283 (0) Table wp_litespeed_avatar: finishing file(s) (2, 1.5 KB)
+0056.297 (0) Table wp_litespeed_img_optming: Total expected rows (via COUNT): 65
+0056.301 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.312 (0) Table wp_litespeed_img_optming: Rows added in this batch (next record: 1261): 65 (uncompressed bytes in this segment=5189) in 0.02 seconds
+0056.325 (0) Table wp_litespeed_img_optming: finishing file(s) (2, 1.1 KB)
+0056.340 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 124
+0056.347 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.357 (0) Table wp_litespeed_url: Rows added in this batch (next record: 6169): 124 (uncompressed bytes in this segment=10651) in 0.02 seconds
+0056.372 (0) Table wp_litespeed_url: finishing file(s) (2, 2 KB)
+0056.387 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 141
+0056.391 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.401 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: 17086): 141 (uncompressed bytes in this segment=11121) in 0.02 seconds
+0056.418 (0) Table wp_litespeed_url_file: finishing file(s) (2, 4.1 KB)
+0056.446 (0) Table wp_mailpoet_automation_run_logs: Total expected rows (via COUNT): 0
+0056.456 (0) Table wp_mailpoet_automation_run_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1360) in 0.02 seconds
+0056.489 (0) Table wp_mailpoet_automation_run_logs: finishing file(s) (2, 0.5 KB)
+0056.519 (0) Table wp_mailpoet_automation_run_subjects: Total expected rows (via COUNT): 0
+0056.524 (0) Table wp_mailpoet_automation_run_subjects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=905) in 0.02 seconds
+0056.544 (0) Table wp_mailpoet_automation_run_subjects: finishing file(s) (2, 0.4 KB)
+0056.560 (0) Table wp_mailpoet_automation_runs: Total expected rows (via COUNT): 0
+0056.566 (0) Table wp_mailpoet_automation_runs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1165) in 0.01 seconds
+0056.581 (0) Table wp_mailpoet_automation_runs: finishing file(s) (2, 0.5 KB)
+0056.597 (0) Table wp_mailpoet_automation_triggers: Total expected rows (approximate): 0
+0056.603 (0) Table wp_mailpoet_automation_triggers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=628) in 0.01 seconds
+0056.618 (0) Table wp_mailpoet_automation_triggers: finishing file(s) (2, 0.3 KB)
+0056.642 (0) Table wp_mailpoet_automation_versions: Total expected rows (via COUNT): 0
+0056.647 (0) Table wp_mailpoet_automation_versions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=803) in 0.02 seconds
+0056.671 (0) Table wp_mailpoet_automation_versions: finishing file(s) (2, 0.4 KB)
+0056.698 (0) Table wp_mailpoet_automations: Total expected rows (via COUNT): 0
+0056.705 (0) Table wp_mailpoet_automations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=962) in 0.02 seconds
+0056.726 (0) Table wp_mailpoet_automations: finishing file(s) (2, 0.4 KB)
+0056.746 (0) Table wp_mailpoet_custom_fields: Total expected rows (via COUNT): 0
+0056.754 (0) Table wp_mailpoet_custom_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=893) in 0.02 seconds
+0056.798 (0) Table wp_mailpoet_custom_fields: finishing file(s) (2, 0.4 KB)
+0056.819 (0) Table wp_mailpoet_dynamic_segment_filters: Total expected rows (via COUNT): 0
+0056.827 (0) Table wp_mailpoet_dynamic_segment_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=958) in 0.01 seconds
+0056.844 (0) Table wp_mailpoet_dynamic_segment_filters: finishing file(s) (2, 0.4 KB)
+0056.871 (0) Table wp_mailpoet_feature_flags: Total expected rows (via COUNT): 0
+0056.876 (0) Table wp_mailpoet_feature_flags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=762) in 0.02 seconds
+0056.906 (0) Table wp_mailpoet_feature_flags: finishing file(s) (2, 0.4 KB)
+0056.942 (0) Table wp_mailpoet_forms: Total expected rows (via COUNT): 0
+0056.947 (0) Table wp_mailpoet_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1018) in 0.02 seconds
+0056.968 (0) Table wp_mailpoet_forms: finishing file(s) (2, 0.4 KB)
+0056.991 (0) Table wp_mailpoet_log: Total expected rows (via COUNT): 0
+0056.996 (0) Table wp_mailpoet_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=825) in 0.01 seconds
+0057.028 (0) Table wp_mailpoet_log: finishing file(s) (2, 0.4 KB)
+0057.044 (0) Table wp_mailpoet_migrations: Total expected rows (via COUNT): 34
+0057.048 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.058 (0) Table wp_mailpoet_migrations: Rows added in this batch (next record: 34): 34 (uncompressed bytes in this segment=4014) in 0.02 seconds
+0057.072 (0) Table wp_mailpoet_migrations: finishing file(s) (2, 0.9 KB)
+0057.088 (0) Table wp_mailpoet_newsletter_links: Total expected rows (via COUNT): 0
+0057.098 (0) Table wp_mailpoet_newsletter_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=974) in 0.01 seconds
+0057.111 (0) Table wp_mailpoet_newsletter_links: finishing file(s) (2, 0.4 KB)
+0057.130 (0) Table wp_mailpoet_newsletter_option: Total expected rows (via COUNT): 0
+0057.136 (0) Table wp_mailpoet_newsletter_option: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=875) in 0.01 seconds
+0057.155 (0) Table wp_mailpoet_newsletter_option: finishing file(s) (2, 0.4 KB)
+0057.168 (0) Table wp_mailpoet_newsletter_option_fields: Total expected rows (via COUNT): 31
+0057.172 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.185 (0) Table wp_mailpoet_newsletter_option_fields: Rows added in this batch (next record: 31): 31 (uncompressed bytes in this segment=2982) in 0.02 seconds
+0057.199 (0) Table wp_mailpoet_newsletter_option_fields: finishing file(s) (2, 0.8 KB)
+0057.218 (0) Table wp_mailpoet_newsletter_posts: Total expected rows (via COUNT): 0
+0057.229 (0) Table wp_mailpoet_newsletter_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=747) in 0.01 seconds
+0057.245 (0) Table wp_mailpoet_newsletter_posts: finishing file(s) (2, 0.4 KB)
+0057.261 (0) Table wp_mailpoet_newsletter_segment: Total expected rows (via COUNT): 0
+0057.267 (0) Table wp_mailpoet_newsletter_segment: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=787) in 0.01 seconds
+0057.282 (0) Table wp_mailpoet_newsletter_segment: finishing file(s) (2, 0.4 KB)
+0057.373 (0) Table wp_mailpoet_newsletter_templates: Total expected rows (via COUNT): 82
+0057.378 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.426 (0) Table wp_mailpoet_newsletter_templates: Rows added in this batch (next record: 87): 82 (uncompressed bytes in this segment=1219315) in 0.13 seconds
+0057.445 (0) Table wp_mailpoet_newsletter_templates: finishing file(s) (2, 74.6 KB)
+0057.467 (0) Table wp_mailpoet_newsletters: Total expected rows (via COUNT): 0
+0057.478 (0) Table wp_mailpoet_newsletters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2079) in 0.02 seconds
+0057.506 (0) Table wp_mailpoet_newsletters: finishing file(s) (2, 0.6 KB)
+0057.521 (0) Table wp_mailpoet_scheduled_task_subscribers: Total expected rows (approximate): 0
+0057.527 (0) Table wp_mailpoet_scheduled_task_subscribers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=922) in 0.01 seconds
+0057.543 (0) Table wp_mailpoet_scheduled_task_subscribers: finishing file(s) (2, 0.4 KB)
+0057.566 (0) Table wp_mailpoet_scheduled_tasks: Total expected rows (approximate): 3984
+0057.644 (0) Table wp_mailpoet_scheduled_tasks: Rows added in this batch (next record: 4004): 4004 (uncompressed bytes in this segment=623292) in 0.09 seconds
+0057.663 (0) Table wp_mailpoet_scheduled_tasks: finishing file(s) (2, 71.9 KB)
+0057.682 (0) Table wp_mailpoet_segments: Total expected rows (via COUNT): 3
+0057.692 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.702 (0) Table wp_mailpoet_segments: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=2007) in 0.02 seconds
+0057.716 (0) Table wp_mailpoet_segments: finishing file(s) (2, 0.8 KB)
+0057.739 (0) Table wp_mailpoet_sending_queues: Total expected rows (via COUNT): 0
+0057.751 (0) Table wp_mailpoet_sending_queues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1329) in 0.02 seconds
+0057.772 (0) Table wp_mailpoet_sending_queues: finishing file(s) (2, 0.5 KB)
+0057.796 (0) Table wp_mailpoet_settings: Total expected rows (via COUNT): 16
+0057.801 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.810 (0) Table wp_mailpoet_settings: Rows added in this batch (next record: 12254): 16 (uncompressed bytes in this segment=3759) in 0.02 seconds
+0057.829 (0) Table wp_mailpoet_settings: finishing file(s) (2, 1.5 KB)
+0057.846 (0) Table wp_mailpoet_statistics_bounces: Total expected rows (via COUNT): 0
+0057.858 (0) Table wp_mailpoet_statistics_bounces: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.02 seconds
+0057.872 (0) Table wp_mailpoet_statistics_bounces: finishing file(s) (2, 0.4 KB)
+0057.889 (0) Table wp_mailpoet_statistics_clicks: Total expected rows (via COUNT): 0
+0057.893 (0) Table wp_mailpoet_statistics_clicks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1097) in 0.01 seconds
+0057.907 (0) Table wp_mailpoet_statistics_clicks: finishing file(s) (2, 0.5 KB)
+0057.927 (0) Table wp_mailpoet_statistics_forms: Total expected rows (via COUNT): 0
+0057.936 (0) Table wp_mailpoet_statistics_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.01 seconds
+0057.950 (0) Table wp_mailpoet_statistics_forms: finishing file(s) (2, 0.4 KB)
+0057.965 (0) Table wp_mailpoet_statistics_newsletters: Total expected rows (via COUNT): 0
+0057.974 (0) Table wp_mailpoet_statistics_newsletters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=791) in 0.01 seconds
+0057.990 (0) Table wp_mailpoet_statistics_newsletters: finishing file(s) (2, 0.4 KB)
+0058.013 (0) Table wp_mailpoet_statistics_opens: Total expected rows (via COUNT): 0
+0058.018 (0) Table wp_mailpoet_statistics_opens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1051) in 0.01 seconds
+0058.034 (0) Table wp_mailpoet_statistics_opens: finishing file(s) (2, 0.5 KB)
+0058.049 (0) Table wp_mailpoet_statistics_unsubscribes: Total expected rows (via COUNT): 0
+0058.055 (0) Table wp_mailpoet_statistics_unsubscribes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1158) in 0.01 seconds
+0058.071 (0) Table wp_mailpoet_statistics_unsubscribes: finishing file(s) (2, 0.5 KB)
+0058.088 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Total expected rows (via COUNT): 0
+0058.094 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1405) in 0.01 seconds
+0058.107 (0) Table wp_mailpoet_statistics_woocommerce_purchases: finishing file(s) (2, 0.6 KB)
+0058.126 (0) Table wp_mailpoet_stats_notifications: Total expected rows (via COUNT): 0
+0058.137 (0) Table wp_mailpoet_stats_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=819) in 0.02 seconds
+0058.159 (0) Table wp_mailpoet_stats_notifications: finishing file(s) (2, 0.4 KB)
+0058.182 (0) Table wp_mailpoet_subscriber_custom_field: Total expected rows (via COUNT): 0
+0058.192 (0) Table wp_mailpoet_subscriber_custom_field: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=916) in 0.02 seconds
+0058.219 (0) Table wp_mailpoet_subscriber_custom_field: finishing file(s) (2, 0.4 KB)
+0058.234 (0) Table wp_mailpoet_subscriber_ips: Total expected rows (approximate): 0
+0058.242 (0) Table wp_mailpoet_subscriber_ips: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=615) in 0.01 seconds
+0058.257 (0) Table wp_mailpoet_subscriber_ips: finishing file(s) (2, 0.4 KB)
+0058.272 (0) Table wp_mailpoet_subscriber_segment: Total expected rows (via COUNT): 3
+0058.276 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.287 (0) Table wp_mailpoet_subscriber_segment: Rows added in this batch (next record: 5): 3 (uncompressed bytes in this segment=1216) in 0.02 seconds
+0058.303 (0) Table wp_mailpoet_subscriber_segment: finishing file(s) (2, 0.5 KB)
+0058.324 (0) Table wp_mailpoet_subscriber_tag: Total expected rows (via COUNT): 0
+0058.354 (0) Table wp_mailpoet_subscriber_tag: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=778) in 0.03 seconds
+0058.368 (0) Table wp_mailpoet_subscriber_tag: finishing file(s) (2, 0.4 KB)
+0058.389 (0) Table wp_mailpoet_subscribers: Total expected rows (via COUNT): 7
+0058.394 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.404 (0) Table wp_mailpoet_subscribers: Rows added in this batch (next record: 19): 7 (uncompressed bytes in this segment=5547) in 0.03 seconds
+0058.424 (0) Table wp_mailpoet_subscribers: finishing file(s) (2, 1.5 KB)
+0058.441 (0) Table wp_mailpoet_tags: Total expected rows (via COUNT): 0
+0058.451 (0) Table wp_mailpoet_tags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=757) in 0.01 seconds
+0058.469 (0) Table wp_mailpoet_tags: finishing file(s) (2, 0.4 KB)
+0058.484 (0) Table wp_mailpoet_user_agents: Total expected rows (via COUNT): 0
+0058.489 (0) Table wp_mailpoet_user_agents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=797) in 0.01 seconds
+0058.503 (0) Table wp_mailpoet_user_agents: finishing file(s) (2, 0.4 KB)
+0058.517 (0) Table wp_mailpoet_user_flags: Total expected rows (via COUNT): 0
+0058.525 (0) Table wp_mailpoet_user_flags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=845) in 0.01 seconds
+0058.539 (0) Table wp_mailpoet_user_flags: finishing file(s) (2, 0.4 KB)
+0058.562 (0) Table wp_revslider_css: Total expected rows (via COUNT): 109
+0058.566 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.578 (0) Table wp_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=91061) in 0.03 seconds
+0058.606 (0) Table wp_revslider_css: finishing file(s) (2, 4.9 KB)
+0058.624 (0) Table wp_revslider_layer_animations: Total expected rows (via COUNT): 0
+0058.633 (0) Table wp_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=533) in 0.01 seconds
+0058.653 (0) Table wp_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0058.701 (0) Table wp_revslider_navigations: Total expected rows (via COUNT): 0
+0058.734 (0) Table wp_revslider_navigations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=610) in 0.06 seconds
+0058.879 (0) Table wp_revslider_navigations: finishing file(s) (2, 0.3 KB)
+0058.900 (0) Table wp_revslider_sliders: Total expected rows (via COUNT): 1
+0058.904 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.916 (0) Table wp_revslider_sliders: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=9955) in 0.03 seconds
+0058.934 (0) Table wp_revslider_sliders: finishing file(s) (2, 3.3 KB)
+0058.954 (0) Table wp_revslider_sliders7: Total expected rows (via COUNT): 1
+0058.958 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.963 (0) Table wp_revslider_sliders7: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=4409) in 0.02 seconds
+0058.980 (0) Table wp_revslider_sliders7: finishing file(s) (2, 1.7 KB)
+0059.000 (0) Table wp_revslider_slides: Total expected rows (via COUNT): 2
+0059.004 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.011 (0) Table wp_revslider_slides: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=42881) in 0.02 seconds
+0059.033 (0) Table wp_revslider_slides: finishing file(s) (2, 3.9 KB)
+0059.053 (0) Table wp_revslider_slides7: Total expected rows (via COUNT): 3
+0059.057 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.063 (0) Table wp_revslider_slides7: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=42154) in 0.02 seconds
+0059.083 (0) Table wp_revslider_slides7: finishing file(s) (2, 4.2 KB)
+0059.106 (0) Table wp_revslider_static_slides: Total expected rows (via COUNT): 1
+0059.110 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.119 (0) Table wp_revslider_static_slides: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=6394) in 0.02 seconds
+0059.136 (0) Table wp_revslider_static_slides: finishing file(s) (2, 1.8 KB)
+0059.159 (0) Table wp_snippets: Total expected rows (via COUNT): 5
+0059.167 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.172 (0) Table wp_snippets: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2696) in 0.03 seconds
+0059.193 (0) Table wp_snippets: finishing file(s) (2, 1.1 KB)
+0059.211 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 107
+0059.215 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.225 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 15463): 107 (uncompressed bytes in this segment=21774) in 0.02 seconds
+0059.244 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 3.8 KB)
+0059.309 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 78
+0059.314 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.330 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 78): 78 (uncompressed bytes in this segment=39513) in 0.08 seconds
+0059.349 (0) Table wp_wc_admin_notes: finishing file(s) (2, 9.6 KB)
+0059.364 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 6
+0059.368 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.378 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=2259) in 0.02 seconds
+0059.394 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.9 KB)
+0059.411 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0059.421 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=757) in 0.01 seconds
+0059.438 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0059.451 (0) Table wp_wc_order_addresses: Total expected rows (via COUNT): 20
+0059.456 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.466 (0) Table wp_wc_order_addresses: Rows added in this batch (next record: 20): 20 (uncompressed bytes in this segment=4966) in 0.02 seconds
+0059.490 (0) Table wp_wc_order_addresses: finishing file(s) (2, 1.2 KB)
+0059.503 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 3
+0059.513 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=897) in 0.01 seconds
+0059.530 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.5 KB)
+0059.550 (0) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 13
+0059.559 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.569 (0) Table wp_wc_order_operational_data: Rows added in this batch (next record: 54): 13 (uncompressed bytes in this segment=4267) in 0.02 seconds
+0059.585 (0) Table wp_wc_order_operational_data: finishing file(s) (2, 1.4 KB)
+0059.601 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 13
+0059.605 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.611 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 38): 13 (uncompressed bytes in this segment=2393) in 0.01 seconds
+0059.632 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.8 KB)
+0059.646 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 13
+0059.650 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.656 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 4601): 13 (uncompressed bytes in this segment=3064) in 0.01 seconds
+0059.678 (0) Table wp_wc_order_stats: finishing file(s) (2, 1 KB)
+0059.707 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 13
+0059.718 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 1000): 13 (uncompressed bytes in this segment=1524) in 0.01 seconds
+0059.735 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.6 KB)
+0059.752 (0) Table wp_wc_orders: Total expected rows (via COUNT): 13
+0059.761 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.777 (0) Table wp_wc_orders: Rows added in this batch (next record: 4601): 13 (uncompressed bytes in this segment=6828) in 0.03 seconds
+0059.801 (0) Table wp_wc_orders: finishing file(s) (2, 1.6 KB)
+0059.815 (0) Table wp_wc_orders_meta: Total expected rows (via COUNT): 222
+0059.819 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.833 (0) Table wp_wc_orders_meta: Rows added in this batch (next record: 228): 222 (uncompressed bytes in this segment=16856) in 0.02 seconds
+0059.854 (0) Table wp_wc_orders_meta: finishing file(s) (2, 3.6 KB)
+0059.868 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 98
+0059.879 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 1000): 98 (uncompressed bytes in this segment=6701) in 0.01 seconds
+0059.895 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.9 KB)
+0059.910 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0059.914 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.925 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=935) in 0.02 seconds
+0059.940 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0059.956 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0059.965 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=710) in 0.01 seconds
+0059.982 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0060.003 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 6
+0060.007 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.018 (0) Table wp_wc_webhooks: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=3353) in 0.02 seconds
+0060.032 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.9 KB)
+0060.056 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 1
+0060.060 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.066 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1448) in 0.02 seconds
+0060.087 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.6 KB)
+0060.102 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0060.112 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1060) in 0.01 seconds
+0060.140 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0060.156 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0060.161 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1606) in 0.01 seconds
+0060.176 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0060.200 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0060.205 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=781) in 0.02 seconds
+0060.227 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0060.250 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 40
+0060.255 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.265 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 40): 40 (uncompressed bytes in this segment=3161) in 0.03 seconds
+0060.283 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.9 KB)
+0060.299 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0060.311 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=899) in 0.02 seconds
+0060.326 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0060.353 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1027
+0060.429 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 30090): 1027 (uncompressed bytes in this segment=3447482) in 0.09 seconds
+0060.448 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 137.7 KB)
+0060.462 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0060.467 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.476 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1005) in 0.02 seconds
+0060.494 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0060.572 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 2
+0060.580 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.591 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=919) in 0.08 seconds
+0060.608 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.5 KB)
+0060.721 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0060.730 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.738 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=774) in 0.12 seconds
+0060.751 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0060.771 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0060.783 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=884) in 0.02 seconds
+0060.799 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0060.813 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 1
+0060.821 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.830 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1539) in 0.02 seconds
+0060.854 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.6 KB)
+0060.875 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 293
+0060.880 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.912 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 297): 293 (uncompressed bytes in this segment=245070) in 0.05 seconds
+0060.937 (0) Table wp_yoast_indexable: finishing file(s) (2, 33 KB)
+0060.953 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 262
+0060.964 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 262 (uncompressed bytes in this segment=5170) in 0.01 seconds
+0060.988 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 1.1 KB)
+0061.013 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 26
+0061.018 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.027 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 26): 26 (uncompressed bytes in this segment=1292) in 0.02 seconds
+0061.042 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0061.058 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 99
+0061.065 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.075 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: 99): 99 (uncompressed bytes in this segment=8974) in 0.02 seconds
+0061.091 (0) Table wp_yoast_primary_term: finishing file(s) (2, 2.2 KB)
+0061.107 (0) Table wp_yoast_prominent_words: Total expected rows (via COUNT): 60
+0061.111 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.117 (0) Table wp_yoast_prominent_words: Rows added in this batch (next record: 60): 60 (uncompressed bytes in this segment=2519) in 0.01 seconds
+0061.131 (0) Table wp_yoast_prominent_words: finishing file(s) (2, 1 KB)
+0061.146 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 137
+0061.150 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0061.161 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 759): 137 (uncompressed bytes in this segment=19979) in 0.02 seconds
+0061.174 (0) Table wp_yoast_seo_links: finishing file(s) (2, 3.6 KB)
+0061.179 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/ibnsina/public_html/wp-content/updraft/backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0061.184 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_options.table.tmpr433475.gz (1/134/fopen): adding to final database dump
+0061.200 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_options.table.gz (2/134/fopen): adding to final database dump
+0061.207 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_users.table.tmpr2.gz (3/134/fopen): adding to final database dump
+0061.211 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_users.table.gz (4/134/fopen): adding to final database dump
+0061.215 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_usermeta.table.tmpr308.gz (5/134/fopen): adding to final database dump
+0061.219 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_usermeta.table.gz (6/134/fopen): adding to final database dump
+0061.224 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_actionscheduler_actions.table.gz (7/134/fopen): adding to final database dump
+0061.245 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_actionscheduler_claims.table.tmpr242704.gz (8/134/fopen): adding to final database dump
+0061.250 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_actionscheduler_claims.table.gz (9/134/fopen): adding to final database dump
+0061.254 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_actionscheduler_groups.table.tmpr18.gz (10/134/fopen): adding to final database dump
+0061.259 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_actionscheduler_groups.table.gz (11/134/fopen): adding to final database dump
+0061.263 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_actionscheduler_logs.table.gz (12/134/fopen): adding to final database dump
+0061.283 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_commentmeta.table.tmpr409.gz (13/134/fopen): adding to final database dump
+0061.295 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_commentmeta.table.gz (14/134/fopen): adding to final database dump
+0061.299 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_comments.table.tmpr143.gz (15/134/fopen): adding to final database dump
+0061.303 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_comments.table.gz (16/134/fopen): adding to final database dump
+0061.309 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_e_notes.table.tmpr0.gz (17/134/fopen): adding to final database dump
+0061.313 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_e_notes.table.gz (18/134/fopen): adding to final database dump
+0061.317 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_e_notes_users_relations.table.tmpr0.gz (19/134/fopen): adding to final database dump
+0061.321 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_e_notes_users_relations.table.gz (20/134/fopen): adding to final database dump
+0061.325 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_links.table.tmpr0.gz (21/134/fopen): adding to final database dump
+0061.329 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_links.table.gz (22/134/fopen): adding to final database dump
+0061.333 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_postmeta.table.gz (23/134/fopen): adding to final database dump
+0061.344 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_posts.table.tmpr4683.gz (24/134/fopen): adding to final database dump
+0061.350 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_posts.table.gz (25/134/fopen): adding to final database dump
+0061.354 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_term_relationships.table.tmpr100001.gz (26/134/fopen): adding to final database dump
+0061.358 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_term_relationships.table.gz (27/134/fopen): adding to final database dump
+0061.362 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_term_taxonomy.table.tmpr214.gz (28/134/fopen): adding to final database dump
+0061.366 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_term_taxonomy.table.gz (29/134/fopen): adding to final database dump
+0061.372 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_termmeta.table.tmpr606.gz (30/134/fopen): adding to final database dump
+0061.380 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_termmeta.table.gz (31/134/fopen): adding to final database dump
+0061.384 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_terms.table.tmpr214.gz (32/134/fopen): adding to final database dump
+0061.389 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_terms.table.gz (33/134/fopen): adding to final database dump
+0061.393 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_category_lookup.table.tmpr1001.gz (34/134/fopen): adding to final database dump
+0061.397 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_category_lookup.table.gz (35/134/fopen): adding to final database dump
+0061.403 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_product_meta_lookup.table.tmpr4446.gz (36/134/fopen): adding to final database dump
+0061.409 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_product_meta_lookup.table.gz (37/134/fopen): adding to final database dump
+0061.413 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_reserved_stock.table.tmpr1.gz (38/134/fopen): adding to final database dump
+0061.418 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_reserved_stock.table.gz (39/134/fopen): adding to final database dump
+0061.422 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (40/134/fopen): adding to final database dump
+0061.426 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_tax_rate_classes.table.gz (41/134/fopen): adding to final database dump
+0061.430 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_order_itemmeta.table.tmpr288.gz (42/134/fopen): adding to final database dump
+0061.434 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_order_itemmeta.table.gz (43/134/fopen): adding to final database dump
+0061.438 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (44/134/fopen): adding to final database dump
+0061.442 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_payment_tokenmeta.table.gz (45/134/fopen): adding to final database dump
+0061.448 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wpr_above_the_fold.table.tmpr41.gz (46/134/fopen): adding to final database dump
+0061.452 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wpr_above_the_fold.table.gz (47/134/fopen): adding to final database dump
+0061.456 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wpr_lazy_render_content.table.tmpr41.gz (48/134/fopen): adding to final database dump
+0061.460 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wpr_lazy_render_content.table.gz (49/134/fopen): adding to final database dump
+0061.465 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wpr_rocket_cache.table.tmpr584.gz (50/134/fopen): adding to final database dump
+0061.469 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wpr_rocket_cache.table.gz (51/134/fopen): adding to final database dump
+0061.473 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wpr_rucss_used_css.table.tmpr841.gz (52/134/fopen): adding to final database dump
+0061.477 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wpr_rucss_used_css.table.gz (53/134/fopen): adding to final database dump
+0061.481 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_condition.table.tmpr0.gz (54/134/fopen): adding to final database dump
+0061.485 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_condition.table.gz (55/134/fopen): adding to final database dump
+0061.490 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_discounts.table.tmpr0.gz (56/134/fopen): adding to final database dump
+0061.494 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_discounts.table.gz (57/134/fopen): adding to final database dump
+0061.499 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_form_fields.table.tmpr5.gz (58/134/fopen): adding to final database dump
+0061.503 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_form_fields.table.gz (59/134/fopen): adding to final database dump
+0061.507 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_form_fields_attributes.table.tmpr19.gz (60/134/fopen): adding to final database dump
+0061.511 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_form_fields_attributes.table.gz (61/134/fopen): adding to final database dump
+0061.516 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_forms.table.tmpr2.gz (62/134/fopen): adding to final database dump
+0061.520 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_forms.table.gz (63/134/fopen): adding to final database dump
+0061.524 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_orders.table.tmpr70.gz (64/134/fopen): adding to final database dump
+0061.528 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_orders.table.gz (65/134/fopen): adding to final database dump
+0061.532 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_payments.table.tmpr70.gz (66/134/fopen): adding to final database dump
+0061.536 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_payments.table.gz (67/134/fopen): adding to final database dump
+0061.540 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_promocodes.table.tmpr0.gz (68/134/fopen): adding to final database dump
+0061.544 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_cc_promocodes.table.gz (69/134/fopen): adding to final database dump
+0061.549 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_e_events.table.tmpr0.gz (70/134/fopen): adding to final database dump
+0061.553 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_e_events.table.gz (71/134/fopen): adding to final database dump
+0061.560 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_e_submissions.table.tmpr0.gz (72/134/fopen): adding to final database dump
+0061.564 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_e_submissions.table.gz (73/134/fopen): adding to final database dump
+0061.569 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (74/134/fopen): adding to final database dump
+0061.573 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_e_submissions_actions_log.table.gz (75/134/fopen): adding to final database dump
+0061.577 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_e_submissions_values.table.tmpr0.gz (76/134/fopen): adding to final database dump
+0061.581 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_e_submissions_values.table.gz (77/134/fopen): adding to final database dump
+0061.585 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_gla_attribute_mapping_rules.table.tmpr0.gz (78/134/fopen): adding to final database dump
+0061.591 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_gla_attribute_mapping_rules.table.gz (79/134/fopen): adding to final database dump
+0061.595 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_gla_budget_recommendations.table.tmpr4231.gz (80/134/fopen): adding to final database dump
+0061.601 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_gla_budget_recommendations.table.gz (81/134/fopen): adding to final database dump
+0061.607 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_gla_merchant_issues.table.tmpr768.gz (82/134/fopen): adding to final database dump
+0061.611 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_gla_merchant_issues.table.gz (83/134/fopen): adding to final database dump
+0061.615 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_gla_shipping_rates.table.tmpr2.gz (84/134/fopen): adding to final database dump
+0061.619 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_gla_shipping_rates.table.gz (85/134/fopen): adding to final database dump
+0061.623 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_gla_shipping_times.table.tmpr2.gz (86/134/fopen): adding to final database dump
+0061.627 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_gla_shipping_times.table.gz (87/134/fopen): adding to final database dump
+0061.631 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_icl_background_task.table.tmpr3.gz (88/134/fopen): adding to final database dump
+0061.635 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_icl_background_task.table.gz (89/134/fopen): adding to final database dump
+0061.639 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_jetpack_sync_queue.table.tmpr0.gz (90/134/fopen): adding to final database dump
+0061.643 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_jetpack_sync_queue.table.gz (91/134/fopen): adding to final database dump
+0061.647 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_litespeed_avatar.table.tmpr26.gz (92/134/fopen): adding to final database dump
+0061.651 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_litespeed_avatar.table.gz (93/134/fopen): adding to final database dump
+0061.658 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_litespeed_img_optming.table.tmpr1262.gz (94/134/fopen): adding to final database dump
+0061.663 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_litespeed_img_optming.table.gz (95/134/fopen): adding to final database dump
+0061.667 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_litespeed_url.table.tmpr6170.gz (96/134/fopen): adding to final database dump
+0061.672 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_litespeed_url.table.gz (97/134/fopen): adding to final database dump
+0061.675 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_litespeed_url_file.table.tmpr17087.gz (98/134/fopen): adding to final database dump
+0061.682 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_litespeed_url_file.table.gz (99/134/fopen): adding to final database dump
+0061.695 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_automation_run_logs.table.tmpr0.gz (100/134/fopen): adding to final database dump
+0061.699 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_automation_run_logs.table.gz (101/134/fopen): adding to final database dump
+0061.703 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_automation_run_subjects.table.tmpr0.gz (102/134/fopen): adding to final database dump
+0061.708 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_automation_run_subjects.table.gz (103/134/fopen): adding to final database dump
+0061.712 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_automation_runs.table.tmpr0.gz (104/134/fopen): adding to final database dump
+0061.716 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_automation_runs.table.gz (105/134/fopen): adding to final database dump
+0061.720 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_automation_triggers.table.tmpr1.gz (106/134/fopen): adding to final database dump
+0061.724 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_automation_triggers.table.gz (107/134/fopen): adding to final database dump
+0061.728 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_automation_versions.table.tmpr0.gz (108/134/fopen): adding to final database dump
+0061.732 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_automation_versions.table.gz (109/134/fopen): adding to final database dump
+0061.735 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_automations.table.tmpr0.gz (110/134/fopen): adding to final database dump
+0061.740 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_automations.table.gz (111/134/fopen): adding to final database dump
+0061.744 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_custom_fields.table.tmpr0.gz (112/134/fopen): adding to final database dump
+0061.748 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_custom_fields.table.gz (113/134/fopen): adding to final database dump
+0061.755 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_dynamic_segment_filters.table.tmpr0.gz (114/134/fopen): adding to final database dump
+0061.759 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_dynamic_segment_filters.table.gz (115/134/fopen): adding to final database dump
+0061.763 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_feature_flags.table.tmpr0.gz (116/134/fopen): adding to final database dump
+0061.767 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_feature_flags.table.gz (117/134/fopen): adding to final database dump
+0061.771 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_forms.table.tmpr0.gz (118/134/fopen): adding to final database dump
+0061.775 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_forms.table.gz (119/134/fopen): adding to final database dump
+0061.779 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_log.table.tmpr0.gz (120/134/fopen): adding to final database dump
+0061.783 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_log.table.gz (121/134/fopen): adding to final database dump
+0061.787 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_migrations.table.tmpr35.gz (122/134/fopen): adding to final database dump
+0061.791 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_migrations.table.gz (123/134/fopen): adding to final database dump
+0061.795 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletter_links.table.tmpr0.gz (124/134/fopen): adding to final database dump
+0061.799 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletter_links.table.gz (125/134/fopen): adding to final database dump
+0061.803 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletter_option.table.tmpr0.gz (126/134/fopen): adding to final database dump
+0061.807 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletter_option.table.gz (127/134/fopen): adding to final database dump
+0061.811 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletter_option_fields.table.tmpr32.gz (128/134/fopen): adding to final database dump
+0061.816 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletter_option_fields.table.gz (129/134/fopen): adding to final database dump
+0061.819 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletter_posts.table.tmpr0.gz (130/134/fopen): adding to final database dump
+0061.823 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletter_posts.table.gz (131/134/fopen): adding to final database dump
+0061.828 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletter_segment.table.tmpr0.gz (132/134/fopen): adding to final database dump
+0061.832 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletter_segment.table.gz (133/134/fopen): adding to final database dump
+0061.836 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletter_templates.table.tmpr88.gz (134/134/fopen): adding to final database dump
+0061.845 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletter_templates.table.gz (135/134/fopen): adding to final database dump
+0061.849 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletters.table.tmpr0.gz (136/134/fopen): adding to final database dump
+0061.855 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_newsletters.table.gz (137/134/fopen): adding to final database dump
+0061.861 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_scheduled_task_subscribers.table.tmpr1.gz (138/134/fopen): adding to final database dump
+0061.865 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_scheduled_task_subscribers.table.gz (139/134/fopen): adding to final database dump
+0061.870 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_scheduled_tasks.table.tmpr4005.gz (140/134/fopen): adding to final database dump
+0061.876 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_scheduled_tasks.table.gz (141/134/fopen): adding to final database dump
+0061.880 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_segments.table.tmpr4.gz (142/134/fopen): adding to final database dump
+0061.884 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_segments.table.gz (143/134/fopen): adding to final database dump
+0061.888 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_sending_queues.table.tmpr0.gz (144/134/fopen): adding to final database dump
+0061.893 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_sending_queues.table.gz (145/134/fopen): adding to final database dump
+0061.897 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_settings.table.tmpr12255.gz (146/134/fopen): adding to final database dump
+0061.901 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_settings.table.gz (147/134/fopen): adding to final database dump
+0061.908 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_bounces.table.tmpr0.gz (148/134/fopen): adding to final database dump
+0061.912 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_bounces.table.gz (149/134/fopen): adding to final database dump
+0061.916 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_clicks.table.tmpr0.gz (150/134/fopen): adding to final database dump
+0061.920 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_clicks.table.gz (151/134/fopen): adding to final database dump
+0061.924 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_forms.table.tmpr0.gz (152/134/fopen): adding to final database dump
+0061.929 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_forms.table.gz (153/134/fopen): adding to final database dump
+0061.933 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_newsletters.table.tmpr0.gz (154/134/fopen): adding to final database dump
+0061.937 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_newsletters.table.gz (155/134/fopen): adding to final database dump
+0061.941 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_opens.table.tmpr0.gz (156/134/fopen): adding to final database dump
+0061.946 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_opens.table.gz (157/134/fopen): adding to final database dump
+0061.950 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_unsubscribes.table.tmpr0.gz (158/134/fopen): adding to final database dump
+0061.955 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_unsubscribes.table.gz (159/134/fopen): adding to final database dump
+0061.959 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.tmpr0.gz (160/134/fopen): adding to final database dump
+0061.963 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.gz (161/134/fopen): adding to final database dump
+0061.967 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_stats_notifications.table.tmpr0.gz (162/134/fopen): adding to final database dump
+0061.971 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_stats_notifications.table.gz (163/134/fopen): adding to final database dump
+0061.975 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_subscriber_custom_field.table.tmpr0.gz (164/134/fopen): adding to final database dump
+0061.980 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_subscriber_custom_field.table.gz (165/134/fopen): adding to final database dump
+0061.984 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_subscriber_ips.table.tmpr1.gz (166/134/fopen): adding to final database dump
+0061.989 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_subscriber_ips.table.gz (167/134/fopen): adding to final database dump
+0061.993 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_subscriber_segment.table.tmpr6.gz (168/134/fopen): adding to final database dump
+0061.997 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_subscriber_segment.table.gz (169/134/fopen): adding to final database dump
+0062.001 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_subscriber_tag.table.tmpr0.gz (170/134/fopen): adding to final database dump
+0062.006 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_subscriber_tag.table.gz (171/134/fopen): adding to final database dump
+0062.010 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_subscribers.table.tmpr20.gz (172/134/fopen): adding to final database dump
+0062.015 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_subscribers.table.gz (173/134/fopen): adding to final database dump
+0062.032 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_tags.table.tmpr0.gz (174/134/fopen): adding to final database dump
+0062.065 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_tags.table.gz (175/134/fopen): adding to final database dump
+0062.115 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_user_agents.table.tmpr0.gz (176/134/fopen): adding to final database dump
+0062.142 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_user_agents.table.gz (177/134/fopen): adding to final database dump
+0062.153 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_user_flags.table.tmpr0.gz (178/134/fopen): adding to final database dump
+0062.186 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_mailpoet_user_flags.table.gz (179/134/fopen): adding to final database dump
+0062.226 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_css.table.tmpr110.gz (180/134/fopen): adding to final database dump
+0062.244 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_css.table.gz (181/134/fopen): adding to final database dump
+0062.249 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_layer_animations.table.tmpr0.gz (182/134/fopen): adding to final database dump
+0062.254 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_layer_animations.table.gz (183/134/fopen): adding to final database dump
+0062.258 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_navigations.table.tmpr0.gz (184/134/fopen): adding to final database dump
+0062.262 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_navigations.table.gz (185/134/fopen): adding to final database dump
+0062.266 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_sliders.table.tmpr2.gz (186/134/fopen): adding to final database dump
+0062.273 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_sliders.table.gz (187/134/fopen): adding to final database dump
+0062.278 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_sliders7.table.tmpr2.gz (188/134/fopen): adding to final database dump
+0062.282 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_sliders7.table.gz (189/134/fopen): adding to final database dump
+0062.286 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_slides.table.tmpr3.gz (190/134/fopen): adding to final database dump
+0062.290 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_slides.table.gz (191/134/fopen): adding to final database dump
+0062.297 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_slides7.table.tmpr4.gz (192/134/fopen): adding to final database dump
+0062.301 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_slides7.table.gz (193/134/fopen): adding to final database dump
+0062.305 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_static_slides.table.tmpr2.gz (194/134/fopen): adding to final database dump
+0062.309 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_revslider_static_slides.table.gz (195/134/fopen): adding to final database dump
+0062.315 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_snippets.table.tmpr6.gz (196/134/fopen): adding to final database dump
+0062.319 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_snippets.table.gz (197/134/fopen): adding to final database dump
+0062.322 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_admin_note_actions.table.tmpr15464.gz (198/134/fopen): adding to final database dump
+0062.327 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_admin_note_actions.table.gz (199/134/fopen): adding to final database dump
+0062.337 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_admin_notes.table.tmpr79.gz (200/134/fopen): adding to final database dump
+0062.349 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_admin_notes.table.gz (201/134/fopen): adding to final database dump
+0062.353 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_customer_lookup.table.tmpr7.gz (202/134/fopen): adding to final database dump
+0062.357 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_customer_lookup.table.gz (203/134/fopen): adding to final database dump
+0062.366 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_download_log.table.tmpr0.gz (204/134/fopen): adding to final database dump
+0062.371 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_download_log.table.gz (205/134/fopen): adding to final database dump
+0062.375 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_order_addresses.table.tmpr21.gz (206/134/fopen): adding to final database dump
+0062.379 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_order_addresses.table.gz (207/134/fopen): adding to final database dump
+0062.388 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_order_coupon_lookup.table.tmpr1001.gz (208/134/fopen): adding to final database dump
+0062.392 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_order_coupon_lookup.table.gz (209/134/fopen): adding to final database dump
+0062.397 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_order_operational_data.table.tmpr55.gz (210/134/fopen): adding to final database dump
+0062.401 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_order_operational_data.table.gz (211/134/fopen): adding to final database dump
+0062.405 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_order_product_lookup.table.tmpr39.gz (212/134/fopen): adding to final database dump
+0062.409 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_order_product_lookup.table.gz (213/134/fopen): adding to final database dump
+0062.413 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_order_stats.table.tmpr4602.gz (214/134/fopen): adding to final database dump
+0062.418 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_order_stats.table.gz (215/134/fopen): adding to final database dump
+0062.422 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_order_tax_lookup.table.tmpr1001.gz (216/134/fopen): adding to final database dump
+0062.426 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_order_tax_lookup.table.gz (217/134/fopen): adding to final database dump
+0062.431 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_orders.table.tmpr4602.gz (218/134/fopen): adding to final database dump
+0062.435 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_orders.table.gz (219/134/fopen): adding to final database dump
+0062.439 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_orders_meta.table.tmpr229.gz (220/134/fopen): adding to final database dump
+0062.445 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_orders_meta.table.gz (221/134/fopen): adding to final database dump
+0062.449 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_product_attributes_lookup.table.tmpr1001.gz (222/134/fopen): adding to final database dump
+0062.453 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_product_attributes_lookup.table.gz (223/134/fopen): adding to final database dump
+0062.458 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_product_download_directories.table.tmpr3.gz (224/134/fopen): adding to final database dump
+0062.465 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_product_download_directories.table.gz (225/134/fopen): adding to final database dump
+0062.474 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_rate_limits.table.tmpr0.gz (226/134/fopen): adding to final database dump
+0062.481 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_rate_limits.table.gz (227/134/fopen): adding to final database dump
+0062.488 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_webhooks.table.tmpr7.gz (228/134/fopen): adding to final database dump
+0062.495 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_wc_webhooks.table.gz (229/134/fopen): adding to final database dump
+0062.505 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_api_keys.table.tmpr2.gz (230/134/fopen): adding to final database dump
+0062.511 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_api_keys.table.gz (231/134/fopen): adding to final database dump
+0062.525 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (232/134/fopen): adding to final database dump
+0062.530 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_attribute_taxonomies.table.gz (233/134/fopen): adding to final database dump
+0062.533 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (234/134/fopen): adding to final database dump
+0062.538 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (235/134/fopen): adding to final database dump
+0062.542 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_log.table.tmpr0.gz (236/134/fopen): adding to final database dump
+0062.546 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_log.table.gz (237/134/fopen): adding to final database dump
+0062.550 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_order_items.table.tmpr41.gz (238/134/fopen): adding to final database dump
+0062.554 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_order_items.table.gz (239/134/fopen): adding to final database dump
+0062.558 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (240/134/fopen): adding to final database dump
+0062.562 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_payment_tokens.table.gz (241/134/fopen): adding to final database dump
+0062.567 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_sessions.table.tmpr30091.gz (242/134/fopen): adding to final database dump
+0062.576 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_sessions.table.gz (243/134/fopen): adding to final database dump
+0062.580 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr2.gz (244/134/fopen): adding to final database dump
+0062.584 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_shipping_zone_locations.table.gz (245/134/fopen): adding to final database dump
+0062.588 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr4.gz (246/134/fopen): adding to final database dump
+0062.592 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_shipping_zone_methods.table.gz (247/134/fopen): adding to final database dump
+0062.598 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (248/134/fopen): adding to final database dump
+0062.602 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_shipping_zones.table.gz (249/134/fopen): adding to final database dump
+0062.605 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (250/134/fopen): adding to final database dump
+0062.609 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_tax_rate_locations.table.gz (251/134/fopen): adding to final database dump
+0062.614 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_tax_rates.table.tmpr2.gz (252/134/fopen): adding to final database dump
+0062.619 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_woocommerce_tax_rates.table.gz (253/134/fopen): adding to final database dump
+0062.623 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_yoast_indexable.table.tmpr298.gz (254/134/fopen): adding to final database dump
+0062.628 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_yoast_indexable.table.gz (255/134/fopen): adding to final database dump
+0062.632 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (256/134/fopen): adding to final database dump
+0062.636 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_yoast_indexable_hierarchy.table.gz (257/134/fopen): adding to final database dump
+0062.640 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_yoast_migrations.table.tmpr27.gz (258/134/fopen): adding to final database dump
+0062.643 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_yoast_migrations.table.gz (259/134/fopen): adding to final database dump
+0062.647 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_yoast_primary_term.table.tmpr100.gz (260/134/fopen): adding to final database dump
+0062.651 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_yoast_primary_term.table.gz (261/134/fopen): adding to final database dump
+0062.655 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_yoast_prominent_words.table.tmpr61.gz (262/134/fopen): adding to final database dump
+0062.662 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_yoast_prominent_words.table.gz (263/134/fopen): adding to final database dump
+0062.667 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_yoast_seo_links.table.tmpr760.gz (264/134/fopen): adding to final database dump
+0062.674 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db-table-wp_yoast_seo_links.table.gz (265/134/fopen): adding to final database dump
+0062.827 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db.gz: finished writing out complete database file (4777.5 KB)
+0062.916 (0) Total database tables backed up: 134 (backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db.gz, size: 4892574, sha1: 8e4b8f103f90acc651afe7fd6737c584b9563ab4, sha256: d77c3e4a8ae1c3e5d114a84fe2f07df13137a4df428e3df97c05a818cfd52d4e)
+0062.938 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0062.942 (0) backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-db.gz: db: This file has not yet been successfully uploaded: will queue
+0062.946 (0) Saving backup history. Total backup size: 168.4 MB
+0062.955 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0062.968 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0062.972 (0) Beginning dispatch of backup to remote (email)
+0062.976 (0) [Warning] Email: backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip: This backup archive is 163.7 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0062.981 (0) Email: You have chosen to not send the backup via the email remote storage option for admin@ibn-sinaa.com. plugins will not be sent.
+0062.985 (0) Email: No email addresses were configured to send email to plugins
+0062.989 (0) Email: You have chosen to not send the backup via the email remote storage option for admin@ibn-sinaa.com. db will not be sent.
+0062.993 (0) Email: No email addresses were configured to send email to db
+0063.003 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0063.008 (0) Number of backup sets in history: 3; groups (db): 1
+0063.027 (0) Examining (for databases) backup set with group_id=0, nonce=14909c0ebde0, datestamp=1735719884 (Jan 01 2025 08:24:44)
+0063.034 (0) This backup set is the backup set just made, so will not be deleted.
+0063.034 (0) Examining (for databases) backup set with group_id=0, nonce=62f0983d4763, datestamp=1729781442 (Oct 24 2024 14:50:42)
+0063.034 (0) This backup set (1729781442) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0063.034 (0) Examining (for databases) backup set with group_id=0, nonce=338017287712, datestamp=1729504326 (Oct 21 2024 09:52:06)
+0063.034 (0) 1729504326: db: this set includes a database (backup_2024-10-21-1252_wwwibnsinaacom_338017287712-db.gz); db count is now 2
+0063.034 (0) 1729504326: db: over retain limit (2); will delete this database
+0063.034 (0) Delete file: backup_2024-10-21-1252_wwwibnsinaacom_338017287712-db.gz, service=email
+0063.040 (0) Deleting local copy (backup_2024-10-21-1252_wwwibnsinaacom_338017287712-db.gz)
+0063.054 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0063.058 (0) Number of backup sets in history: 3; groups (files): 1
+0063.062 (0) Examining (for files) backup set with nonce=14909c0ebde0, datestamp=1735719884 (Jan 01 2025 08:24:44)
+0063.062 (0) This backup set is the backup set just made, so will not be deleted.
+0063.066 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0063.069 (0) Examining (for files) backup set with nonce=62f0983d4763, datestamp=1729781442 (Oct 24 2024 14:50:42)
+0063.070 (0) This backup set (1729781442) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0063.070 (0) This backup set (1729781442) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0063.070 (0) This backup set (1729781442) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0063.070 (0) This backup set (1729781442) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0063.070 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0063.070 (0) Examining (for files) backup set with nonce=338017287712, datestamp=1729504326 (Oct 21 2024 09:52:06)
+0063.070 (0) plugins: over retain limit (2); will delete this file entity
+0063.070 (0) Delete file: backup_2024-10-21-1252_wwwibnsinaacom_338017287712-plugins.zip, service=email
+0063.074 (0) Deleting local copy (backup_2024-10-21-1252_wwwibnsinaacom_338017287712-plugins.zip)
+0063.087 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0063.093 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0063.106 (0) Resume backup (14909c0ebde0, 0): finish run
+0063.117 (0) Decremented the semaphore (fd) by 1
+0063.124 (0) Semaphore (fd) unlocked
+0063.130 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0063.146 (0) Deleting zip manifest (backup_2025-01-01-1124_ibnsinaacom_14909c0ebde0-plugins.zip.list.tmp)
+0063.159 (0) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 143.5 KB) to: admin...
+0063.292 (0) The backup succeeded (with warnings) and is now complete

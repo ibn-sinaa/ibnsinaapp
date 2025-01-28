@@ -1,0 +1,1685 @@
+2025-01-28T00:01:30+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67981e5a00179_tt4b_woocommerce_670666209cf1f","event_time":1738022490,"user":{"ip":"66.249.79.2","user_agent":"Mozilla\/5.0 (Linux; Android 6.0.1; Nexus 5X Build\/MMB29P) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/132.0.6834.83 Mobile Safari\/537.36 (compatible; Googlebot\/2.1; +http:\/\/www.google.com\/bot.html)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/en\/product-category\/advertising\/%D8%B7%D8%A7%D9%88%D9%84%D8%A7%D8%AA-%D8%A8%D9%88%D8%A8-%D8%A7%D8%A8\/"}}]}
+ ajax: no
+2025-01-28T00:01:30+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280001305331707E32264D2F1737
+Server-Timing: inner; dur=75
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f5f5632ae0b32bf73d7ff06ec77dab0d388cd56af7a9e5379c5e3a6f22ed3eb4c75bb9105467173f6360fbb7158f8a3ad76e8ff8970220cf732dfc169e739a9067
+x-tt-trace-id: 00-2501280001305331707E32264D2F1737-7055FDAA7542A45B-00
+Expires: Tue, 28 Jan 2025 00:01:30 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:01:30 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=158
+X-Origin-Response-Time: 159,95.101.134.92
+X-Akamai-Request-ID: 139b0570
+
+{"code": 0, "message": "OK", "request_id": "202501280001305331707E32264D2F1737", "data": {}}
+2025-01-28T00:05:55+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2025-01-28T00:05:55+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"AddToCart","event_id":"67981f638c472_tt4b_woocommerce_670666209cf1f_4436","event_time":1738022755,"user":{"ip":"54.36.148.215","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":180,"quantity":1,"content_id":"4436","content_name":"\u062a\u0642\u0648\u064a\u0645 \u062e\u0634\u0628 \u0648\u0633\u0637 \u0645\u0639 \u062c\u0644\u062f","description":"\u062a\u0642\u0648\u064a\u0645 \u0645\u064a\u0644\u0627\u062f\u064a \u062e\u0634\u0628: \u062a\u0635\u0645\u064a\u0645 \u0639\u0635\u0631\u064a \u0648\u0623\u0646\u064a\u0642\u060c \u0645\u0635\u0646\u0648\u0639 \u0645\u0646 \u0627\u0644\u062e\u0634\u0628 \u0627\u0644\u0645\u062a\u064a\u0646 \u0628\u0648\u0636\u0648\u062d \u0627\u0633\u062a\u062b\u0646\u0627\u0626\u064a \u0644\u0644\u0643\u062a\u0627\u0628\u0629 \u0648\u0627\u0644\u0631\u0624\u064a\u0629\u060c \u064a\u0636\u064a\u0641 \u0644\u0645\u0633\u0629 \u0645\u0646 \u0627\u0644\u0641\u062e\u0627\u0645\u0629 \u0648\u0627\u0644\u062a\u0646\u0638\u064a\u0645 \u0644\u0645\u0643\u062a\u0628\u0643. \u0645\u062b\u0627\u0644\u064a \u0644\u062a\u0646\u0638\u064a\u0645 \u0627\u0644\u0645\u0648\u0627\u0639\u064a\u062f \u0648\u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u0627\u062a\u060c \u0648\u064a\u0636\u0641\u064a \u062c\u0627\u0630\u0628\u064a\u0629 \u0639\u0644\u0649 \u0645\u0633\u0627\u062d\u0629 \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0643.","availability":"IN_STOCK","sale_price":180,"on_sale":false}],"content_type":"product","currency":"SAR","value":180,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product-tag\/%D8%AF%D8%B1%D9%88%D8%B9-%D9%88-%D9%87%D8%AF%D8%A7%D9%8A%D8%A7\/?add-to-cart=4436"}}]}
+ ajax: no
+2025-01-28T00:05:55+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128000555CD41CC16B617430D7DAD
+Server-Timing: inner; dur=23
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a156d112ff72595d337b1d146297151d6e05e9621dfd5832c27b67797986242c8e70c668f905e3d82fd6d13f5dc95e5916998bbb9135d986319e209abde362a2ad28
+x-tt-trace-id: 00-250128000555CD41CC16B617430D7DAD-3BDF8787B5B8FB29-00
+Expires: Tue, 28 Jan 2025 00:05:55 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:05:55 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=5, origin; dur=103
+X-Origin-Response-Time: 103,95.101.134.116
+X-Akamai-Request-ID: dd371c7
+
+{"code": 0, "message": "OK", "request_id": "20250128000555CD41CC16B617430D7DAD", "data": {}}
+2025-01-28T00:05:56+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67981f6421947_tt4b_woocommerce_670666209cf1f","event_time":1738022756,"user":{"ip":"54.36.148.215","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product-tag\/%D8%AF%D8%B1%D9%88%D8%B9-%D9%88-%D9%87%D8%AF%D8%A7%D9%8A%D8%A7\/?add-to-cart=4436"}}]}
+ ajax: no
+2025-01-28T00:05:56+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280005563B4FAFE3C1D002CDC4DD
+Server-Timing: inner; dur=28
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f5082c984c2979d9a3a2051abe9f09445883caed5ba28b231da7d6d86f7c3c1f1fdec1103cbf28f3ddd42ccfa5a6eb8eed2a1a6003aeb020d53f575b09918d8ac0
+x-tt-trace-id: 00-2501280005563B4FAFE3C1D002CDC4DD-26067B1C8EAB0F58-00
+Expires: Tue, 28 Jan 2025 00:05:56 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:05:56 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=3, origin; dur=108
+X-Origin-Response-Time: 108,95.101.134.92
+X-Akamai-Request-ID: 13a5749e
+
+{"code": 0, "message": "OK", "request_id": "202501280005563B4FAFE3C1D002CDC4DD", "data": {}}
+2025-01-28T00:08:30+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2025-01-28T00:08:30+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"AddToCart","event_id":"67981ffe7abd0_tt4b_woocommerce_670666209cf1f_4438","event_time":1738022910,"user":{"ip":"54.36.148.35","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":130,"quantity":1,"content_id":"4438","content_name":"\u062a\u0642\u0648\u064a\u0645 \u0635\u0646\u062f\u0648\u0642 \u062e\u0634\u0628","description":"\u062a\u0642\u0648\u064a\u0645 \u0645\u064a\u0644\u0627\u062f\u064a \u062e\u0634\u0628: \u062a\u0635\u0645\u064a\u0645 \u0639\u0635\u0631\u064a \u0648\u0623\u0646\u064a\u0642\u060c \u0645\u0635\u0646\u0648\u0639 \u0645\u0646 \u0627\u0644\u062e\u0634\u0628 \u0627\u0644\u0645\u062a\u064a\u0646 \u0628\u0648\u0636\u0648\u062d \u0627\u0633\u062a\u062b\u0646\u0627\u0626\u064a \u0644\u0644\u0643\u062a\u0627\u0628\u0629 \u0648\u0627\u0644\u0631\u0624\u064a\u0629\u060c \u064a\u0636\u064a\u0641 \u0644\u0645\u0633\u0629 \u0645\u0646 \u0627\u0644\u0641\u062e\u0627\u0645\u0629 \u0648\u0627\u0644\u062a\u0646\u0638\u064a\u0645 \u0644\u0645\u0643\u062a\u0628\u0643. \u0645\u062b\u0627\u0644\u064a \u0644\u062a\u0646\u0638\u064a\u0645 \u0627\u0644\u0645\u0648\u0627\u0639\u064a\u062f \u0648\u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u0627\u062a\u060c \u0648\u064a\u0636\u0641\u064a \u062c\u0627\u0630\u0628\u064a\u0629 \u0639\u0644\u0649 \u0645\u0633\u0627\u062d\u0629 \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0643.","availability":"IN_STOCK","sale_price":130,"on_sale":false}],"content_type":"product","currency":"SAR","value":130,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product-tag\/%D8%AF%D8%B1%D9%88%D8%B9-%D9%88-%D9%87%D8%AF%D8%A7%D9%8A%D8%A7\/?add-to-cart=4438"}}]}
+ ajax: no
+2025-01-28T00:08:30+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280008300413B6FBA0CEAF0F1FBC
+Server-Timing: inner; dur=35
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f5ba96f40ae931be9dbaaa577f4bfa75da6f4adcc5f845a4fb584a28e9b0db89fd83391549db2829472eaaa3664a1a4743eac247a38797b0f2abe0c048b9c6cb28
+x-tt-trace-id: 00-2501280008300413B6FBA0CEAF0F1FBC-6E7A944D4BE0100E-00
+Expires: Tue, 28 Jan 2025 00:08:30 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:08:30 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=6, origin; dur=118
+X-Origin-Response-Time: 119,95.101.134.92
+X-Akamai-Request-ID: 13ab9b36
+
+{"code": 0, "message": "OK", "request_id": "202501280008300413B6FBA0CEAF0F1FBC", "data": {}}
+2025-01-28T00:08:31+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67981fff4c37e_tt4b_woocommerce_670666209cf1f","event_time":1738022911,"user":{"ip":"54.36.148.35","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product-tag\/%D8%AF%D8%B1%D9%88%D8%B9-%D9%88-%D9%87%D8%AF%D8%A7%D9%8A%D8%A7\/?add-to-cart=4438"}}]}
+ ajax: no
+2025-01-28T00:08:31+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2025012800083157161769A9938B22867A
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b519a86797e72c2eba011e03e23beee17d5ccdd42bbf80e0ab2ea9a51de061eac84788975e16d647e2d9f4ffbf63430fa34586e3ea4407b1cee2c545ac7f8f19a05136348b81e40f07f7e389928a3c41379294aee8122ce35ae87805ab5c20e022
+x-tt-trace-id: 00-25012800083157161769A9938B22867A-2E0BC11484F0C604-00
+X-Origin-Response-Time: 34,23.218.219.36
+X-Akamai-Request-ID: 70a7ce7.dd89e2e
+Expires: Tue, 28 Jan 2025 00:08:31 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:08:31 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-36.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=91, origin; dur=33
+Server-Timing: inner; dur=25
+X-Parent-Response-Time: 121,95.101.134.116
+
+{"code": 0, "message": "OK", "request_id": "2025012800083157161769A9938B22867A", "data": {}}
+2025-01-28T00:11:32+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2025-01-28T00:11:32+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"AddToCart","event_id":"679820b4758b9_tt4b_woocommerce_670666209cf1f_3653","event_time":1738023092,"user":{"ip":"54.36.148.168","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":50,"quantity":1,"content_id":"3653","content_name":"\u0637\u0628\u0627\u0639\u0629 \u062a\u0627\u0642\u0627\u062a","description":"\u0637\u0628\u0627\u0639\u0629 \u062a\u0627\u0642\u0627\u062a \u0648\u0631\u0642\u064a \u0628\u0634\u0643\u0644 \u062f\u0627\u0626\u0631\u064a \u0645\u062a\u0639\u062f\u062f \u0627\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645\u0627\u062a \u0637\u0628\u0627\u0639\u0629 \u0645\u0644\u0648\u0646\u0629.\r\n\u0644\u0637\u0644\u0628 \u0645\u0642\u0627\u0633 \u0645\u062e\u0635\u0635 \u063a\u064a\u0631 \u0627\u0644\u0645\u0639\u0631\u0648\u0636 \u062a\u0648\u0627\u0635\u0644 \u0645\u0639\u0646\u0627 \u0639\u0628\u0631 \u0627\u0644\u0648\u0627\u062a\u0633 \u0627\u0628.\r\n\u0645\u062f\u0629 \u0627\u0644\u062a\u0646\u0641\u064a\u0630 \u0627\u0644\u0645\u062a\u0648\u0642\u0639\u0629: \u0645\u0646 1 \u0625\u0644\u0649 3 \u0623\u064a\u0627\u0645 \u0628\u0639\u062f \u062a\u0623\u0643\u064a\u062f \u0627\u0644\u062a\u0635\u0645\u064a\u0645 \u0648\u0627\u0644\u0637\u0644\u0628 \u0648\u062d\u0633\u0628 \u0627\u0644\u0643\u0645\u064a\u0629 (\u062a\u0632\u064a\u062f \u0627\u0644\u0645\u062f\u0629 \u0639\u0646\u062f \u0637\u0644\u0628 \u0627\u0644\u0634\u062d\u0646)","availability":"IN_STOCK","sale_price":50,"on_sale":false}],"content_type":"product","currency":"SAR","value":50,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/ibn-sinaa.com\/product\/roll-up-printing\/?add-to-cart=3653"}}]}
+ ajax: no
+2025-01-28T00:11:32+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280011325229EB9E7C5B38D1BBD9
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b56517d7628cf0ffdff56b078ad2cf5615577e1e1535dc3e087ee70d52a758e6d4b2623cc0aebe347bc8368a6aac81cf85b8cfa2077abeed1c7e561cb00df365c0a7b389e18979492ed4fae6262a0d3734df50ceac7e4cd4d0efc269d763ce08d6
+x-tt-trace-id: 00-2501280011325229EB9E7C5B38D1BBD9-65B4A8A941B55D81-00
+X-Origin-Response-Time: 55,23.218.219.13
+X-Akamai-Request-ID: 75441bf.13b1f5ea
+Expires: Tue, 28 Jan 2025 00:11:32 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:11:32 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-13.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=95, origin; dur=55
+Server-Timing: inner; dur=39
+X-Parent-Response-Time: 145,95.101.134.92
+
+{"code": 0, "message": "OK", "request_id": "202501280011325229EB9E7C5B38D1BBD9", "data": {}}
+2025-01-28T00:11:33+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679820b50eeae_tt4b_woocommerce_670666209cf1f","event_time":1738023093,"user":{"ip":"54.36.148.168","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/ibn-sinaa.com\/product\/roll-up-printing\/?add-to-cart=3653"}}]}
+ ajax: no
+2025-01-28T00:11:33+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128001133D3C0DCECCC3C710DAAAC
+Server-Timing: inner; dur=31
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a156e977dfadcabab8d20fea0571217711f0f48cb7e6679d90e8fde03ec5d8b6b2884bace789912778ee5e82760d18043d4e38252d6df192e6a5f8030ad3ceed23cf
+x-tt-trace-id: 00-250128001133D3C0DCECCC3C710DAAAC-19EE7B68A7EF7B45-00
+Expires: Tue, 28 Jan 2025 00:11:33 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:11:33 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=114
+X-Origin-Response-Time: 115,95.101.134.116
+X-Akamai-Request-ID: dde1c17
+
+{"code": 0, "message": "OK", "request_id": "20250128001133D3C0DCECCC3C710DAAAC", "data": {}}
+2025-01-28T00:11:33+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T00:11:33+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"679820b54332c_tt4b_woocommerce_670666209cf1f_3667","event_time":1738023093,"user":{"ip":"54.36.148.168","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":120,"quantity":1,"content_id":"3667","content_name":"\u0637\u0628\u0627\u0639\u0629 \u0631\u0648\u0644 \u0627\u0628","description":"\u0631\u0648\u0644 \u0627\u0628 \u0645\u0642\u0627\u0633\u0627\u062a \u0645\u062a\u0646\u0648\u0639\u0629.\r\n\u0627\u0644\u062e\u0627\u0645\u0629 \u0628\u0648\u0633\u062a\u0631.\r\n\u0645\u062f\u0629 \u0627\u0644\u062a\u0646\u0641\u064a\u0630: \u0645\u0646 3 \u0625\u0644\u0649 5 \u0623\u064a\u0627\u0645 \u0639\u0645\u0644 \u0628\u0639\u062f \u0627\u0639\u062a\u0645\u0627\u062f \u0627\u0644\u062a\u0635\u0645\u064a\u0645 \u0648\u0627\u0644\u0637\u0644\u0628 \u062d\u0633\u0628 \u0627\u0644\u0643\u0645\u064a\u0629 (\u062a\u0632\u064a\u062f \u0627\u0644\u0645\u062f\u0629 \u0639\u0646\u062f \u0637\u0644\u0628 \u0627\u0644\u0634\u062d\u0646).","availability":"IN_STOCK","sale_price":120,"on_sale":false}],"content_type":"product","currency":"SAR","value":120,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/ibn-sinaa.com\/product\/roll-up-printing\/?add-to-cart=3653"}}]}
+ ajax: no
+2025-01-28T00:11:33+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128001133C43A6862AE1D69A26726
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b56517d7628cf0ffdff56b078ad2cf5615ba000646a2e261499e948a75429faacdadcd5d87cb0c6640a4da31710a35b4e296d392af9d9905607bcb1b3cce9f07d001c786f55e0affca68a80c1995d9227960f499aa40791ae5fb0d14010b62bd02
+x-tt-trace-id: 00-250128001133C43A6862AE1D69A26726-381097B1A6534945-00
+X-Origin-Response-Time: 37,23.218.219.9
+X-Akamai-Request-ID: 5751d10.13b1fc72
+Expires: Tue, 28 Jan 2025 00:11:33 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:11:33 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-9.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=97, origin; dur=37
+Server-Timing: inner; dur=33
+X-Parent-Response-Time: 129,95.101.134.92
+
+{"code": 0, "message": "OK", "request_id": "20250128001133C43A6862AE1D69A26726", "data": {}}
+2025-01-28T00:14:11+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679821530ea2b_tt4b_woocommerce_670666209cf1f","event_time":1738023251,"user":{"ip":"54.36.149.30","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product-tag\/%D9%88%D8%B1%D9%82-%D8%AE%D8%B7%D8%A7%D8%A8%D8%A7%D8%AA-%D9%85%D9%82%D9%85%D8%B4\/"}}]}
+ ajax: no
+2025-01-28T00:14:11+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128001411D6C84171B4F67A3D8704
+Server-Timing: inner; dur=42
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f51c27d037bc89b665d8b9d293fd1e07f2212c48608ff6fda8262827e9091df50bfe1345ed934db5d727578a96bd9562ab64549f8f273dd8a94ede76a9417e5a64
+x-tt-trace-id: 00-250128001411D6C84171B4F67A3D8704-2BFBF56FAEB16DBE-00
+Expires: Tue, 28 Jan 2025 00:14:11 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:14:11 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=3, origin; dur=125
+X-Origin-Response-Time: 125,95.101.134.92
+X-Akamai-Request-ID: 13b78c23
+
+{"code": 0, "message": "OK", "request_id": "20250128001411D6C84171B4F67A3D8704", "data": {}}
+2025-01-28T00:16:40+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2025-01-28T00:16:40+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"AddToCart","event_id":"679821e86b781_tt4b_woocommerce_670666209cf1f_3653","event_time":1738023400,"user":{"ip":"54.36.149.98","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":50,"quantity":1,"content_id":"3653","content_name":"\u0637\u0628\u0627\u0639\u0629 \u062a\u0627\u0642\u0627\u062a","description":"\u0637\u0628\u0627\u0639\u0629 \u062a\u0627\u0642\u0627\u062a \u0648\u0631\u0642\u064a \u0628\u0634\u0643\u0644 \u062f\u0627\u0626\u0631\u064a \u0645\u062a\u0639\u062f\u062f \u0627\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645\u0627\u062a \u0637\u0628\u0627\u0639\u0629 \u0645\u0644\u0648\u0646\u0629.\r\n\u0644\u0637\u0644\u0628 \u0645\u0642\u0627\u0633 \u0645\u062e\u0635\u0635 \u063a\u064a\u0631 \u0627\u0644\u0645\u0639\u0631\u0648\u0636 \u062a\u0648\u0627\u0635\u0644 \u0645\u0639\u0646\u0627 \u0639\u0628\u0631 \u0627\u0644\u0648\u0627\u062a\u0633 \u0627\u0628.\r\n\u0645\u062f\u0629 \u0627\u0644\u062a\u0646\u0641\u064a\u0630 \u0627\u0644\u0645\u062a\u0648\u0642\u0639\u0629: \u0645\u0646 1 \u0625\u0644\u0649 3 \u0623\u064a\u0627\u0645 \u0628\u0639\u062f \u062a\u0623\u0643\u064a\u062f \u0627\u0644\u062a\u0635\u0645\u064a\u0645 \u0648\u0627\u0644\u0637\u0644\u0628 \u0648\u062d\u0633\u0628 \u0627\u0644\u0643\u0645\u064a\u0629 (\u062a\u0632\u064a\u062f \u0627\u0644\u0645\u062f\u0629 \u0639\u0646\u062f \u0637\u0644\u0628 \u0627\u0644\u0634\u062d\u0646)","availability":"IN_STOCK","sale_price":50,"on_sale":false}],"content_type":"product","currency":"SAR","value":50,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/computer-subject-records\/?add-to-cart=3653"}}]}
+ ajax: no
+2025-01-28T00:16:40+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128001640BD77DCFB88AA1943266F
+Server-Timing: inner; dur=22
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a1561cf0a0fcd7ca9b60893a379f7a03250179ab467400d3c7a14c48d25fc8b914fc95fd60381e5b65842c753aaf660ba38eb2a26af3716f5206655062df7ccfd1e9
+x-tt-trace-id: 00-250128001640BD77DCFB88AA1943266F-34144DBE9F1336FE-00
+Expires: Tue, 28 Jan 2025 00:16:40 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:16:40 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=6, origin; dur=108
+X-Origin-Response-Time: 108,95.101.134.116
+X-Akamai-Request-ID: de8bde4
+
+{"code": 0, "message": "OK", "request_id": "20250128001640BD77DCFB88AA1943266F", "data": {}}
+2025-01-28T00:16:41+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679821e90198d_tt4b_woocommerce_670666209cf1f","event_time":1738023401,"user":{"ip":"54.36.149.98","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/computer-subject-records\/?add-to-cart=3653"}}]}
+ ajax: no
+2025-01-28T00:16:41+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280016412090AD4D4A80D4CB61D8
+Server-Timing: inner; dur=32
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f55fb5b0ef932ef8aa8b07269689e21dc74608099d053f72cca4d8c7afb046ebd385fbe1354fec0c0dd8153dda9ed9c76d923f7990167180521e6dd1d15b870f58
+x-tt-trace-id: 00-2501280016412090AD4D4A80D4CB61D8-38F233B195A6A29A-00
+Expires: Tue, 28 Jan 2025 00:16:41 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:16:41 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=115
+X-Origin-Response-Time: 115,95.101.134.92
+X-Akamai-Request-ID: 13be2698
+
+{"code": 0, "message": "OK", "request_id": "202501280016412090AD4D4A80D4CB61D8", "data": {}}
+2025-01-28T00:16:41+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T00:16:41+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"679821e938c67_tt4b_woocommerce_670666209cf1f_4179","event_time":1738023401,"user":{"ip":"54.36.149.98","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":65,"quantity":1,"content_id":"4179","content_name":"\u0633\u062c\u0644\u0627\u062a \u0645\u0627\u062f\u0629 \u0627\u0644\u062d\u0627\u0633\u0628 \u0627\u0644\u0627\u0644\u064a","description":". \u0637\u0628\u0627\u0639\u0647 \u0633\u062c\u0644\u0627\u062a \u0645\u062f\u0631\u0633\u064a\u0629 \u0627\u062d\u062a\u0631\u0627\u0641\u064a\u0629 \u062e\u0627\u0645\u062a\u0647\u0627 \u0643\u0631\u062a\u0648\u0646 2000 \u062c\u0631\u0627\u0645,\u062a\u0636\u0627\u0641 \u0637\u0628\u0642\u0629 \u062d\u0645\u0627\u064a\u0647 \u0627\u0633\u062a\u064a\u0643\u0631 \u0645\u0639 \u0633\u0644\u0648\u0641\u0627\u0646 \u0644\u0627\u0645\u0639.\r\n. \u0645\u062a\u0648\u0641\u0631 \u0628 \u0627\u062d\u062c\u0627\u0645 \u0645\u062e\u062a\u0644\u0641\u0647 ( \u0635\u063a\u064a\u0631, \u0648\u0633\u0637 , \u0643\u0628\u064a\u0631 ).\r\n. \u064a\u062a\u0633\u0639 \u0627\u0644\u0645\u0642\u0627\u0633 \u0627\u0644\u0635\u063a\u064a\u0631 ( \u0645\u0646 50 \u0627\u0644\u0649 150 \u0648\u0631\u0642\u0629 )\r\n. \u064a\u062a\u0633\u0639 \u0627\u0644\u0648\u0633\u0637 ( \u0645\u0646 150 \u0627\u0644\u0649 300 \u0648\u0631\u0642\u0629 )\r\n. \u0627\u0644\u0643\u0628\u064a\u0631 ( \u0645\u0646 300 \u0627\u0644\u0649 400 \u0648\u0631\u0642\u0629 ).\r\n. \u0645\u062f\u0629 \u0627\u0644\u062a\u0646\u0641\u064a\u0630 : 3-5 \u0627\u064a\u0627\u0645 \u0648\u062a\u0632\u064a\u062f \u0627\u0644\u0645\u062f\u0629 \u0639\u0646 \u0637\u0644\u0628 \u0627\u0644\u0634\u062d\u0646.","availability":"IN_STOCK","sale_price":65,"on_sale":false}],"content_type":"product","currency":"SAR","value":65,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/computer-subject-records\/?add-to-cart=3653"}}]}
+ ajax: no
+2025-01-28T00:16:41+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280016414D001687337F0BC793B0
+Server-Timing: inner; dur=44
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a156f2b3110a3ba57d90aafcc71b98e0881c0fd32e3fe3ee8f659a9508fed9da403ace83cc7b3f74683fb67383cb73207254f8a4d1c15ccf00ca3319735ad84c1fa7
+x-tt-trace-id: 00-2501280016414D001687337F0BC793B0-0F8007DD4A53ADF6-00
+Expires: Tue, 28 Jan 2025 00:16:41 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:16:41 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=17, origin; dur=130
+X-Origin-Response-Time: 131,95.101.134.116
+X-Akamai-Request-ID: de8c65f
+
+{"code": 0, "message": "OK", "request_id": "202501280016414D001687337F0BC793B0", "data": {}}
+2025-01-28T00:24:58+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679823dae547d_tt4b_woocommerce_670666209cf1f","event_time":1738023898,"user":{"ip":"54.36.149.44","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product-category\/digital-printing\/page\/3\/"}}]}
+ ajax: no
+2025-01-28T00:24:59+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280024593B113135D416D525D9C1
+Server-Timing: inner; dur=21
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a1560b82f28f58a151f064d42c8c727140303bc03511ca1ed151b1634d275860316492dae5437b0cf24521439b888b84b87106b4b1af23678e908c9273802e62376b
+x-tt-trace-id: 00-2501280024593B113135D416D525D9C1-7D8E3826863147E0-00
+Expires: Tue, 28 Jan 2025 00:24:59 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:24:59 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=5, origin; dur=105
+X-Origin-Response-Time: 105,95.101.134.116
+X-Akamai-Request-ID: e00f905
+
+{"code": 0, "message": "OK", "request_id": "202501280024593B113135D416D525D9C1", "data": {}}
+2025-01-28T00:25:10+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679823e6bf691_tt4b_woocommerce_670666209cf1f","event_time":1738023910,"user":{"ip":"17.241.219.117","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/605.1.15 (KHTML, like Gecko) Version\/17.4 Safari\/605.1.15 (Applebot\/0.1; +http:\/\/www.apple.com\/go\/applebot)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/ibn-sinaa.com\/category\/digital-printing\/"}}]}
+ ajax: no
+2025-01-28T00:25:10+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280025100AE4F0220559AFDB389E
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b519a86797e72c2eba011e03e23beee17daea517d8b5590f89e741643860dd3a69918499c1de5eabd8216766936608cf05dde9e1a03e1ee1dbd0e49d4928e19b12c960c505df309d747f9305f1529c5904dcbda94c5ed4faa24e1d601c3e2c2388
+x-tt-trace-id: 00-2501280025100AE4F0220559AFDB389E-6C7D49EDA6CD68A4-00
+X-Origin-Response-Time: 40,23.54.205.237
+X-Akamai-Request-ID: 56362d65.e018abe
+Expires: Tue, 28 Jan 2025 00:25:10 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:25:10 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-54-205-237.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=85, origin; dur=39
+Server-Timing: inner; dur=26
+X-Parent-Response-Time: 121,95.101.134.116
+
+{"code": 0, "message": "OK", "request_id": "202501280025100AE4F0220559AFDB389E", "data": {}}
+2025-01-28T00:27:25+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"6798246df1135_tt4b_woocommerce_670666209cf1f","event_time":1738024045,"user":{"ip":"54.36.148.191","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/ibn-sinaa.com\/product-tag\/%D8%B7%D8%A8%D8%A7%D8%B9%D8%A9-%D8%A7%D9%83%D9%88%D8%A7%D8%A8\/"}}]}
+ ajax: no
+2025-01-28T00:27:26+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2025012800272636CEC3676125ED6D66C4
+Server-Timing: inner; dur=39
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a1564fbd871ab46a75ecee68207a958b00d0876cd3b1236b2b9abf268300e85c3cdc86cb40485f30f7407d0a967f0fe987cc5d592b8349a650628c6efb280480c4ef
+x-tt-trace-id: 00-25012800272636CEC3676125ED6D66C4-0C13EA3DADB0E588-00
+Expires: Tue, 28 Jan 2025 00:27:26 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:27:26 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=123
+X-Origin-Response-Time: 123,95.101.134.116
+X-Akamai-Request-ID: e07c2ed
+
+{"code": 0, "message": "OK", "request_id": "2025012800272636CEC3676125ED6D66C4", "data": {}}
+2025-01-28T00:29:56+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2025-01-28T00:29:56+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"AddToCart","event_id":"679825041cd67_tt4b_woocommerce_670666209cf1f_3653","event_time":1738024196,"user":{"ip":"54.36.149.65","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":50,"quantity":1,"content_id":"3653","content_name":"\u0637\u0628\u0627\u0639\u0629 \u062a\u0627\u0642\u0627\u062a","description":"\u0637\u0628\u0627\u0639\u0629 \u062a\u0627\u0642\u0627\u062a \u0648\u0631\u0642\u064a \u0628\u0634\u0643\u0644 \u062f\u0627\u0626\u0631\u064a \u0645\u062a\u0639\u062f\u062f \u0627\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645\u0627\u062a \u0637\u0628\u0627\u0639\u0629 \u0645\u0644\u0648\u0646\u0629.\r\n\u0644\u0637\u0644\u0628 \u0645\u0642\u0627\u0633 \u0645\u062e\u0635\u0635 \u063a\u064a\u0631 \u0627\u0644\u0645\u0639\u0631\u0648\u0636 \u062a\u0648\u0627\u0635\u0644 \u0645\u0639\u0646\u0627 \u0639\u0628\u0631 \u0627\u0644\u0648\u0627\u062a\u0633 \u0627\u0628.\r\n\u0645\u062f\u0629 \u0627\u0644\u062a\u0646\u0641\u064a\u0630 \u0627\u0644\u0645\u062a\u0648\u0642\u0639\u0629: \u0645\u0646 1 \u0625\u0644\u0649 3 \u0623\u064a\u0627\u0645 \u0628\u0639\u062f \u062a\u0623\u0643\u064a\u062f \u0627\u0644\u062a\u0635\u0645\u064a\u0645 \u0648\u0627\u0644\u0637\u0644\u0628 \u0648\u062d\u0633\u0628 \u0627\u0644\u0643\u0645\u064a\u0629 (\u062a\u0632\u064a\u062f \u0627\u0644\u0645\u062f\u0629 \u0639\u0646\u062f \u0637\u0644\u0628 \u0627\u0644\u0634\u062d\u0646)","availability":"IN_STOCK","sale_price":50,"on_sale":false}],"content_type":"product","currency":"SAR","value":50,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/roll-up-plastic-base\/?add-to-cart=3653"}}]}
+ ajax: no
+2025-01-28T00:29:56+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280029569BF6FE8AC658B66686DF
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b519a86797e72c2eba011e03e23beee17dcf24f51a3f66ece77f80810e3829c480ac6a9b98a92ad576fa1497b5d38fb67cc0d058da51f5025fdced260e12423006b5369a9ea555ab47216c8dde90cc11794f8e070487e860a54cf016f6c1723623
+x-tt-trace-id: 00-2501280029569BF6FE8AC658B66686DF-1214FB5B9C4D4A3B-00
+X-Origin-Response-Time: 36,23.218.219.5
+X-Akamai-Request-ID: 87f3de.e0d9bbf
+Expires: Tue, 28 Jan 2025 00:29:56 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:29:56 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-5.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=85, origin; dur=36
+Server-Timing: inner; dur=33
+X-Parent-Response-Time: 116,95.101.134.116
+
+{"code": 0, "message": "OK", "request_id": "202501280029569BF6FE8AC658B66686DF", "data": {}}
+2025-01-28T00:29:56+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982504a9db1_tt4b_woocommerce_670666209cf1f","event_time":1738024196,"user":{"ip":"54.36.149.65","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/roll-up-plastic-base\/?add-to-cart=3653"}}]}
+ ajax: no
+2025-01-28T00:29:56+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280029562864412FC8CB7924B797
+Server-Timing: inner; dur=28
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f56fec18b908abd10a270e80611d0afe04e31b2232bc473c1a954f0790d95a68b1635febfe7eee2e671e699b69b3834b0ec722fde97c2a1e99d4341b0b38b69a2c
+x-tt-trace-id: 00-2501280029562864412FC8CB7924B797-7BE26ED494A3434C-00
+Expires: Tue, 28 Jan 2025 00:29:56 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:29:56 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=5, origin; dur=115
+X-Origin-Response-Time: 115,95.101.134.92
+X-Akamai-Request-ID: 13ea2503
+
+{"code": 0, "message": "OK", "request_id": "202501280029562864412FC8CB7924B797", "data": {}}
+2025-01-28T00:29:56+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T00:29:56+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"67982504e27b0_tt4b_woocommerce_670666209cf1f_4293","event_time":1738024196,"user":{"ip":"54.36.149.65","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":180,"quantity":1,"content_id":"4293","content_name":"\u0631\u0648\u0644 \u0627\u0628 \u0642\u0627\u0639\u062f\u0629 \u0628\u0644\u0627\u0633\u062a\u064a\u0643\u0629","description":"\u0631\u0648\u0644 \u0627\u0628 \u0642\u0627\u0639\u062f\u0629 \u0628\u0644\u0627\u0633\u062a\u064a\u0643\u064a\u0629 \u062a\u0635\u0645\u064a\u0645 \u0627\u0646\u064a\u0642, \u0648\u0645\u0642\u0627\u0633\u0627\u062a \u0645\u062a\u0646\u0648\u0639\u0629.\r\n\u0627\u0644\u062e\u0627\u0645\u0629 \u0628\u0648\u0633\u062a\u0631.\r\n\u0645\u062f\u0629 \u0627\u0644\u062a\u0646\u0641\u064a\u0630: \u0645\u0646 3 \u0625\u0644\u0649 5 \u0623\u064a\u0627\u0645 \u0639\u0645\u0644 \u0628\u0639\u062f \u0627\u0639\u062a\u0645\u0627\u062f \u0627\u0644\u062a\u0635\u0645\u064a\u0645 \u0648\u0627\u0644\u0637\u0644\u0628 \u062d\u0633\u0628 \u0627\u0644\u0643\u0645\u064a\u0629 (\u062a\u0632\u064a\u062f \u0627\u0644\u0645\u062f\u0629 \u0639\u0646\u062f \u0637\u0644\u0628 \u0627\u0644\u0634\u062d\u0646).","availability":"IN_STOCK","sale_price":180,"on_sale":false}],"content_type":"product","currency":"SAR","value":180,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/roll-up-plastic-base\/?add-to-cart=3653"}}]}
+ ajax: no
+2025-01-28T00:29:57+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128002957609E9883E3C54187FE79
+Server-Timing: inner; dur=29
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f57b82ee7e2c9bf9a81fc8b3a0205ac50f8ddae541825651a25f8118f3744ea2383cd90f22ab8d566abd6966fc8bceffe7f74d8a3fa0c3b30ba23982daa26ef599
+x-tt-trace-id: 00-250128002957609E9883E3C54187FE79-2C7C21F7458D3431-00
+Expires: Tue, 28 Jan 2025 00:29:57 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:29:57 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=6, origin; dur=112
+X-Origin-Response-Time: 113,95.101.134.92
+X-Akamai-Request-ID: 13ea27c6
+
+{"code": 0, "message": "OK", "request_id": "20250128002957609E9883E3C54187FE79", "data": {}}
+2025-01-28T00:32:39+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679825a756748_tt4b_woocommerce_670666209cf1f","event_time":1738024359,"user":{"ip":"54.36.148.186","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/curvy-cutting-cards\/"}}]}
+ ajax: no
+2025-01-28T00:32:39+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280032390868C8DCE03D008B844E
+Server-Timing: inner; dur=29
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a1563ac0cfbc1cc98092977e3b33d7cf172512e9f02fd38e4cc8aa2634cbbb010abd036d1009d9e408ea30db14dcf16c5e4e40e2d87bee9719dceb94c158a5084d4d
+x-tt-trace-id: 00-2501280032390868C8DCE03D008B844E-31B7667E4A8457D2-00
+Expires: Tue, 28 Jan 2025 00:32:39 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:32:39 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=114
+X-Origin-Response-Time: 114,95.101.134.116
+X-Akamai-Request-ID: e140eb0
+
+{"code": 0, "message": "OK", "request_id": "202501280032390868C8DCE03D008B844E", "data": {}}
+2025-01-28T00:32:39+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T00:32:39+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"679825a790ddc_tt4b_woocommerce_670666209cf1f_SKU_1196","event_time":1738024359,"user":{"ip":"54.36.148.186","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":70,"quantity":1,"content_id":"SKU_1196","content_name":"\u0637\u0628\u0627\u0639\u0629 \u0643\u0631\u0648\u062a \u0634\u062e\u0635\u064a\u0629 \u0642\u0635 \u0643\u064a\u0631\u0641\u064a\u00a0","description":"<ul>\r\n \t<li>\u0637\u0628\u0627\u0639\u0629 \u0643\u0631\u0648\u062a \u0639\u0644\u0649 \u0648\u0631\u0642 \u0643\u0648\u0634\u064a\u0647 350 \u062c\u0631\u0627\u0645 \u0645\u0639 \u0637\u0628\u0642\u0629 \u062d\u0645\u0627\u064a\u0629 \u0648\u0642\u0635 \u0632\u0648\u0627\u064a\u0627 \u062d\u0633\u0628 \u0627\u0644\u0627\u062e\u062a\u064a\u0627\u0631.<\/li>\r\n \t<li>\u0645\u0642\u0627\u0633 \u0627\u0644\u0643\u0631\u062a 9\u00d75 \u0633\u0645 \u060c \u0627\u0642\u0644 \u0643\u0645\u064a\u0629 \u0644\u0644\u0637\u0644\u0628 100 \u0643\u0631\u062a.<\/li>\r\n \t<li>\u0645\u062f\u0629 \u0627\u0644\u062a\u0646\u0641\u064a\u0630 \u0627\u0644\u0645\u062a\u0648\u0642\u0639\u0629: 1 \u2013 3 \u0623\u064a\u0627\u0645 \u0639\u0645\u0644 \u0628\u0639\u062f \u062a\u0623\u0643\u064a\u062f \u0627\u0644\u0637\u0644\u0628 \u0648\u0627\u0644\u062a\u0635\u0645\u064a\u0645 \u0648\u062d\u0633\u0628 \u0627\u0644\u0643\u0645\u064a\u0629 (\u062a\u0632\u064a\u062f \u0627\u0644\u0645\u062f\u0629 \u0639\u0646\u062f \u0637\u0644\u0628 \u0627\u0644\u0634\u062d\u0646).<\/li>\r\n<\/ul>","availability":"IN_STOCK","sale_price":70,"on_sale":false}],"content_type":"product","currency":"SAR","value":70,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/curvy-cutting-cards\/"}}]}
+ ajax: no
+2025-01-28T00:32:39+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128003239DC90B278CFEE22D49476
+Server-Timing: inner; dur=31
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f5ae45e875e9e8842596beb738243249e00f7c8cf19f51d6ffda0460da4ec4cfae612d611ef8064592f1e0e9a1b9f0383812c54f470558abf749181112d5782618
+x-tt-trace-id: 00-250128003239DC90B278CFEE22D49476-6B3006F187EE4097-00
+Expires: Tue, 28 Jan 2025 00:32:39 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:32:39 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=5, origin; dur=111
+X-Origin-Response-Time: 111,95.101.134.92
+X-Akamai-Request-ID: 13f2040c
+
+{"code": 0, "message": "OK", "request_id": "20250128003239DC90B278CFEE22D49476", "data": {}}
+2025-01-28T00:39:12+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982730834f0_tt4b_woocommerce_670666209cf1f","event_time":1738024752,"user":{"ip":"66.249.68.6","user_agent":"Mozilla\/5.0 (Linux; Android 6.0.1; Nexus 5X Build\/MMB29P) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/132.0.6834.83 Mobile Safari\/537.36 (compatible; Googlebot\/2.1; +http:\/\/www.google.com\/bot.html)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product-category\/digital-printing\/letterhead\/"}}]}
+ ajax: no
+2025-01-28T00:39:12+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128003912AEFB7FEB4C93ED44203A
+Server-Timing: inner; dur=26
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f5e1ddd66a7c96704f4ba66c4d18805d316bdaee13a76581c153ed6b66a8dbfd7f560ccf4e888b3e75eb0303c8c9f87fdba134d7bebb80b8e60b637c82bf8c12f6
+x-tt-trace-id: 00-250128003912AEFB7FEB4C93ED44203A-47EA9C4A5100AC6C-00
+Expires: Tue, 28 Jan 2025 00:39:12 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:39:12 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=6, origin; dur=108
+X-Origin-Response-Time: 108,95.101.134.92
+X-Akamai-Request-ID: 14055dea
+
+{"code": 0, "message": "OK", "request_id": "20250128003912AEFB7FEB4C93ED44203A", "data": {}}
+2025-01-28T00:43:03+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679828174c316_tt4b_woocommerce_670666209cf1f","event_time":1738024983,"user":{"ip":"54.36.149.106","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/print-on-cork\/"}}]}
+ ajax: no
+2025-01-28T00:43:03+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128004303DE8AA4A873EEE897AD53
+Server-Timing: inner; dur=24
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f5a5de970541aafcb150875d67fe753ced8c65d68d00ebc21532efe51424a124c744548767f5288c2e4a7343638cfe1c015c14852d7cfd3d9c7058aab4c3af3dfd
+x-tt-trace-id: 00-250128004303DE8AA4A873EEE897AD53-26715ED96F75BBAE-00
+Expires: Tue, 28 Jan 2025 00:43:03 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:43:03 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=5, origin; dur=107
+X-Origin-Response-Time: 107,95.101.134.92
+X-Akamai-Request-ID: 1410381b
+
+{"code": 0, "message": "OK", "request_id": "20250128004303DE8AA4A873EEE897AD53", "data": {}}
+2025-01-28T00:43:03+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T00:43:03+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"6798281789d25_tt4b_woocommerce_670666209cf1f_4297","event_time":1738024983,"user":{"ip":"54.36.149.106","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":70,"quantity":1,"content_id":"4297","content_name":"\u0637\u0628\u0627\u0639\u0647 \u0639\u0644\u0649 \u0641\u0644\u064a\u0646","description":"\u0627\u062d\u0635\u0644 \u0639\u0644\u0649 \u062e\u062f\u0645\u0629 \"\u0637\u0628\u0627\u0639\u0629 \u0639\u0644\u0649 \u0641\u0644\u064a\u0646\" \u0645\u0646 \u0645\u062a\u062c\u0631 \u0645\u0643\u062a\u0628\u0629 \u0627\u0628\u0646 \u0633\u064a\u0646\u0627 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u060c \u0648\u0627\u0644\u062a\u064a \u062a\u0636\u0645\u0646 \u0644\u0643 \u0639\u0631\u0636\u064b\u0627 \u062c\u0627\u0630\u0628\u064b\u0627 \u0648\u0627\u062d\u062a\u0631\u0627\u0641\u064a\u064b\u0627 \u0644\u0645\u0646\u062a\u062c\u0627\u062a\u0643 \u0623\u0648 \u0645\u0648\u0627\u062f\u0643 \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u064a\u0629. \u064a\u062a\u0645\u064a\u0632 \u0647\u0630\u0627 \u0627\u0644\u0646\u0648\u0639 \u0645\u0646 \u0627\u0644\u0637\u0628\u0627\u0639\u0629 \u0628\u062c\u0648\u062f\u0629 \u0639\u0627\u0644\u064a\u0629 \u0648\u062a\u0635\u0645\u064a\u0645\u0627\u062a \u0645\u062a\u0642\u062f\u0645\u0629 \u062a\u0644\u0628\u064a \u0627\u062d\u062a\u064a\u0627\u062c\u0627\u062a\u0643 \u0627\u0644\u0645\u062a\u0646\u0648\u0639\u0629.","availability":"IN_STOCK","sale_price":70,"on_sale":false}],"content_type":"product","currency":"SAR","value":70,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/print-on-cork\/"}}]}
+ ajax: no
+2025-01-28T00:43:03+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280043035116D27847F59A12F241
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b56517d7628cf0ffdff56b078ad2cf5615726f69979ed1c8f1df803360d4f6fe1f03af5cf4c75f60ed78da3c3f5ef2cca272248c92661ffc29ded68dff8c2dc4bed9349d2bd32bd063cc6d2a0beb5c4aad5cc8dd68d2154b06cbc0b90e83288ece
+x-tt-trace-id: 00-2501280043035116D27847F59A12F241-07377E5B6117E466-00
+X-Origin-Response-Time: 54,23.218.219.50
+X-Akamai-Request-ID: 694d867.14103b35
+Expires: Tue, 28 Jan 2025 00:43:03 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:43:03 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-50.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=101, origin; dur=53
+Server-Timing: inner; dur=39
+X-Parent-Response-Time: 137,95.101.134.92
+
+{"code": 0, "message": "OK", "request_id": "202501280043035116D27847F59A12F241", "data": {}}
+2025-01-28T00:49:09+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679829859a1eb_tt4b_woocommerce_670666209cf1f","event_time":1738025349,"user":{"ip":"54.36.149.67","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/ibn-sinaa.com\/tag\/%D8%B7%D8%A8%D8%A7%D8%B9%D8%A9-%D9%85%D8%AF%D8%B1%D8%B3%D9%8A%D8%A9\/"}}]}
+ ajax: no
+2025-01-28T00:49:09+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280049099B3C676A0624CA14A58D
+Server-Timing: inner; dur=22
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f5a5c20092e0dd12780e3421e5d453a4b91963aac05390c6209496ff3aeeafa3d64b34b525fca0366cf13cd0650e59b92d230f6d27565d0992f10dbfa3191d8b4c
+x-tt-trace-id: 00-2501280049099B3C676A0624CA14A58D-4DE9F0567BB4F678-00
+Expires: Tue, 28 Jan 2025 00:49:09 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:49:09 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=3, origin; dur=102
+X-Origin-Response-Time: 102,95.101.134.92
+X-Akamai-Request-ID: 142383b2
+
+{"code": 0, "message": "OK", "request_id": "202501280049099B3C676A0624CA14A58D", "data": {}}
+2025-01-28T00:52:29+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982a4deae1c_tt4b_woocommerce_670666209cf1f","event_time":1738025549,"user":{"ip":"54.36.148.107","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/raindrop-flag\/"}}]}
+ ajax: no
+2025-01-28T00:52:30+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128005230A5E5AE465032B94231BC
+Server-Timing: inner; dur=63
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f5f070b1158326a902463e0d05e85c2047fd79f615deeebb37ed84b2303bd0e33efb5636506c92aa30b2e605a4163b5dde47b58bea917820d8085c77a655d97c64
+x-tt-trace-id: 00-250128005230A5E5AE465032B94231BC-7E54CB717CA9F4BB-00
+Expires: Tue, 28 Jan 2025 00:52:30 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:52:30 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=146
+X-Origin-Response-Time: 146,95.101.134.92
+X-Akamai-Request-ID: 142e3dc2
+
+{"code": 0, "message": "OK", "request_id": "20250128005230A5E5AE465032B94231BC", "data": {}}
+2025-01-28T00:52:30+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982a4e672fe_tt4b_woocommerce_670666209cf1f","event_time":1738025550,"user":{"ip":"83.175.120.25","user_agent":"GRequests\/0.10","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"}}]}
+ ajax: no
+2025-01-28T00:52:30+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T00:52:30+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"67982a4e7da77_tt4b_woocommerce_670666209cf1f_4373","event_time":1738025550,"user":{"ip":"54.36.148.107","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":460,"quantity":1,"content_id":"4373","content_name":"\u0639\u0644\u0645 \u0642\u0637\u0631\u0629 \u0627\u0644\u0645\u0637\u0631","description":"\u0623\u0639\u0644\u0627\u0645 \u0645\u0643\u062a\u0628\u064a\u0629 \u0635\u063a\u064a\u0631\u0629: \u0645\u062b\u0627\u0644\u064a\u0629 \u0644\u062a\u0632\u064a\u064a\u0646 \u0627\u0644\u0645\u0643\u062a\u0628 \u0628\u0644\u0645\u0633\u0629 \u0623\u0646\u064a\u0642\u0629 \u0648\u0641\u0627\u062e\u0631\u0629. \u0645\u0635\u0646\u0648\u0639\u0629 \u0645\u0646 \u0645\u0648\u0627\u062f \u0645\u062a\u064a\u0646\u0629 \u0648\u0628\u0623\u0644\u0648\u0627\u0646 \u0632\u0627\u0647\u064a\u0629\u060c \u062a\u0636\u064a\u0641 \u062c\u0627\u0630\u0628\u064a\u0629 \u0645\u0645\u064a\u0632\u0629 \u0644\u0623\u064a \u0645\u0633\u0627\u062d\u0629 \u0645\u0643\u062a\u0628\u064a\u0629 \u062f\u0648\u0646 \u0634\u063a\u0644 \u062d\u064a\u0632 \u0643\u0628\u064a\u0631. \u0645\u062b\u0627\u0644\u064a\u0629 \u0644\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u0627\u062a\u060c \u0627\u0644\u0645\u0624\u062a\u0645\u0631\u0627\u062a\u060c \u0648\u0627\u0644\u0647\u062f\u0627\u064a\u0627 \u0627\u0644\u0641\u0627\u062e\u0631\u0629.","availability":"IN_STOCK","sale_price":460,"on_sale":false}],"content_type":"product","currency":"SAR","value":460,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/raindrop-flag\/"}}]}
+ ajax: no
+2025-01-28T00:52:30+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128005230B3DA6FB01B3021114090
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b519a86797e72c2eba011e03e23beee17d004ea8baff7edfa5c776e29e5d137b07016cbaf8b6c1abb69c47a1229cc64274c763ddb68834d80a140e9d4686c8461c4aa3237074506ebf0f56316e9f54957b75b49bdae91f2653f984f2978c1c7d7c
+x-tt-trace-id: 00-250128005230B3DA6FB01B3021114090-5AA9F84C573A7317-00
+X-Origin-Response-Time: 32,23.218.219.13
+X-Akamai-Request-ID: 7c60277.e4694c9
+Expires: Tue, 28 Jan 2025 00:52:30 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:52:30 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-13.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=84, origin; dur=32
+Server-Timing: inner; dur=29
+X-Parent-Response-Time: 113,95.101.134.116
+
+{"code": 0, "message": "OK", "request_id": "20250128005230B3DA6FB01B3021114090", "data": {}}
+2025-01-28T00:52:30+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2025012800523061D1823AD84F4FCC2031
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b56517d7628cf0ffdff56b078ad2cf561576604ff9e4608ecacf8581212c7c88a24991e66fcf0e183b5d0f6e875dd3fde3b893385a1f3ff4030ca3fb0d27bddb8ae543105d7a7301e88a3f1b225e003502f0ec01525616ca632b941b57983614c5
+x-tt-trace-id: 00-25012800523061D1823AD84F4FCC2031-29C424AD84068D16-00
+X-Origin-Response-Time: 34,23.218.219.53
+X-Akamai-Request-ID: cc6c0dd.142e42a5
+Expires: Tue, 28 Jan 2025 00:52:30 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:52:30 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-53.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=88, origin; dur=34
+Server-Timing: inner; dur=30
+X-Parent-Response-Time: 116,95.101.134.92
+
+{"code": 0, "message": "OK", "request_id": "2025012800523061D1823AD84F4FCC2031", "data": {}}
+2025-01-28T00:52:34+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982a5219231_tt4b_woocommerce_670666209cf1f","event_time":1738025554,"user":{"ip":"83.175.120.25","user_agent":"GRequests\/0.10","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"}}]}
+ ajax: no
+2025-01-28T00:52:34+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2025012800523449120EEB331E0A11B753
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b519a86797e72c2eba011e03e23beee17dde4fddab5785245e6741e234a8e483f77db168c29bc2cb7f3ea57f14ac6c6a78589be3d62f987193dc862b60da809e395916a5afac33ed175945694cff6b5224aa6b9d773bcef83b7067edef4ce59317
+x-tt-trace-id: 00-25012800523449120EEB331E0A11B753-71755EC5A5B25258-00
+X-Origin-Response-Time: 31,23.213.246.241
+X-Akamai-Request-ID: 45180879.e46bd77
+Expires: Tue, 28 Jan 2025 00:52:34 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:52:34 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-241.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-2c00874bde3a1f428b1fbbe8783f6d16) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=83, origin; dur=31
+Server-Timing: inner; dur=26
+X-Parent-Response-Time: 111,95.101.134.116
+
+{"code": 0, "message": "OK", "request_id": "2025012800523449120EEB331E0A11B753", "data": {}}
+2025-01-28T00:52:41+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982a59d6a89_tt4b_woocommerce_670666209cf1f","event_time":1738025561,"user":{"ip":"83.175.120.25","user_agent":"GRequests\/0.10","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/404\/","referrer":"https:\/\/www.ibn-sinaa.com\/wp-admin\/"}}]}
+ ajax: no
+2025-01-28T00:52:42+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128005241FF6C9D8FFDC78DD3229A
+Server-Timing: inner; dur=51
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f55c80304090f2e984d73575f6ecc9b598fda284ca97617297acd20cba35076b707a00282c6789cf39abedf778d97588f12dc9874d572f0a8dc3ae8090bb1f270a
+x-tt-trace-id: 00-250128005241FF6C9D8FFDC78DD3229A-1E034CD9758E170E-00
+Expires: Tue, 28 Jan 2025 00:52:42 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:52:42 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=142
+X-Origin-Response-Time: 143,95.101.134.92
+X-Akamai-Request-ID: 142edbf9
+
+{"code": 0, "message": "OK", "request_id": "20250128005241FF6C9D8FFDC78DD3229A", "data": {}}
+2025-01-28T00:55:30+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982b02e6e68_tt4b_woocommerce_670666209cf1f","event_time":1738025730,"user":{"ip":"54.36.148.63","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product-tag\/%D8%AF%D8%B9%D8%A7%D9%8A%D8%A9-%D9%88%D8%A7%D8%B9%D9%84%D8%A7%D9%86\/page\/2\/"}}]}
+ ajax: no
+2025-01-28T00:55:31+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2025012800553190D0FEC23A1FA0CD1D82
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b56517d7628cf0ffdff56b078ad2cf561527f4469e489240b6c3bac109d8c355231017bf2e593004ac47daafb7a1b785dfad0ebad2ca59a4b594f78c314c9ff980162848f4528b8a68397710228b12483faad5e718f2746f7e2736034486b599af
+x-tt-trace-id: 00-25012800553190D0FEC23A1FA0CD1D82-11790C627780D69A-00
+X-Origin-Response-Time: 31,23.218.219.34
+X-Akamai-Request-ID: 7f33f29.14377739
+Expires: Tue, 28 Jan 2025 00:55:31 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:55:31 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-34.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=85, origin; dur=31
+Server-Timing: inner; dur=25
+X-Parent-Response-Time: 113,95.101.134.92
+
+{"code": 0, "message": "OK", "request_id": "2025012800553190D0FEC23A1FA0CD1D82", "data": {}}
+2025-01-28T00:55:45+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982b11ac3bc_tt4b_woocommerce_670666209cf1f","event_time":1738025745,"user":{"ip":"52.167.144.202","user_agent":"Mozilla\/5.0 AppleWebKit\/537.36 (KHTML, like Gecko; compatible; bingbot\/2.0; +http:\/\/www.bing.com\/bingbot.htm) Chrome\/116.0.1938.76 Safari\/537.36","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/stand-x-banner\/"}}]}
+ ajax: no
+2025-01-28T00:55:45+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128005545CD3FC8550F7EC3CFA4D9
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b56517d7628cf0ffdff56b078ad2cf5615a1dc161f7748850b04c0b5d06a6036911f9a780923178bebdd2a622ac6e027ac60dcc49ae417259c9a2ae456904a7051636f2e90abe400e62e062a56ac6d1b2039ebd2ff6d7d09b5f2b229d044aba997
+x-tt-trace-id: 00-250128005545CD3FC8550F7EC3CFA4D9-71C788018AA29989-00
+X-Origin-Response-Time: 30,23.52.15.231
+X-Akamai-Request-ID: 975dba80.14383921
+Expires: Tue, 28 Jan 2025 00:55:45 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:55:45 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-52-15-231.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=87, origin; dur=30
+Server-Timing: inner; dur=26
+X-Parent-Response-Time: 113,95.101.134.92
+
+{"code": 0, "message": "OK", "request_id": "20250128005545CD3FC8550F7EC3CFA4D9", "data": {}}
+2025-01-28T00:55:45+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T00:55:45+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"67982b11efd3c_tt4b_woocommerce_670666209cf1f_4244","event_time":1738025745,"user":{"ip":"52.167.144.202","user_agent":"Mozilla\/5.0 AppleWebKit\/537.36 (KHTML, like Gecko; compatible; bingbot\/2.0; +http:\/\/www.bing.com\/bingbot.htm) Chrome\/116.0.1938.76 Safari\/537.36","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":120,"quantity":1,"content_id":"4244","content_name":"\u0627\u0633\u062a\u0627\u0646\u062f \u0627\u0643\u0633 \u0628\u0646\u0631","description":"\u0637\u0628\u0627\u0639\u0629 \u0627\u0633\u062a\u0627\u0646\u062f \u0627\u0643\u0633 \u0628\u0646\u0631 \u0645\u0646 \u0645\u062a\u062c\u0631 \u0645\u0643\u062a\u0628\u0629 \u0627\u0628\u0646 \u0633\u064a\u0646\u0627 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u060c \u0645\u0635\u0645\u0645 \u0644\u0625\u0636\u0627\u0641\u0629 \u0644\u0645\u0633\u0629 \u0645\u0646 \u0627\u0644\u0623\u0646\u0627\u0642\u0629 \u0648\u0627\u0644\u0627\u062d\u062a\u0631\u0627\u0641\u064a\u0629 \u0644\u0639\u0631\u0636 \u0645\u0646\u062a\u062c\u0627\u062a\u0643 \u0623\u0648 \u0645\u0648\u0627\u062f\u0643 \u0627\u0644\u0625\u0639\u0644\u0627\u0646\u064a\u0629. \u064a\u062a\u0645\u064a\u0632 \u0647\u0630\u0627 \u0627\u0644\u0627\u0633\u062a\u0627\u0646\u062f \u0628\u062c\u0648\u062f\u0629 \u0639\u0627\u0644\u064a\u0629 \u0648\u062a\u0635\u0645\u064a\u0645 \u0645\u0646\u062d\u0646\u064a \u064a\u0644\u0641\u062a \u0627\u0644\u0623\u0646\u0638\u0627\u0631 \u0648\u064a\u0639\u0632\u0632 \u0645\u0646 \u062c\u0627\u0630\u0628\u064a\u0629 \u0627\u0644\u0639\u0631\u0636.","availability":"IN_STOCK","sale_price":120,"on_sale":false}],"content_type":"product","currency":"SAR","value":120,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/stand-x-banner\/"}}]}
+ ajax: no
+2025-01-28T00:55:46+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128005546D3E7221AC0F6A135288F
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b56517d7628cf0ffdff56b078ad2cf56153c3836327d77372713608f4a164d1ee024e798358db7813608ab77c59e9f79bb0907b4f2e22bd619dabdd7467e1c9adf0596579e766342a4c39fb0162ed1c8dd4db3a377f0e38bb2d79e68f2fe505c21
+x-tt-trace-id: 00-250128005546D3E7221AC0F6A135288F-38A7772E46AB7838-00
+X-Origin-Response-Time: 39,23.52.15.239
+X-Akamai-Request-ID: 7630e510.14383c0b
+Expires: Tue, 28 Jan 2025 00:55:46 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:55:46 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-52-15-239.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=86, origin; dur=39
+Server-Timing: inner; dur=36
+X-Parent-Response-Time: 119,95.101.134.92
+
+{"code": 0, "message": "OK", "request_id": "20250128005546D3E7221AC0F6A135288F", "data": {}}
+2025-01-28T00:58:19+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982babe4a6f_tt4b_woocommerce_670666209cf1f","event_time":1738025899,"user":{"ip":"54.36.149.50","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product-category\/digital-printing\/personal-cards\/"}}]}
+ ajax: no
+2025-01-28T00:58:20+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280058201FE71795A9FDCB232443
+Server-Timing: inner; dur=23
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f5bc1ef4614102de16d8805fe0e65b57f23bc3581dd9e4321f2b82d656d5deacdfa15acc0817ce6d378ee97512ace7b6c879f7f6093b8800e74b2c7161fa7e4a4e
+x-tt-trace-id: 00-2501280058201FE71795A9FDCB232443-41CC78222C112DAA-00
+Expires: Tue, 28 Jan 2025 00:58:20 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 00:58:20 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=6, origin; dur=109
+X-Origin-Response-Time: 109,95.101.134.92
+X-Akamai-Request-ID: 143f950d
+
+{"code": 0, "message": "OK", "request_id": "202501280058201FE71795A9FDCB232443", "data": {}}
+2025-01-28T01:00:43+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982c3b3288c_tt4b_woocommerce_670666209cf1f","event_time":1738026043,"user":{"ip":"153.94.75.215","user_agent":"Mozilla\/5.0 (iPhone; CPU iPhone OS 16_1 like Mac OS X) AppleWebKit\/605.1.15 (KHTML, like Gecko) Version\/16.1 Mobile\/15E148 Safari\/604.1","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/?srsltid=AfmBOoqmwwimaOHPFfi5oJjNyfoGGJ7ARLZ0Avx8d4MOtrfcm1mdrTmd"}}]}
+ ajax: no
+2025-01-28T01:00:43+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128010043E66C84902E5B4422E9BA
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b519a86797e72c2eba011e03e23beee17dcdd40768c34585c23865ee1de88573b4671e04ac19f88307ec9dcdc99c19f7f8910c8aeb1867d9daa1dac29f26e5952954fe46ed241d96ffb046f3a3b7ce17107faa872e895f753bd6b3f90d8d83e126
+x-tt-trace-id: 00-250128010043E66C84902E5B4422E9BA-35D923DE66AB0B9E-00
+X-Origin-Response-Time: 31,23.32.17.36
+X-Akamai-Request-ID: 719fc4b.e59ef78
+Expires: Tue, 28 Jan 2025 01:00:43 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:00:43 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-36.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=83, origin; dur=31
+Server-Timing: inner; dur=28
+X-Parent-Response-Time: 111,95.101.134.116
+
+{"code": 0, "message": "OK", "request_id": "20250128010043E66C84902E5B4422E9BA", "data": {}}
+2025-01-28T01:01:14+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982c5a5fc07_tt4b_woocommerce_670666209cf1f","event_time":1738026074,"user":{"ip":"54.36.148.238","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product-tag\/%D8%AF%D8%B9%D8%A7%D9%8A%D8%A9-%D9%88%D8%A7%D8%B9%D9%84%D8%A7%D9%86-%D8%AC%D8%AF%D8%A9\/"}}]}
+ ajax: no
+2025-01-28T01:01:14+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128010114AAB48CDE7421B864392F
+Server-Timing: inner; dur=29
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a1568c672dd12260b4a8fb847d17eab00fb1d0caf5b3300e1eb6b1f8d20cb06a4ecf86427798842005a817e9f2418d9894dcc88ae0c82dd84193ba78008cd03400d0
+x-tt-trace-id: 00-250128010114AAB48CDE7421B864392F-26C9AF11587908A6-00
+Expires: Tue, 28 Jan 2025 01:01:14 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:01:14 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=116
+X-Origin-Response-Time: 116,95.101.134.116
+X-Akamai-Request-ID: e5b1fec
+
+{"code": 0, "message": "OK", "request_id": "20250128010114AAB48CDE7421B864392F", "data": {}}
+2025-01-28T01:04:25+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982d1965018_tt4b_woocommerce_670666209cf1f","event_time":1738026265,"user":{"ip":"54.36.148.51","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/print-envelopes-a4\/"}}]}
+ ajax: no
+2025-01-28T01:04:25+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280104250B5201FA92DC9F927CAC
+Server-Timing: inner; dur=35
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a1565f0e306c0fc57793811bb8a54dbecd6408a89697ff72cfd4d1690e99fd26fb340f2b20697fb2ac15c91ab852198ae805509285ba838455a5da2b09c2dc337658
+x-tt-trace-id: 00-2501280104250B5201FA92DC9F927CAC-327D27B47B716ECE-00
+Expires: Tue, 28 Jan 2025 01:04:25 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:04:25 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=116
+X-Origin-Response-Time: 116,95.101.134.116
+X-Akamai-Request-ID: e62b709
+
+{"code": 0, "message": "OK", "request_id": "202501280104250B5201FA92DC9F927CAC", "data": {}}
+2025-01-28T01:04:25+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T01:04:25+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"67982d19a6b2a_tt4b_woocommerce_670666209cf1f_4018","event_time":1738026265,"user":{"ip":"54.36.148.51","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":199,"quantity":1,"content_id":"4018","content_name":"\u0637\u0628\u0627\u0639\u0629 \u0638\u0631\u0648\u0641 A4\\C4","description":"\u0637\u0628\u0627\u0639\u0629 \u0645\u0644\u0648\u0646\u0629 \u0639\u0644\u0649 \u062c\u0647\u0629 \u0648\u0627\u062d\u062f\u0629 \u0645\u0646 \u0627\u0644\u0638\u0631\u0641 \u0645\u0646 \u0627\u0644\u062e\u0644\u0641 \u0641\u0642\u0637 (\u0644\u0648\u0646 \u0627\u0644\u0638\u0631\u0641 \u0623\u0628\u064a\u0636).\r\n\u0645\u0644\u0627\u062d\u0638\u0629 \u0645\u0647\u0645\u0629 : \u0645\u0642\u0627\u0633 \u0627\u0644\u0638\u0631\u0641 : 25 \u00d7 35 \u0633\u0645 \u060c \u062a\u062a\u0631\u0643 \u0647\u0648\u0627\u0645\u0634 \u0641\u0627\u0631\u063a\u0629 \u0641\u064a \u062d\u0648\u0627\u0641 \u0627\u0644\u0638\u0631\u0641 \u0639\u0646\u062f \u0627\u0644\u0637\u0628\u0627\u0639\u0629\r\n\u0645\u062f\u0629 \u062a\u0646\u0641\u064a\u0630 \u0627\u0644\u0637\u0644\u0628 : 3 \u2013 5 \u0623\u064a\u0627\u0645 \u0639\u0645\u0644 \u0628\u0639\u062f \u0627\u0639\u062a\u0645\u0627\u062f \u0627\u0644\u0637\u0644\u0628 \u0648\u0627\u0644\u062a\u0635\u0645\u064a\u0645 \u0648\u062d\u0633\u0628 \u0627\u0644\u0643\u0645\u064a\u0629 (\u062a\u0632\u064a\u062f \u0627\u0644\u0645\u062f\u0629 \u0639\u0646\u062f \u0637\u0644\u0628 \u0627\u0644\u0634\u062d\u0646).","availability":"IN_STOCK","sale_price":199,"on_sale":false}],"content_type":"product","currency":"SAR","value":199,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/print-envelopes-a4\/"}}]}
+ ajax: no
+2025-01-28T01:04:25+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280104256C8F9B592C4819DBB98D
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b519a86797e72c2eba011e03e23beee17dfd9af64d80e9b4808f66771906d63de3c92e9876baf082cda5fc7a14115d1349057bbdc7b730cf8dc6d3828b47baaa7a18873d20ea28b46487a1d311ebddd582cf623b78c900755ee1d37602f2ec5482
+x-tt-trace-id: 00-2501280104256C8F9B592C4819DBB98D-6FC2958D5A95E12B-00
+X-Origin-Response-Time: 38,23.54.205.233
+X-Akamai-Request-ID: a674bc2f.e62b913
+Expires: Tue, 28 Jan 2025 01:04:25 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:04:25 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-54-205-233.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=86, origin; dur=37
+Server-Timing: inner; dur=35
+X-Parent-Response-Time: 117,95.101.134.116
+
+{"code": 0, "message": "OK", "request_id": "202501280104256C8F9B592C4819DBB98D", "data": {}}
+2025-01-28T01:07:17+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982dc565be7_tt4b_woocommerce_670666209cf1f","event_time":1738026437,"user":{"ip":"54.36.148.183","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product-tag\/%D8%AF%D8%B9%D8%A7%D9%8A%D8%A9-%D9%88%D8%A7%D8%B9%D9%84%D8%A7%D9%86-%D8%AC%D8%AF%D8%A9\/page\/4\/"}}]}
+ ajax: no
+2025-01-28T01:07:17+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280107179DB5385058D1D5A6D11A
+Server-Timing: inner; dur=34
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f58c6bc6cf0923ac2e2552e55c1a95b59c2f5fa0713fc06298d5a9b480251effe025745d7fe5f9f0d42413b7b88982458c6a9fd82d14120adbb2dfd8d8701b8edc
+x-tt-trace-id: 00-2501280107179DB5385058D1D5A6D11A-1B3B19573B852718-00
+Expires: Tue, 28 Jan 2025 01:07:17 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:07:17 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=113
+X-Origin-Response-Time: 113,95.101.134.92
+X-Akamai-Request-ID: 145a712d
+
+{"code": 0, "message": "OK", "request_id": "202501280107179DB5385058D1D5A6D11A", "data": {}}
+2025-01-28T01:10:18+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982e7a1a56a_tt4b_woocommerce_670666209cf1f","event_time":1738026618,"user":{"ip":"185.196.9.152","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/123.0.0.0 Safari\/537.36","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/ibn-sinaa.com\/wp-content\/plugins\/woocommerce-gateway-paypal-powered-by-braintree\/readme.txt","referrer":"https:\/\/ibn-sinaa.com\/\/wp-content\/plugins\/woocommerce-gateway-paypal-powered-by-braintree\/readme.txt"}}]}
+ ajax: no
+2025-01-28T01:10:18+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128011018A304D457712530D036AC
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b56517d7628cf0ffdff56b078ad2cf56156d02a841a14db753079542a3212e190c3c36c84f9974861373869ae388ea6b00c69e10a446a7b0b3a564b293fd33dc06ac6e2b630b52ca7c2148b380a56898bc74b9d44dc0a70a834ceddb2ecb71b1b4
+x-tt-trace-id: 00-250128011018A304D457712530D036AC-12E3970139F62A54-00
+X-Origin-Response-Time: 62,23.207.199.47
+X-Akamai-Request-ID: 200d83e9.1463c62b
+Expires: Tue, 28 Jan 2025 01:10:18 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:10:18 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-207-199-47.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=122, origin; dur=62
+Server-Timing: inner; dur=37
+X-Parent-Response-Time: 181,95.101.134.92
+
+{"code": 0, "message": "OK", "request_id": "20250128011018A304D457712530D036AC", "data": {}}
+2025-01-28T01:13:46+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67982f4a61b0b_tt4b_woocommerce_670666209cf1f","event_time":1738026826,"user":{"ip":"54.36.149.73","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/foundation-day-box-004\/"}}]}
+ ajax: no
+2025-01-28T01:13:46+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280113468EE028CF76F555DE0478
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b56517d7628cf0ffdff56b078ad2cf5615e36122ba22fea598b898cf6a1095ad0dee8889541591f1f66b90bfe781e81b53af2c7d8f95661d39188d5e881e7e621aacea28befdd0a4a00244602b88b404bdedd9923c52a92542b7525b26f649fd97
+x-tt-trace-id: 00-2501280113468EE028CF76F555DE0478-2DCCB98A3C637675-00
+X-Origin-Response-Time: 31,23.218.219.25
+X-Akamai-Request-ID: 61dfe7c.146eaae5
+Expires: Tue, 28 Jan 2025 01:13:46 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:13:46 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-25.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=90, origin; dur=31
+Server-Timing: inner; dur=27
+X-Parent-Response-Time: 118,95.101.134.92
+
+{"code": 0, "message": "OK", "request_id": "202501280113468EE028CF76F555DE0478", "data": {}}
+2025-01-28T01:13:46+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T01:13:46+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"67982f4aa3e76_tt4b_woocommerce_670666209cf1f_BX-004","event_time":1738026826,"user":{"ip":"54.36.149.73","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":170,"quantity":1,"content_id":"BX-004","content_name":"\u0628\u0648\u0643\u0633 \u064a\u0648\u0645 \u0627\u0644\u062a\u0623\u0633\u064a\u0633 004","description":"<ul>\r\n \t<li><strong>\u0648\u0635\u0641 \u0627\u0644\u0645\u0646\u062a\u062c :<\/strong>\r\n&gt; \u0628\u0648\u0643\u0633 \u064a\u0648\u0645 \u0627\u0644\u062a\u0627\u0633\u064a\u0633 \u0647\u0627\u0631\u062f\u0643\u0641\u0631 \u0641\u0627\u062e\u0631 \u0645\u0639 \u0637\u0628\u0627\u0639\u0647 \u064a\u0648\u0641\u064a.\r\n&gt; \u0637\u0628\u0627\u0639\u0629 \u0645\u0644\u0648\u0646\u0629 \u0639\u0644\u0649 \u0643\u0627\u0645\u0644 \u0627\u0644\u0628\u0648\u0643\u0633 \u0645\u0646 \u0627\u0644\u062e\u0627\u0631\u062c.\r\n&gt; \u0627\u0636\u0627\u0641\u0629 \u0634\u0639\u0627\u0631 \u0627\u0644\u0639\u0645\u064a\u0644 \u0639\u0644\u0649 \u0645\u062d\u062a\u0648\u064a\u0627\u062a \u0627\u0644\u0628\u0648\u0643\u0633 \u0648\u0627\u0644\u0648\u062c\u0629 \u0627\u0644\u062e\u0627\u0631\u062c\u064a.<\/li>\r\n<\/ul>\r\n<ul>\r\n \t<li><strong>\u0637\u0631\u064a\u0642\u0629 \u0627\u0644\u0637\u0644\u0628:<\/strong>\r\n&gt; \u062d\u062f\u062f \u0627\u0644\u0643\u0645\u064a\u0629 \u0628\u0627\u0644\u0627\u0633\u0641\u0644 \u0648 \u0627\u0631\u0641\u0642 \u0634\u0639\u0627\u0631 \u0648\u0627\u0644\u0630\u0647\u0627\u0628 \u0644\u0644\u062f\u0641\u0639.\r\n&gt; \u0627\u0644\u0637\u0644\u0628 \u0639\u0646 \u0637\u0631\u064a\u0642 \u0627\u0644\u0648\u062a\u0633 \u0628\u0627\u0644\u0638\u063a\u0637 \u0639\u0644\u0649 \u0632\u0631 \u0627\u0644\u0648\u0627\u062a\u0633\u0627\u0628.<\/li>\r\n<\/ul>\r\n<ul>\r\n \t<li><strong>\u0645\u062f\u0629 \u062a\u0646\u0641\u064a\u0630 \u0627\u0644\u0637\u0644\u0628 :<\/strong>\r\n&gt; \u062a\u0631\u0627\u0648\u062d \u0645\u0646 5 - 7 \u0627\u064a\u0627\u0645 \u0639\u0645\u0644 \u0648 \u0642\u062f \u062a\u0632\u064a\u062f \u0639\u0646\u062f \u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u0643\u0645\u064a\u0627\u062a.\r\n&gt; \u0644\u0644\u0643\u0645\u064a\u0627\u062a \u0627\u0644\u0643\u0628\u064a\u0631\u0629 \u0641\u0642\u0637 \u062a\u0628\u062f\u0627\u0621 \u0645\u062f\u0629 \u0627\u0644\u0637\u0644\u0628 \u0628\u0639\u062f \u0627\u0639\u062a\u0645\u0627\u062f \u0627\u0644\u062a\u0635\u0645\u064a\u0645.<\/li>\r\n<\/ul>","availability":"IN_STOCK","sale_price":170,"on_sale":false}],"content_type":"product","currency":"SAR","value":170,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/foundation-day-box-004\/"}}]}
+ ajax: no
+2025-01-28T01:13:46+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128011346E565FBC2328082D36E3F
+Server-Timing: inner; dur=27
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a1563ed2da85a5285f788532a6543adaf597c98f2e9281a628ce46d76d2662800dd20b519a44dc12831b7337940bff2716fa13235372718a0af1f863a648aa06ac8a
+x-tt-trace-id: 00-250128011346E565FBC2328082D36E3F-6EDD8FD442F7C4A9-00
+Expires: Tue, 28 Jan 2025 01:13:46 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:13:46 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=7, origin; dur=108
+X-Origin-Response-Time: 108,95.101.134.116
+X-Akamai-Request-ID: e787a75
+
+{"code": 0, "message": "OK", "request_id": "20250128011346E565FBC2328082D36E3F", "data": {}}
+2025-01-28T01:17:59+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679830471c818_tt4b_woocommerce_670666209cf1f","event_time":1738027079,"user":{"ip":"157.55.39.205","user_agent":"Mozilla\/5.0 AppleWebKit\/537.36 (KHTML, like Gecko; compatible; bingbot\/2.0; +http:\/\/www.bing.com\/bingbot.htm) Chrome\/116.0.1938.76 Safari\/537.36","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/print-notebook-thick-cover-a6\/"}}]}
+ ajax: no
+2025-01-28T01:17:59+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2025012801175910934F347BC70F13189A
+Server-Timing: inner; dur=23
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f5582eebf62e3d6dd53f346cc3e42dad281b91500cf4a4ad24d4e88bf521d1adc8b7e641f1a5ecfa7449ad05ee13c97e2250c10b6898eb7c861aba8d93b9f25e1a
+x-tt-trace-id: 00-25012801175910934F347BC70F13189A-1B0A07DD35DE2D32-00
+Expires: Tue, 28 Jan 2025 01:17:59 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:17:59 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=6, origin; dur=107
+X-Origin-Response-Time: 108,95.101.134.92
+X-Akamai-Request-ID: 147ca33c
+
+{"code": 0, "message": "OK", "request_id": "2025012801175910934F347BC70F13189A", "data": {}}
+2025-01-28T01:17:59+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T01:17:59+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"679830475baf2_tt4b_woocommerce_670666209cf1f_4003","event_time":1738027079,"user":{"ip":"157.55.39.205","user_agent":"Mozilla\/5.0 AppleWebKit\/537.36 (KHTML, like Gecko; compatible; bingbot\/2.0; +http:\/\/www.bing.com\/bingbot.htm) Chrome\/116.0.1938.76 Safari\/537.36","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":59,"quantity":1,"content_id":"4003","content_name":"\u0637\u0628\u0627\u0639\u0629 \u0646\u0648\u062a\u0629 \u063a\u0644\u0627\u0641 \u0633\u0645\u064a\u0643 A6","description":"\u0646\u0648\u062a\u0629 \u0645\u0639 \u063a\u0644\u0627\u0641 \u0633\u0645\u064a\u0643 \u0645\u0642\u0627\u0633 A6 \u0648\u0648\u0631\u0642 \u062f\u0627\u062e\u0644\u064a \u0627\u0628\u064a\u0636 \u0648 \u0627\u0633\u0648\u062f.\r\n\u0627\u0644\u0648\u0631\u0642 \u0627\u0644\u062f\u0627\u062e\u0644\u064a: \u0648\u0631\u0642 \u0639\u0627\u062f\u064a 80 \u062c\u0631\u0627\u0645 \u0639\u062f\u062f 50 \u0648\u0642\u0629 \u060c \u0627\u0644\u063a\u0644\u0627\u0641: \u0648\u0631\u0642 \u0643\u0648\u0634\u064a\u0647 350 \u062c\u0631\u0627\u0645 \u0645\u0639 \u0633\u0644\u0641\u0627\u0646.\r\n\u0645\u062f\u0629 \u0627\u0644\u062a\u0646\u0641\u064a\u0630 \u0627\u0644\u0645\u062a\u0648\u0642\u0639\u0629: \u0645\u0646 3 \u0625\u0644\u0649 5 \u0623\u064a\u0627\u0645 \u0639\u0645\u0644 \u0628\u0639\u062f \u0627\u0639\u062a\u0645\u0627\u062f \u0627\u0644\u062a\u0635\u0645\u064a\u0645 \u0648\u0627\u0644\u0637\u0644\u0628 \u062d\u0633\u0628 \u0627\u0644\u0643\u0645\u064a\u0629 (\u062a\u0632\u064a\u062f \u0627\u0644\u0645\u062f\u0629 \u0639\u0646\u062f \u0637\u0644\u0628 \u0627\u0644\u0634\u062d\u0646).","availability":"IN_STOCK","sale_price":59,"on_sale":false}],"content_type":"product","currency":"SAR","value":59,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/print-notebook-thick-cover-a6\/"}}]}
+ ajax: no
+2025-01-28T01:17:59+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280117594A330642551F9C14C123
+Server-Timing: inner; dur=29
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a15666a04a60cd8b07b09f7683291c430a1b508ecaebffc5f665ee4f5f2972375d8fe5ea3cae2915a56d61ae463b19b94b08e1cec3a4a4826ef02a5f2b69091ddbfd
+x-tt-trace-id: 00-2501280117594A330642551F9C14C123-0F8007DD49B666C9-00
+Expires: Tue, 28 Jan 2025 01:17:59 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:17:59 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=6, origin; dur=111
+X-Origin-Response-Time: 112,95.101.134.116
+X-Akamai-Request-ID: e830fd7
+
+{"code": 0, "message": "OK", "request_id": "202501280117594A330642551F9C14C123", "data": {}}
+2025-01-28T01:19:53+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679830b996d36_tt4b_woocommerce_670666209cf1f","event_time":1738027193,"user":{"ip":"54.36.149.23","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF-%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D8%A7%D9%84-%D9%85%D8%B9-%D8%A7%D8%B6%D8%A7%D8%A1%D8%A9\/feed\/"}}]}
+ ajax: no
+2025-01-28T01:19:53+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128011953CD9B0658FB02A140723E
+Server-Timing: inner; dur=24
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a1568bba76364014fa4ae807d9b534ec83ca3c6559a4eed049300e699b7c52a762e3b8eaa7412a0bb749b666371e6ba78f41858acbb7c794a4c47b2a3b99460c82e2
+x-tt-trace-id: 00-250128011953CD9B0658FB02A140723E-5B9C697340C42C64-00
+Expires: Tue, 28 Jan 2025 01:19:53 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:19:53 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=103
+X-Origin-Response-Time: 104,95.101.134.116
+X-Akamai-Request-ID: e87e961
+
+{"code": 0, "message": "OK", "request_id": "20250128011953CD9B0658FB02A140723E", "data": {}}
+2025-01-28T01:22:29+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679831556fa69_tt4b_woocommerce_670666209cf1f","event_time":1738027349,"user":{"ip":"40.77.167.23","user_agent":"Mozilla\/5.0 AppleWebKit\/537.36 (KHTML, like Gecko; compatible; bingbot\/2.0; +http:\/\/www.bing.com\/bingbot.htm) Chrome\/116.0.1938.76 Safari\/537.36","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/ibn-sinaa.com\/product\/7('9g-(f1"}}]}
+ ajax: no
+2025-01-28T01:22:29+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280122291699F3CDEA4A1ECF6C1B
+Server-Timing: inner; dur=61
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a1568dc65d9175b6a4d89e9a75e42444b88a3fda83fefc99c577c218ef89904c0807ffdf0765c560cad81f6369c2e33e3767033f2a19911157c585997ad6a0eca055
+x-tt-trace-id: 00-2501280122291699F3CDEA4A1ECF6C1B-2FEABA0993E42B0B-00
+Expires: Tue, 28 Jan 2025 01:22:29 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:22:29 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=5, origin; dur=143
+X-Origin-Response-Time: 143,95.101.134.116
+X-Akamai-Request-ID: e8ea63f
+
+{"code": 0, "message": "OK", "request_id": "202501280122291699F3CDEA4A1ECF6C1B", "data": {}}
+2025-01-28T01:26:53+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2025-01-28T01:26:53+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"AddToCart","event_id":"6798325dd17fd_tt4b_woocommerce_670666209cf1f_4426","event_time":1738027613,"user":{"ip":"54.36.148.2","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":180,"quantity":1,"content_id":"4426","content_name":"\u062a\u0642\u0648\u064a\u0645 \u0627\u0643\u0631\u064a\u0644\u064a\u0643 \u0645\u0639 \u062c\u064a\u0628 \u062e\u0634\u0628","description":"\u062a\u0642\u0648\u064a\u0645 \u0623\u0643\u0631\u064a\u0644\u064a\u0643 \u0645\u0639 \u062c\u064a\u0628 \u062e\u0634\u0628: \u062a\u0635\u0645\u064a\u0645 \u0639\u0635\u0631\u064a \u0648\u0623\u0646\u064a\u0642\u060c \u0645\u0635\u0646\u0648\u0639 \u0645\u0646 \u0627\u0644\u0623\u0643\u0631\u064a\u0644\u064a\u0643 \u0627\u0644\u0645\u062a\u064a\u0646 \u0628\u0648\u0636\u0648\u062d \u0627\u0633\u062a\u062b\u0646\u0627\u0626\u064a \u0644\u0644\u0643\u062a\u0627\u0628\u0629 \u0648\u0627\u0644\u0631\u0624\u064a\u0629\u060c \u064a\u0636\u064a\u0641 \u0644\u0645\u0633\u0629 \u0645\u0646 \u0627\u0644\u0641\u062e\u0627\u0645\u0629 \u0648\u0627\u0644\u062a\u0646\u0638\u064a\u0645 \u0644\u0645\u0643\u062a\u0628\u0643. \u0645\u062b\u0627\u0644\u064a \u0644\u062a\u0646\u0638\u064a\u0645 \u0627\u0644\u0645\u0648\u0627\u0639\u064a\u062f \u0648\u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u0627\u062a\u060c \u0648\u064a\u0636\u0641\u064a \u062c\u0627\u0630\u0628\u064a\u0629 \u0639\u0644\u0649 \u0645\u0633\u0627\u062d\u0629 \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0643.","availability":"IN_STOCK","sale_price":180,"on_sale":false}],"content_type":"product","currency":"SAR","value":180,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/black-acrylic-calendar-with-wood\/?add-to-cart=4426"}}]}
+ ajax: no
+2025-01-28T01:26:54+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128012653433F91AEA6D08842AECA
+Server-Timing: inner; dur=24
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a156fb39e86c4b289c4b9ea0f3ab2cfd7439910ee1d6ace42c413e4921933c32cfd2e5c47f79c198c13c0d533c1653863c4dcf33363ecaf2e48196b9a08ac54280f5
+x-tt-trace-id: 00-250128012653433F91AEA6D08842AECA-1487AA2EA35A6DE3-00
+Expires: Tue, 28 Jan 2025 01:26:54 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:26:54 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=7, origin; dur=118
+X-Origin-Response-Time: 119,95.101.134.116
+X-Akamai-Request-ID: e99edbe
+
+{"code": 0, "message": "OK", "request_id": "20250128012653433F91AEA6D08842AECA", "data": {}}
+2025-01-28T01:26:54+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"6798325e61bf4_tt4b_woocommerce_670666209cf1f","event_time":1738027614,"user":{"ip":"54.36.148.2","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/black-acrylic-calendar-with-wood\/?add-to-cart=4426"}}]}
+ ajax: no
+2025-01-28T01:26:54+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128012654C5AC92B67409DA239315
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b56517d7628cf0ffdff56b078ad2cf5615bd8b3334449b2c3ee81c684b07a3f254ceefd145108e9debe618c5ce4365aab65c8cfab24afb8065b616e20fefa17cf73d70fffb81b7739382a4a0b2137226eea1ab4bde849786cbe1072a4442f6364f
+x-tt-trace-id: 00-250128012654C5AC92B67409DA239315-0739FDD08341EC9D-00
+X-Origin-Response-Time: 31,23.207.199.37
+X-Akamai-Request-ID: ee7c41c.1499ca9b
+Expires: Tue, 28 Jan 2025 01:26:54 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:26:54 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-207-199-37.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-2c00874bde3a1f428b1fbbe8783f6d16) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=86, origin; dur=30
+Server-Timing: inner; dur=27
+X-Parent-Response-Time: 113,95.101.134.92
+
+{"code": 0, "message": "OK", "request_id": "20250128012654C5AC92B67409DA239315", "data": {}}
+2025-01-28T01:26:54+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T01:26:54+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"6798325e95712_tt4b_woocommerce_670666209cf1f_4428","event_time":1738027614,"user":{"ip":"54.36.148.2","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":180,"quantity":1,"content_id":"4428","content_name":"\u062a\u0642\u0648\u064a\u0645 \u0627\u0643\u0631\u064a\u0644\u064a\u0643 \u0627\u0633\u0648\u062f \u0645\u0639 \u062e\u0634\u0628","description":"\u062a\u0642\u0648\u064a\u0645 \u0623\u0643\u0631\u064a\u0644\u064a\u0643 \u0627\u0633\u0648\u062f \u0645\u0639 \u062e\u0634\u0628: \u062a\u0635\u0645\u064a\u0645 \u0639\u0635\u0631\u064a \u0648\u0623\u0646\u064a\u0642\u060c \u0645\u0635\u0646\u0648\u0639 \u0645\u0646 \u0627\u0644\u0623\u0643\u0631\u064a\u0644\u064a\u0643 \u0627\u0644\u0645\u062a\u064a\u0646 \u0628\u0648\u0636\u0648\u062d \u0627\u0633\u062a\u062b\u0646\u0627\u0626\u064a \u0644\u0644\u0643\u062a\u0627\u0628\u0629 \u0648\u0627\u0644\u0631\u0624\u064a\u0629\u060c \u064a\u0636\u064a\u0641 \u0644\u0645\u0633\u0629 \u0645\u0646 \u0627\u0644\u0641\u062e\u0627\u0645\u0629 \u0648\u0627\u0644\u062a\u0646\u0638\u064a\u0645 \u0644\u0645\u0643\u062a\u0628\u0643. \u0645\u062b\u0627\u0644\u064a \u0644\u062a\u0646\u0638\u064a\u0645 \u0627\u0644\u0645\u0648\u0627\u0639\u064a\u062f \u0648\u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u0627\u062a\u060c \u0648\u064a\u0636\u0641\u064a \u062c\u0627\u0630\u0628\u064a\u0629 \u0639\u0644\u0649 \u0645\u0633\u0627\u062d\u0629 \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u062e\u0627\u0635\u0629 \u0628\u0643.","availability":"IN_STOCK","sale_price":180,"on_sale":false}],"content_type":"product","currency":"SAR","value":180,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/black-acrylic-calendar-with-wood\/?add-to-cart=4426"}}]}
+ ajax: no
+2025-01-28T01:26:54+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128012654A37CDE41F5636186F666
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b56517d7628cf0ffdff56b078ad2cf56151c0dc832fe7aca1087c30caeb1d7714b2abadc0fdf936f59fd60886bff4a9b064f14d9f27d8a300853a4ab7a2ca1e9d0b526114a4f34a290cdc8841d23bd71a3ad4c4284a88c70cc857a540b7b5a5b31
+x-tt-trace-id: 00-250128012654A37CDE41F5636186F666-431B4D6849574AD4-00
+X-Origin-Response-Time: 39,23.213.246.228
+X-Akamai-Request-ID: d247b76.1499cd42
+Expires: Tue, 28 Jan 2025 01:26:54 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:26:54 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-228.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=93, origin; dur=39
+Server-Timing: inner; dur=36
+X-Parent-Response-Time: 126,95.101.134.92
+
+{"code": 0, "message": "OK", "request_id": "20250128012654A37CDE41F5636186F666", "data": {}}
+2025-01-28T01:29:50+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"6798330e5eef4_tt4b_woocommerce_670666209cf1f","event_time":1738027790,"user":{"ip":"54.36.148.70","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/print-coupons\/"}}]}
+ ajax: no
+2025-01-28T01:29:50+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280129508CD0AD8D1877E0F9FF02
+Server-Timing: inner; dur=31
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f582006531df41ebbada2cee73ee71f1033d1e0d0b36f314475f00b8717215de0b3866560d96d82950461f6fd2a4bf70b8dafae0cf6acd5c1b3792264e992fcbcc
+x-tt-trace-id: 00-2501280129508CD0AD8D1877E0F9FF02-320959DB2950A1E4-00
+Expires: Tue, 28 Jan 2025 01:29:50 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:29:50 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=3, origin; dur=112
+X-Origin-Response-Time: 112,95.101.134.92
+X-Akamai-Request-ID: 14a2854a
+
+{"code": 0, "message": "OK", "request_id": "202501280129508CD0AD8D1877E0F9FF02", "data": {}}
+2025-01-28T01:29:50+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T01:29:50+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"6798330e9c6b7_tt4b_woocommerce_670666209cf1f_3993","event_time":1738027790,"user":{"ip":"54.36.148.70","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":60,"quantity":1,"content_id":"3993","content_name":"\u0637\u0628\u0627\u0639\u0629 \u0643\u0648\u0628\u0648\u0646\u0627\u062a","description":"\u062a\u0646\u0641\u064a\u0630 \u0637\u0628\u0627\u0639\u0629 \u0627\u0644\u0643\u0648\u0628\u0648\u0646\u0627\u062a \u0623\u0648 \u0627\u0644\u0642\u0633\u0627\u0626\u0645 \u0639\u0644\u0649 \u0648\u0631\u0642 \u0643\u0648\u0634\u064a\u0647 130 \u062c\u0631\u0627\u0645 \u0648\u062c\u0647 \u0648\u0627\u062d\u062f.\r\n\u0645\u0642\u0627\u0633 \u0627\u0644\u062f\u0641\u062a\u0631: A4 \u060c \u0639\u062f\u062f 100 ;\u0639\u062f\u062f 100 \u0643\u0648\u0628\u0648\u0646 \u0641\u064a \u0627\u0644\u062f\u0641\u062a\u0631 \u0627\u0644\u0648\u0627\u062d\u062f.\r\n\u0645\u062f\u0629 \u0627\u0644\u062a\u0646\u0641\u064a\u0630 \u0627\u0644\u0645\u062a\u0648\u0642\u0639\u0629: \u0645\u0646 3 \u0625\u0644\u0649 5 \u0623\u064a\u0627\u0645 \u0639\u0645\u0644 \u0628\u0639\u062f \u0627\u0639\u062a\u0645\u0627\u062f \u0627\u0644\u062a\u0635\u0645\u064a\u0645 \u0648\u0627\u0644\u0637\u0644\u0628 \u062d\u0633\u0628 \u0627\u0644\u0643\u0645\u064a\u0629 (\u062a\u0632\u064a\u062f \u0627\u0644\u0645\u062f\u0629 \u0639\u0646\u062f \u0637\u0644\u0628 \u0627\u0644\u0634\u062d\u0646).","availability":"IN_STOCK","sale_price":60,"on_sale":false}],"content_type":"product","currency":"SAR","value":60,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/print-coupons\/"}}]}
+ ajax: no
+2025-01-28T01:29:50+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128012950399409BAE624DC4AD778
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b519a86797e72c2eba011e03e23beee17d9e3592ba37e405eedf6948489c78aa976c61fdf59864831a5e419a5b31d09c8e8869c2f7989e5186b05d61a7fa4e50bec2a309229e48f22c3aeb51db63deeb799f93232d2bbd98c60df9dfb1dbf67b87
+x-tt-trace-id: 00-250128012950399409BAE624DC4AD778-2E2D21093DFE0C0F-00
+X-Origin-Response-Time: 42,23.213.246.228
+X-Akamai-Request-ID: d4ac34f.ea0fe30
+Expires: Tue, 28 Jan 2025 01:29:50 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:29:50 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-228.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=85, origin; dur=42
+Server-Timing: inner; dur=38
+X-Parent-Response-Time: 122,95.101.134.116
+
+{"code": 0, "message": "OK", "request_id": "20250128012950399409BAE624DC4AD778", "data": {}}
+2025-01-28T01:29:57+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67983315131da_tt4b_woocommerce_670666209cf1f","event_time":1738027797,"user":{"ip":"37.20.253.187","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/103.0.5060.134 Safari\/537.36","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/ibn-sinaa.com\/contact\/"}}]}
+ ajax: no
+2025-01-28T01:29:57+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280129574629204C80C5D4E48FA0
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b519a86797e72c2eba011e03e23beee17d9e3592ba37e405eedf6948489c78aa971b98c12189dfcfc5f3d8c26b7682bac801bda66e2700a8763eee3b67895895f4eb852ec32ef6b02433a45464ea4a42743388900d48ba5c0989aea60b36f5ccbf
+x-tt-trace-id: 00-2501280129574629204C80C5D4E48FA0-6AA7319F913C6D33-00
+X-Origin-Response-Time: 29,23.213.246.228
+X-Akamai-Request-ID: d4c3529.ea13a34
+Expires: Tue, 28 Jan 2025 01:29:57 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:29:57 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-228.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=82, origin; dur=29
+Server-Timing: inner; dur=25
+X-Parent-Response-Time: 108,95.101.134.116
+
+{"code": 0, "message": "OK", "request_id": "202501280129574629204C80C5D4E48FA0", "data": {}}
+2025-01-28T01:30:02+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"6798331a01e2c_tt4b_woocommerce_670666209cf1f","event_time":1738027802,"user":{"ip":"37.20.253.187","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/103.0.5060.134 Safari\/537.36","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/ibn-sinaa.com\/contact\/"}}]}
+ ajax: no
+2025-01-28T01:30:02+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280130028D711F23B339DCFF2E48
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b56517d7628cf0ffdff56b078ad2cf56151924a53b9c355cc2cf7e5c8eac3d112fe591a800912ff8d7ae8788fcaf4fc7394676cc1856a05095573fdfc76a0585bb1024fc21e74f81f7279a8cf84855f041db2a680620fe5bee0a2628764e171d4f
+x-tt-trace-id: 00-2501280130028D711F23B339DCFF2E48-421006BE5EDA01C4-00
+X-Origin-Response-Time: 35,23.213.246.240
+X-Akamai-Request-ID: 95c39680.14a30ac4
+Expires: Tue, 28 Jan 2025 01:30:02 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:30:02 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-240.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=95, origin; dur=34
+Server-Timing: inner; dur=30
+X-Parent-Response-Time: 126,95.101.134.92
+
+{"code": 0, "message": "OK", "request_id": "202501280130028D711F23B339DCFF2E48", "data": {}}
+2025-01-28T01:32:45+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679833bd8d20b_tt4b_woocommerce_670666209cf1f","event_time":1738027965,"user":{"ip":"104.168.244.130","user_agent":"Mozilla\/5.0 (X11; Linux i686; rv:114.0) Gecko\/20100101 Firefox\/114.0","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/ibn-sinaa.com\/contact\/"}}]}
+ ajax: no
+2025-01-28T01:32:45+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128013245DB262D678AD41024C40D
+Server-Timing: inner; dur=39
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f58a09757c505f97dfc84d292b58c9a9f6f87d04feccc8e6951e51ac826129c2825c950ba3e0d49718a17ccb83de6233e4385c9e3ba5f52bedad5ea919c4af8042
+x-tt-trace-id: 00-250128013245DB262D678AD41024C40D-28F2D265864AB71A-00
+Expires: Tue, 28 Jan 2025 01:32:45 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:32:45 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=3, origin; dur=119
+X-Origin-Response-Time: 119,95.101.134.92
+X-Akamai-Request-ID: 14aa193f
+
+{"code": 0, "message": "OK", "request_id": "20250128013245DB262D678AD41024C40D", "data": {}}
+2025-01-28T01:32:54+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2025-01-28T01:32:54+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"AddToCart","event_id":"679833c6c9b31_tt4b_woocommerce_670666209cf1f_BX-004","event_time":1738027974,"user":{"ip":"54.36.148.15","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":170,"quantity":1,"content_id":"BX-004","content_name":"\u0628\u0648\u0643\u0633 \u064a\u0648\u0645 \u0627\u0644\u062a\u0623\u0633\u064a\u0633 004","description":"<ul>\r\n \t<li><strong>\u0648\u0635\u0641 \u0627\u0644\u0645\u0646\u062a\u062c :<\/strong>\r\n&gt; \u0628\u0648\u0643\u0633 \u064a\u0648\u0645 \u0627\u0644\u062a\u0627\u0633\u064a\u0633 \u0647\u0627\u0631\u062f\u0643\u0641\u0631 \u0641\u0627\u062e\u0631 \u0645\u0639 \u0637\u0628\u0627\u0639\u0647 \u064a\u0648\u0641\u064a.\r\n&gt; \u0637\u0628\u0627\u0639\u0629 \u0645\u0644\u0648\u0646\u0629 \u0639\u0644\u0649 \u0643\u0627\u0645\u0644 \u0627\u0644\u0628\u0648\u0643\u0633 \u0645\u0646 \u0627\u0644\u062e\u0627\u0631\u062c.\r\n&gt; \u0627\u0636\u0627\u0641\u0629 \u0634\u0639\u0627\u0631 \u0627\u0644\u0639\u0645\u064a\u0644 \u0639\u0644\u0649 \u0645\u062d\u062a\u0648\u064a\u0627\u062a \u0627\u0644\u0628\u0648\u0643\u0633 \u0648\u0627\u0644\u0648\u062c\u0629 \u0627\u0644\u062e\u0627\u0631\u062c\u064a.<\/li>\r\n<\/ul>\r\n<ul>\r\n \t<li><strong>\u0637\u0631\u064a\u0642\u0629 \u0627\u0644\u0637\u0644\u0628:<\/strong>\r\n&gt; \u062d\u062f\u062f \u0627\u0644\u0643\u0645\u064a\u0629 \u0628\u0627\u0644\u0627\u0633\u0641\u0644 \u0648 \u0627\u0631\u0641\u0642 \u0634\u0639\u0627\u0631 \u0648\u0627\u0644\u0630\u0647\u0627\u0628 \u0644\u0644\u062f\u0641\u0639.\r\n&gt; \u0627\u0644\u0637\u0644\u0628 \u0639\u0646 \u0637\u0631\u064a\u0642 \u0627\u0644\u0648\u062a\u0633 \u0628\u0627\u0644\u0638\u063a\u0637 \u0639\u0644\u0649 \u0632\u0631 \u0627\u0644\u0648\u0627\u062a\u0633\u0627\u0628.<\/li>\r\n<\/ul>\r\n<ul>\r\n \t<li><strong>\u0645\u062f\u0629 \u062a\u0646\u0641\u064a\u0630 \u0627\u0644\u0637\u0644\u0628 :<\/strong>\r\n&gt; \u062a\u0631\u0627\u0648\u062d \u0645\u0646 5 - 7 \u0627\u064a\u0627\u0645 \u0639\u0645\u0644 \u0648 \u0642\u062f \u062a\u0632\u064a\u062f \u0639\u0646\u062f \u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u0643\u0645\u064a\u0627\u062a.\r\n&gt; \u0644\u0644\u0643\u0645\u064a\u0627\u062a \u0627\u0644\u0643\u0628\u064a\u0631\u0629 \u0641\u0642\u0637 \u062a\u0628\u062f\u0627\u0621 \u0645\u062f\u0629 \u0627\u0644\u0637\u0644\u0628 \u0628\u0639\u062f \u0627\u0639\u062a\u0645\u0627\u062f \u0627\u0644\u062a\u0635\u0645\u064a\u0645.<\/li>\r\n<\/ul>","availability":"IN_STOCK","sale_price":170,"on_sale":false}],"content_type":"product","currency":"SAR","value":170,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/foundation-day-stands\/?add-to-cart=4840"}}]}
+ ajax: no
+2025-01-28T01:32:55+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128013254CACFCC02F268E9DC9DF0
+Server-Timing: inner; dur=44
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a15644bd1e758dca7845dae81f6bc41f68b31875140774a790aa19bdd55e4a65f84a3cd86dddf52020c4611c8f564d19a41679522b813b4cf1a95caba12491aba094
+x-tt-trace-id: 00-250128013254CACFCC02F268E9DC9DF0-76FB97C85F557F2C-00
+Expires: Tue, 28 Jan 2025 01:32:54 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:32:54 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=6, origin; dur=129
+X-Origin-Response-Time: 129,95.101.134.116
+X-Akamai-Request-ID: ea769bf
+
+{"code": 0, "message": "OK", "request_id": "20250128013254CACFCC02F268E9DC9DF0", "data": {}}
+2025-01-28T01:32:55+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679833c73fdd8_tt4b_woocommerce_670666209cf1f","event_time":1738027975,"user":{"ip":"54.36.148.15","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/foundation-day-stands\/?add-to-cart=4840"}}]}
+ ajax: no
+2025-01-28T01:32:55+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128013255465FA14368719B14A0CB
+Server-Timing: inner; dur=42
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f53b3b172104a1608f937781688d722729e3ca264c3460f35b4ba13c84ab321fa5eea0d64157cf74412dc6790c09097ea9e60f3f4f9841b9613bc37c86f5bbbd4a
+x-tt-trace-id: 00-250128013255465FA14368719B14A0CB-2FF508568B5B6BDF-00
+Expires: Tue, 28 Jan 2025 01:32:55 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:32:55 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=7, origin; dur=137
+X-Origin-Response-Time: 137,95.101.134.92
+X-Akamai-Request-ID: 14aa7c19
+
+{"code": 0, "message": "OK", "request_id": "20250128013255465FA14368719B14A0CB", "data": {}}
+2025-01-28T01:32:55+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T01:32:55+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"679833c77aa65_tt4b_woocommerce_670666209cf1f_ST-000","event_time":1738027975,"user":{"ip":"54.36.148.15","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":80,"quantity":1,"content_id":"ST-000","content_name":"\u0627\u0633\u062a\u0627\u0646\u062f\u0627\u062a \u064a\u0648\u0645 \u0627\u0644\u062a\u0623\u0633\u064a\u0633","description":"<ul>\r\n \t<li><strong>\u0648\u0635\u0641 \u0627\u0644\u0645\u0646\u062a\u062c :<\/strong>\r\n&gt;\u0627\u0633\u062a\u0627\u0646\u062f\u0627\u062a \u0628\u0647\u0648\u064a\u0629 \u064a\u0648\u0645 \u0627\u0644\u062a\u0627\u0633\u064a\u0633.\r\n&gt; \u0637\u0628\u0627\u0639\u0629 \u0645\u0644\u0648\u0646\u0629 \u0639\u0644\u0649 \u0627\u0644\u062c\u0647\u0629 \u0627\u0644\u0627\u0645\u0627\u0645\u064a\u0629 \u0645\u0639 \u0627\u0636\u0627\u0641\u0647 \u0634\u0639\u0627\u0631 \u0627\u0644\u0639\u0645\u064a\u0644.\r\n&gt; \u062e\u0627\u0645\u0629 \u0641\u0648\u0631\u0643\u0633 6 \u0645\u0644\u064a.<\/li>\r\n<\/ul>\r\n<ul>\r\n \t<li><strong>\u0637\u0631\u064a\u0642\u0629 \u0627\u0644\u0637\u0644\u0628:<\/strong>\r\n&gt; \u0627\u062e\u062a\u0631 \u0643\u0648\u062f \u0627\u0644\u0627\u0633\u062a\u0627\u0646\u062f \u0648 \u062d\u062f\u062f \u0627\u0644\u0643\u0645\u064a\u0629 \u0628\u0627\u0644\u0627\u0633\u0641\u0644 \u0648 \u0627\u0631\u0641\u0642 \u0634\u0639\u0627\u0631 \u0648\u0627\u0644\u0630\u0647\u0627\u0628 \u0644\u0644\u062f\u0641\u0639.\r\n&gt; \u0627\u0644\u0637\u0644\u0628 \u0639\u0646 \u0637\u0631\u064a\u0642 \u0627\u0644\u0648\u062a\u0633 \u0628\u0627\u0644\u0638\u063a\u0637 \u0639\u0644\u0649 \u0632\u0631 \u0627\u0644\u0648\u0627\u062a\u0633\u0627\u0628.<\/li>\r\n<\/ul>\r\n<ul>\r\n \t<li><strong>\u0645\u062f\u0629 \u062a\u0646\u0641\u064a\u0630 \u0627\u0644\u0637\u0644\u0628 :<\/strong>\r\n&gt; \u062a\u0631\u0627\u0648\u062d \u0645\u0646 1 - 3 \u0627\u064a\u0627\u0645 \u0639\u0645\u0644 \u0648 \u0642\u062f \u062a\u0632\u064a\u062f \u0639\u0646\u062f \u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u0643\u0645\u064a\u0627\u062a.<\/li>\r\n<\/ul>","availability":"IN_STOCK","sale_price":80,"on_sale":false}],"content_type":"product","currency":"SAR","value":80,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/product\/foundation-day-stands\/?add-to-cart=4840"}}]}
+ ajax: no
+2025-01-28T01:32:55+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128013255960D84AC1AA16DCBDB84
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b519a86797e72c2eba011e03e23beee17d96a6d53e71e139e06ab1ca148b4e6d12f36f8026afa9675e6165d94f4e156ed3a7e8754b174183949ef1bba9acbd51300f1ea331a6f2125bf5c2e491fe4d846d22ffe7b86e9fc7806f6fd6f79ecfa73e
+x-tt-trace-id: 00-250128013255960D84AC1AA16DCBDB84-5714BFC1647A0265-00
+X-Origin-Response-Time: 41,23.52.15.209
+X-Akamai-Request-ID: 160ef4ab.ea76f87
+Expires: Tue, 28 Jan 2025 01:32:55 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:32:55 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-52-15-209.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-2c00874bde3a1f428b1fbbe8783f6d16) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=86, origin; dur=41
+Server-Timing: inner; dur=38
+X-Parent-Response-Time: 122,95.101.134.116
+
+{"code": 0, "message": "OK", "request_id": "20250128013255960D84AC1AA16DCBDB84", "data": {}}
+2025-01-28T01:35:43+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"6798346f960e8_tt4b_woocommerce_670666209cf1f","event_time":1738028143,"user":{"ip":"66.249.79.163","user_agent":"Googlebot-Image\/1.0","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/ibn-sinaa.com\/wp-content\/uploads\/2022\/04\/Sky-Color-PERU-ENG-2.png\/"}}]}
+ ajax: no
+2025-01-28T01:35:43+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280135433CDB0061B0878A4FFFF1
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b56517d7628cf0ffdff56b078ad2cf56151924a53b9c355cc2cf7e5c8eac3d112f935e8fd3d6a202d902a14d88e2d7888bc9ed232b8dd5a6be005ac97cffa730d1c1bccf62dee1df797425cea0b3cabe79e41f5ca81cbae230dd5be5582259f391
+x-tt-trace-id: 00-2501280135433CDB0061B0878A4FFFF1-1FCFF0F099D72421-00
+X-Origin-Response-Time: 53,23.213.246.240
+X-Akamai-Request-ID: 960d50dd.14b1bde2
+Expires: Tue, 28 Jan 2025 01:35:43 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:35:43 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-240.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=84, origin; dur=53
+Server-Timing: inner; dur=48
+X-Parent-Response-Time: 133,95.101.134.92
+
+{"code": 0, "message": "OK", "request_id": "202501280135433CDB0061B0878A4FFFF1", "data": {}}
+2025-01-28T01:36:18+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"67983492dfa49_tt4b_woocommerce_670666209cf1f","event_time":1738028178,"user":{"ip":"54.36.148.153","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/school-records-art-education\/"}}]}
+ ajax: no
+2025-01-28T01:36:19+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280136198B7F5D9583F9AECB2155
+Server-Timing: inner; dur=30
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b520593bf434961dbceff88e4b17f9a156c84306ea4ea886d9898e572c5ddb660bc1cc41d8ff1d912227a7e9285327ed350585c2a317502f315961b763b2132ace88a21a1d37f2e4da800c2bdafb291d0b
+x-tt-trace-id: 00-2501280136198B7F5D9583F9AECB2155-0C9F6BE2A3FF1550-00
+Expires: Tue, 28 Jan 2025 01:36:19 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:36:19 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=5, origin; dur=114
+X-Origin-Response-Time: 115,95.101.134.116
+X-Akamai-Request-ID: eae347c
+
+{"code": 0, "message": "OK", "request_id": "202501280136198B7F5D9583F9AECB2155", "data": {}}
+2025-01-28T01:36:19+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-28T01:36:19+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"ViewContent","event_id":"6798349328463_tt4b_woocommerce_670666209cf1f_4111","event_time":1738028179,"user":{"ip":"54.36.148.153","user_agent":"Mozilla\/5.0 (compatible; AhrefsBot\/7.0; +http:\/\/ahrefs.com\/robot\/)","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"properties":{"contents":[{"price":65,"quantity":1,"content_id":"4111","content_name":"\u0633\u062c\u0644\u0627\u062a \u0645\u0627\u062f\u0629 \u0627\u0644\u062a\u0631\u0628\u064a\u0629 \u0627\u0644\u0641\u0646\u064a\u0629","description":". \u0637\u0628\u0627\u0639\u0647 \u0633\u062c\u0644\u0627\u062a \u0645\u062f\u0631\u0633\u064a\u0629 \u0627\u062d\u062a\u0631\u0627\u0641\u064a\u0629 \u062e\u0627\u0645\u062a\u0647\u0627 \u0643\u0631\u062a\u0648\u0646 2000 \u062c\u0631\u0627\u0645,\u062a\u0636\u0627\u0641 \u0637\u0628\u0642\u0629 \u062d\u0645\u0627\u064a\u0647 \u0627\u0633\u062a\u064a\u0643\u0631 \u0645\u0639 \u0633\u0644\u0648\u0641\u0627\u0646 \u0644\u0627\u0645\u0639.\r\n. \u0645\u062a\u0648\u0641\u0631 \u0628 \u0627\u062d\u062c\u0627\u0645 \u0645\u062e\u062a\u0644\u0641\u0647 ( \u0635\u063a\u064a\u0631, \u0648\u0633\u0637 , \u0643\u0628\u064a\u0631 ).\r\n. \u064a\u062a\u0633\u0639 \u0627\u0644\u0645\u0642\u0627\u0633 \u0627\u0644\u0635\u063a\u064a\u0631 ( \u0645\u0646 50 \u0627\u0644\u0649 150 \u0648\u0631\u0642\u0629 )\r\n. \u064a\u062a\u0633\u0639 \u0627\u0644\u0648\u0633\u0637 ( \u0645\u0646 150 \u0627\u0644\u0649 300 \u0648\u0631\u0642\u0629 )\r\n. \u0627\u0644\u0643\u0628\u064a\u0631 ( \u0645\u0646 300 \u0627\u0644\u0649 400 \u0648\u0631\u0642\u0629 ).\r\n. \u0645\u062f\u0629 \u0627\u0644\u062a\u0646\u0641\u064a\u0630 : 3-5 \u0627\u064a\u0627\u0645 \u0648\u062a\u0632\u064a\u062f \u0627\u0644\u0645\u062f\u0629 \u0639\u0646 \u0637\u0644\u0628 \u0627\u0644\u0634\u062d\u0646.","availability":"IN_STOCK","sale_price":65,"on_sale":false}],"content_type":"product","currency":"SAR","value":65,"event_trigger_source":"WooCommerce"},"page":{"url":"http:\/\/mail.ibn-sinaa.com\/product\/school-records-art-education\/"}}]}
+ ajax: no
+2025-01-28T01:36:19+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2025012801361933EFD2D27AB8F09FA92B
+Server-Timing: inner; dur=77
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b51a437ee89a1c03eb2011d034a2e3e9f50d59cf09c51b062788756823a26cdbcb916d58da9412bf49851abf8e22d7f53551edeef08054bfbd1e13b7e2fac76306401b445efc66f6e47c9e01726ceb72d2
+x-tt-trace-id: 00-25012801361933EFD2D27AB8F09FA92B-66F5405B4B018885-00
+Expires: Tue, 28 Jan 2025 01:36:19 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:36:19 GMT
+X-Cache: TCP_MISS from a95-101-134-92.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=7, origin; dur=160
+X-Origin-Response-Time: 160,95.101.134.92
+X-Akamai-Request-ID: 14b352b2
+
+{"code": 0, "message": "OK", "request_id": "2025012801361933EFD2D27AB8F09FA92B", "data": {}}
+2025-01-28T01:37:40+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679834e48949d_tt4b_woocommerce_670666209cf1f","event_time":1738028260,"user":{"ip":"116.202.116.74","user_agent":"GRequests\/0.10","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"}}]}
+ ajax: no
+2025-01-28T01:37:40+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2025012801374041680279B03F40C9EE4F
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b519a86797e72c2eba011e03e23beee17de64904ed754aa5592fd2f428824fd138ffbf01c0b09d5f2c984d8f7ee34a5f05fba6f97a62d137a3fb80e25e587b64c75007c2cc969f7439e6067fa86a992b303a88248fb8fc71469e1772121746f59b
+x-tt-trace-id: 00-25012801374041680279B03F40C9EE4F-099A8393694D628B-00
+X-Origin-Response-Time: 69,23.55.100.200
+X-Akamai-Request-ID: 1bab1054.eb0d3c7
+Expires: Tue, 28 Jan 2025 01:37:40 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:37:40 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-55-100-200.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=84, origin; dur=69
+Server-Timing: inner; dur=66
+X-Parent-Response-Time: 150,95.101.134.116
+
+{"code": 0, "message": "OK", "request_id": "2025012801374041680279B03F40C9EE4F", "data": {}}
+2025-01-28T01:37:44+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679834e8679b2_tt4b_woocommerce_670666209cf1f","event_time":1738028264,"user":{"ip":"116.202.116.74","user_agent":"GRequests\/0.10","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"}}]}
+ ajax: no
+2025-01-28T01:37:44+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202501280137447DA5D73C643103AB1A75
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b519a86797e72c2eba011e03e23beee17d47341ce2b2527997b19015b27069e6d3ef048c76118f30846172a15e0072aa1526eb5c651cbbe16bc5d7a81cf02aa5467187d3d24f8d8eb98e9060436cbb522d543cb1c9436cb9507b6d38d71197e054
+x-tt-trace-id: 00-2501280137447DA5D73C643103AB1A75-7E54CB717CE1D1F1-00
+X-Origin-Response-Time: 55,23.218.219.46
+X-Akamai-Request-ID: 80829cd.eb0f525
+Expires: Tue, 28 Jan 2025 01:37:44 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:37:44 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-46.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=102, origin; dur=53
+Server-Timing: inner; dur=40
+X-Parent-Response-Time: 152,95.101.134.116
+
+{"code": 0, "message": "OK", "request_id": "202501280137447DA5D73C643103AB1A75", "data": {}}
+2025-01-28T01:37:52+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CSM79Q3C77UAG1T340I0","data":[{"event":"Pageview","event_id":"679834f014ba1_tt4b_woocommerce_670666209cf1f","event_time":1738028272,"user":{"ip":"116.202.116.74","user_agent":"GRequests\/0.10","locale":"ar","external_id":"0","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","phone_number":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","first_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","last_name":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","zip_code":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"page":{"url":"http:\/\/www.ibn-sinaa.com\/404\/","referrer":"https:\/\/www.ibn-sinaa.com\/wp-admin\/"}}]}
+ ajax: no
+2025-01-28T01:37:52+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20250128013752FF378EFF32ED244C485B
+x-tt-trace-host: 018e5a586174a888928d793bdac74b79b519a86797e72c2eba011e03e23beee17db25bad12d9cdf6d48f3645b0c8750e11042f4a016a262c3b373c49c8d0d243103ee969f5140835cff4d6a8bab721011609e3bd4355d5147da4625585193c06066508e4db154b01710809f15878f1bb79
+x-tt-trace-id: 00-250128013752FF378EFF32ED244C485B-05FB9E0282807F52-00
+X-Origin-Response-Time: 41,23.52.15.198
+X-Akamai-Request-ID: 2a481270.eb137a4
+Expires: Tue, 28 Jan 2025 01:37:52 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 28 Jan 2025 01:37:52 GMT
+X-Cache: TCP_MISS from a95-101-134-116.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-545a545a07b22376d11b3e238f123a02) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-52-15-198.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-1debf780f7d7c834933fa9689361eec6) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=83, origin; dur=41
+Server-Timing: inner; dur=38
+X-Parent-Response-Time: 121,95.101.134.116
+
+{"code": 0, "message": "OK", "request_id": "20250128013752FF378EFF32ED244C485B", "data": {}}
