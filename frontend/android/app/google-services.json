@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "837110344729",
+    "project_id": "ibn-sina-5feda",
+    "storage_bucket": "ibn-sina-5feda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837110344729:android:02b81479958cc999d64e88",
+        "android_client_info": {
+          "package_name": "com.ibn.sina.ibn_sina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_GPmVBJOgXbvNTHVApL6g5UeVRRBeE7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
